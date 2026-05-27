@@ -1,0 +1,19 @@
+{
+  "scenarios_run": 5,
+  "highest_risk": {
+    "scenario": "Combined Crisis",
+    "teacher_absences": 60,
+    "available_subs": 5,
+    "testing_load": "high",
+    "room_closures": 20,
+    "uncovered_classes": 55,
+    "testing_disruption_points": 18,
+    "room_pressure_points": 40,
+    "total_failure_points": 113,
+    "estimated_hours": 245.0,
+    "estimated_cost": 20825.0,
+    "risk": "red"
+  },
+  "total_estimated_cost_all_scenarios": 45050.0,
+  "source_truth": "Scenario model is synthetic. It tests resilience logic, not real school claims."
+}

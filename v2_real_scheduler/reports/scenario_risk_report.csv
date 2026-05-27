@@ -1,0 +1,6 @@
+scenario,teacher_absences,available_subs,testing_load,room_closures,uncovered_classes,testing_disruption_points,room_pressure_points,total_failure_points,estimated_hours,estimated_cost,risk
+Normal Day,8,20,low,0,0,0,0,0,0.0,0.0,green
+Heavy Flu Day,45,12,low,0,33,0,0,33,115.5,9817.5,orange
+State Testing Week,18,15,high,10,3,18,20,41,48.0,4080.0,orange
+Substitute Shortage,35,4,medium,2,31,8,4,43,121.5,10327.5,orange
+Combined Crisis,60,5,high,20,55,18,40,113,245.0,20825.0,red

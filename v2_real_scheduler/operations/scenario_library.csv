@@ -1,0 +1,6 @@
+scenario,teacher_absences,available_subs,testing_load,room_closures
+Normal Day,8,20,low,0
+Heavy Flu Day,45,12,low,0
+State Testing Week,18,15,high,10
+Substitute Shortage,35,4,medium,2
+Combined Crisis,60,5,high,20

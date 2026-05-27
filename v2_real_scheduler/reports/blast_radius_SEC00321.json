@@ -1,0 +1,21 @@
+{
+  "node_id": "SEC00321",
+  "node_type": "section",
+  "affected_sections": 1,
+  "affected_teachers": 1,
+  "affected_rooms": 1,
+  "affected_students": 230,
+  "estimated_disruption_hours": 13.75,
+  "estimated_disruption_cost": 1168.75,
+  "sections": [
+    {
+      "section_id": "SEC00321",
+      "course": "Band",
+      "teacher_id": "T0167",
+      "room_id": "R0112",
+      "period": "7",
+      "students": 230
+    }
+  ],
+  "source_truth": "Synthetic dependency analysis. Estimates are explicit model assumptions."
+}

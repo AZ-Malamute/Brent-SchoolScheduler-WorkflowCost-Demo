@@ -1,0 +1,69 @@
+{
+  "node_id": "T0161",
+  "node_type": "teacher",
+  "affected_sections": 7,
+  "affected_teachers": 1,
+  "affected_rooms": 7,
+  "affected_students": 715,
+  "estimated_disruption_hours": 51.5,
+  "estimated_disruption_cost": 4377.5,
+  "sections": [
+    {
+      "section_id": "SEC00096",
+      "course": "Chemistry",
+      "teacher_id": "T0161",
+      "room_id": "R0134",
+      "period": "4",
+      "students": 104
+    },
+    {
+      "section_id": "SEC00193",
+      "course": "World History",
+      "teacher_id": "T0161",
+      "room_id": "R0009",
+      "period": "8",
+      "students": 111
+    },
+    {
+      "section_id": "SEC00217",
+      "course": "Government",
+      "teacher_id": "T0161",
+      "room_id": "R0140",
+      "period": "5",
+      "students": 105
+    },
+    {
+      "section_id": "SEC00251",
+      "course": "Spanish I",
+      "teacher_id": "T0161",
+      "room_id": "R0184",
+      "period": "3",
+      "students": 98
+    },
+    {
+      "section_id": "SEC00290",
+      "course": "French I",
+      "teacher_id": "T0161",
+      "room_id": "R0089",
+      "period": "6",
+      "students": 97
+    },
+    {
+      "section_id": "SEC00334",
+      "course": "Physical Education",
+      "teacher_id": "T0161",
+      "room_id": "R0049",
+      "period": "8",
+      "students": 113
+    },
+    {
+      "section_id": "SEC00345",
+      "course": "Physical Education",
+      "teacher_id": "T0161",
+      "room_id": "R0012",
+      "period": "8",
+      "students": 109
+    }
+  ],
+  "source_truth": "Synthetic dependency analysis. Estimates are explicit model assumptions."
+}

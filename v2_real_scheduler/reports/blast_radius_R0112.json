@@ -1,0 +1,37 @@
+{
+  "node_id": "R0112",
+  "node_type": "room",
+  "affected_sections": 3,
+  "affected_teachers": 3,
+  "affected_rooms": 1,
+  "affected_students": 504,
+  "estimated_disruption_hours": 30.45,
+  "estimated_disruption_cost": 2588.25,
+  "sections": [
+    {
+      "section_id": "SEC00236",
+      "course": "Economics",
+      "teacher_id": "T0150",
+      "room_id": "R0112",
+      "period": "1",
+      "students": 101
+    },
+    {
+      "section_id": "SEC00321",
+      "course": "Band",
+      "teacher_id": "T0167",
+      "room_id": "R0112",
+      "period": "7",
+      "students": 230
+    },
+    {
+      "section_id": "SEC00327",
+      "course": "Theater",
+      "teacher_id": "T0067",
+      "room_id": "R0112",
+      "period": "3",
+      "students": 183
+    }
+  ],
+  "source_truth": "Synthetic dependency analysis. Estimates are explicit model assumptions."
+}

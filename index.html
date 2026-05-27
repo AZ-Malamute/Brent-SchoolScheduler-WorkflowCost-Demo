@@ -1,69 +1,54 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Workflow Cost Scheduler Demo</title>
 <style>
-body {
-    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-    max-width: 1200px;
-    margin: 40px auto;
-    padding: 20px;
-}
-h1 { font-size: 42px; }
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 20px;
-}
-th, td {
-    border: 1px solid #ddd;
-    padding: 12px;
-}
-th {
-    background: #f5f5f5;
-}
-.metric {
-    display:inline-block;
-    margin-right:40px;
-    font-size:24px;
-}
+body{font-family:-apple-system,BlinkMacSystemFont,sans-serif;max-width:1200px;margin:40px auto;padding:20px;background:#f5f7fa}
+.card{background:white;padding:20px;border-radius:12px;box-shadow:0 2px 8px rgba(0,0,0,.1);margin:20px 0}
+table{width:100%;border-collapse:collapse}
+th,td{padding:12px;border:1px solid #ddd}
+th{background:#111827;color:white}
+.button{display:inline-block;padding:12px 20px;background:#111827;color:white;text-decoration:none;border-radius:8px}
 </style>
 </head>
 <body>
+<h1>Workflow Cost Scheduler Demo</h1>
+<p><strong>Fifteen minutes ago this did not exist.</strong></p>
 
-<h1>School Scheduler Workflow Demo</h1>
+<div class="card">
+<h2>What You're Looking At</h2>
+<p>A proof-of-concept demonstrating how quickly an idea can move from conversation to implementation when workflow friction is reduced.</p>
+</div>
 
-<p><b>Fifteen minutes ago this did not exist.</b></p>
-
-<div class="metric">Teachers: 47</div>
-<div class="metric">Rooms: 31</div>
-<div class="metric">Classes: 212</div>
-
+<div class="card">
+<h2>Sample Schedule</h2>
 <table>
-<tr>
-<th>Period</th>
-<th>Teacher</th>
-<th>Room</th>
-<th>Class</th>
-</tr>
-
+<tr><th>Period</th><th>Teacher</th><th>Room</th><th>Class</th></tr>
 <tr><td>1</td><td>Smith</td><td>101</td><td>Algebra I</td></tr>
 <tr><td>1</td><td>Jones</td><td>205</td><td>Biology</td></tr>
 <tr><td>2</td><td>Brown</td><td>101</td><td>Geometry</td></tr>
 <tr><td>2</td><td>Taylor</td><td>205</td><td>Chemistry</td></tr>
-
 </table>
+</div>
 
-<h2>Why this matters</h2>
-
+<div class="card">
+<h2>Why This Matters</h2>
 <ul>
-<li>Teacher conflicts become visible immediately.</li>
-<li>Room conflicts become visible immediately.</li>
-<li>Scheduling changes can be evaluated instantly.</li>
-<li>Workflow cost becomes measurable.</li>
+<li>Teacher conflicts become visible immediately</li>
+<li>Room conflicts become visible immediately</li>
+<li>Workflow costs become measurable</li>
+<li>Rapid prototyping becomes possible</li>
 </ul>
+</div>
 
+<p>
+<a class="button" href="https://github.com/AZ-Malamute/Brent-SchoolScheduler-WorkflowCost-Demo" target="_blank">
+View Source Repository
+</a>
+</p>
+
+<p><em>Workflow Cost Scheduler Demo — Greg Gasson</em></p>
 </body>
 </html>

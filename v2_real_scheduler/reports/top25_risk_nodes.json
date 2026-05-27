@@ -1,0 +1,177 @@
+[
+  {
+    "node_id": "R0048",
+    "node_type": "room",
+    "sections": 6,
+    "students": 795,
+    "risk_score": 855
+  },
+  {
+    "node_id": "R0012",
+    "node_type": "room",
+    "sections": 7,
+    "students": 730,
+    "risk_score": 800
+  },
+  {
+    "node_id": "T0161",
+    "node_type": "teacher",
+    "sections": 7,
+    "students": 715,
+    "risk_score": 785
+  },
+  {
+    "node_id": "R0033",
+    "node_type": "room",
+    "sections": 6,
+    "students": 722,
+    "risk_score": 782
+  },
+  {
+    "node_id": "R0080",
+    "node_type": "room",
+    "sections": 7,
+    "students": 650,
+    "risk_score": 720
+  },
+  {
+    "node_id": "R0124",
+    "node_type": "room",
+    "sections": 5,
+    "students": 645,
+    "risk_score": 695
+  },
+  {
+    "node_id": "T0091",
+    "node_type": "teacher",
+    "sections": 7,
+    "students": 624,
+    "risk_score": 694
+  },
+  {
+    "node_id": "T0042",
+    "node_type": "teacher",
+    "sections": 5,
+    "students": 622,
+    "risk_score": 672
+  },
+  {
+    "node_id": "R0003",
+    "node_type": "room",
+    "sections": 5,
+    "students": 604,
+    "risk_score": 654
+  },
+  {
+    "node_id": "R0002",
+    "node_type": "room",
+    "sections": 5,
+    "students": 571,
+    "risk_score": 621
+  },
+  {
+    "node_id": "R0093",
+    "node_type": "room",
+    "sections": 5,
+    "students": 556,
+    "risk_score": 606
+  },
+  {
+    "node_id": "R0118",
+    "node_type": "room",
+    "sections": 4,
+    "students": 561,
+    "risk_score": 601
+  },
+  {
+    "node_id": "R0092",
+    "node_type": "room",
+    "sections": 4,
+    "students": 561,
+    "risk_score": 601
+  },
+  {
+    "node_id": "T0088",
+    "node_type": "teacher",
+    "sections": 3,
+    "students": 548,
+    "risk_score": 578
+  },
+  {
+    "node_id": "R0042",
+    "node_type": "room",
+    "sections": 5,
+    "students": 515,
+    "risk_score": 565
+  },
+  {
+    "node_id": "R0141",
+    "node_type": "room",
+    "sections": 4,
+    "students": 523,
+    "risk_score": 563
+  },
+  {
+    "node_id": "T0158",
+    "node_type": "teacher",
+    "sections": 5,
+    "students": 512,
+    "risk_score": 562
+  },
+  {
+    "node_id": "T0143",
+    "node_type": "teacher",
+    "sections": 4,
+    "students": 520,
+    "risk_score": 560
+  },
+  {
+    "node_id": "R0131",
+    "node_type": "room",
+    "sections": 4,
+    "students": 520,
+    "risk_score": 560
+  },
+  {
+    "node_id": "R0157",
+    "node_type": "room",
+    "sections": 4,
+    "students": 519,
+    "risk_score": 559
+  },
+  {
+    "node_id": "T0079",
+    "node_type": "teacher",
+    "sections": 4,
+    "students": 494,
+    "risk_score": 534
+  },
+  {
+    "node_id": "R0112",
+    "node_type": "room",
+    "sections": 3,
+    "students": 504,
+    "risk_score": 534
+  },
+  {
+    "node_id": "R0054",
+    "node_type": "room",
+    "sections": 5,
+    "students": 471,
+    "risk_score": 521
+  },
+  {
+    "node_id": "T0060",
+    "node_type": "teacher",
+    "sections": 3,
+    "students": 489,
+    "risk_score": 519
+  },
+  {
+    "node_id": "R0176",
+    "node_type": "room",
+    "sections": 5,
+    "students": 469,
+    "risk_score": 519
+  }
+]

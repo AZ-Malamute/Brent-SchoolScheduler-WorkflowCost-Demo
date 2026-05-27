@@ -1,0 +1,26 @@
+{
+  "teacher_conflict_group": {
+    "count": 27,
+    "minutes_each": 30,
+    "role": "administrator",
+    "loaded_hourly_rate": 85
+  },
+  "room_conflict_group": {
+    "count": 34,
+    "minutes_each": 20,
+    "role": "scheduler",
+    "loaded_hourly_rate": 75
+  },
+  "prerequisite_violation": {
+    "count": 10378,
+    "minutes_each": 10,
+    "role": "counselor",
+    "loaded_hourly_rate": 80
+  },
+  "academic_history_review": {
+    "count": 28381,
+    "minutes_each": 2,
+    "role": "counselor/admin",
+    "loaded_hourly_rate": 78
+  }
+}

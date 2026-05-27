@@ -1,0 +1,53 @@
+{
+  "dataset": "5810-student synthetic high-school operations benchmark",
+  "students": 5810,
+  "teachers": 260,
+  "rooms": 185,
+  "sections": 346,
+  "enrollments": 40670,
+  "teacher_conflict_groups": 27,
+  "room_conflict_groups": 34,
+  "prerequisite_violations": 10378,
+  "academic_history_records": 28381,
+  "estimated_total_hours": 2700.53,
+  "estimated_total_cost": 214161.43,
+  "line_items": [
+    {
+      "item": "teacher_conflict_group",
+      "count": 27,
+      "minutes_each": 30,
+      "total_hours": 13.5,
+      "loaded_hourly_rate": 85,
+      "estimated_cost": 1147.5,
+      "role": "administrator"
+    },
+    {
+      "item": "room_conflict_group",
+      "count": 34,
+      "minutes_each": 20,
+      "total_hours": 11.33,
+      "loaded_hourly_rate": 75,
+      "estimated_cost": 850.0,
+      "role": "scheduler"
+    },
+    {
+      "item": "prerequisite_violation",
+      "count": 10378,
+      "minutes_each": 10,
+      "total_hours": 1729.67,
+      "loaded_hourly_rate": 80,
+      "estimated_cost": 138373.33,
+      "role": "counselor"
+    },
+    {
+      "item": "academic_history_review",
+      "count": 28381,
+      "minutes_each": 2,
+      "total_hours": 946.03,
+      "loaded_hourly_rate": 78,
+      "estimated_cost": 73790.6,
+      "role": "counselor/admin"
+    }
+  ],
+  "source_truth": "Counts are synthetic benchmark outputs. Cost rules are explicit assumptions, not claims about Brent's company."
+}

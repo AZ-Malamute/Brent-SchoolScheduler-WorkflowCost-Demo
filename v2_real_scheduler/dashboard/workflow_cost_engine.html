@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>SourceTruth Scheduler v4 — Workflow Cost Engine</title>
+<style>
+:root {
+  --blue:#002FA7;
+  --bg:#f5f7fa;
+  --ink:#111827;
+  --muted:#64748b;
+  --danger:#991b1b;
+}
+body {
+  margin:0;
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  background:var(--bg);
+  color:var(--ink);
+}
+.hero {
+  background:white;
+  padding:44px;
+  border-bottom:8px solid var(--blue);
+}
+h1 {
+  color:var(--blue);
+  font-size:44px;
+  margin:0;
+}
+.container {
+  max-width:1280px;
+  margin:0 auto;
+  padding:32px;
+}
+.grid {
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+  gap:18px;
+}
+.card {
+  background:white;
+  border-radius:14px;
+  padding:24px;
+  box-shadow:0 4px 14px rgba(0,0,0,.08);
+}
+.metric {
+  font-size:42px;
+  font-weight:900;
+  color:var(--blue);
+}
+.metric-danger {
+  font-size:42px;
+  font-weight:900;
+  color:var(--danger);
+}
+.label {
+  color:var(--muted);
+  font-weight:700;
+}
+table {
+  width:100%;
+  border-collapse:collapse;
+  background:white;
+  border-radius:12px;
+  overflow:hidden;
+}
+th {
+  background:var(--blue);
+  color:white;
+}
+td,th {
+  padding:12px;
+  border-bottom:1px solid #e5e7eb;
+  text-align:left;
+}
+.section {
+  margin-top:32px;
+}
+.note {
+  color:var(--muted);
+  font-size:14px;
+}
+</style>
+</head>
+<body>
+<div class="hero">
+  <h1>SourceTruth Scheduler v4</h1>
+  <p>Workflow Cost Engine for a 5,810-student school operations benchmark.</p>
+</div>
+
+<div class="container">
+
+<div class="grid">
+  <div class="card"><div class="metric">5810</div><div class="label">Students</div></div>
+  <div class="card"><div class="metric">40670</div><div class="label">Enrollments</div></div>
+  <div class="card"><div class="metric-danger">61</div><div class="label">Schedule Conflict Groups</div></div>
+  <div class="card"><div class="metric-danger">10378</div><div class="label">Prerequisite Violations</div></div>
+  <div class="card"><div class="metric-danger">2700.53</div><div class="label">Estimated Labor Hours</div></div>
+  <div class="card"><div class="metric-danger">$214,161</div><div class="label">Estimated Workflow Cost</div></div>
+</div>
+
+<div class="section card">
+  <h2>Executive Interpretation</h2>
+  <p>This is no longer just a scheduler. It is a workflow-cost instrument.</p>
+  <p>The point is not merely to identify conflicts. The point is to convert conflict counts into labor hours, operational cost, and management visibility.</p>
+  <p class="note">Source Truth: this is a synthetic benchmark and explicit cost model. The dollar figure is an assumption-driven estimate, not a claim about any real company.</p>
+</div>
+
+<div class="section">
+  <h2>Cost Model</h2>
+  <table>
+    <tr>
+      <th>Item</th>
+      <th>Count</th>
+      <th>Minutes Each</th>
+      <th>Total Hours</th>
+      <th>Rate</th>
+      <th>Estimated Cost</th>
+      <th>Role</th>
+    </tr>
+
+    <tr>
+      <td>teacher_conflict_group</td>
+      <td>27</td>
+      <td>30</td>
+      <td>13.5</td>
+      <td>$85/hr</td>
+      <td>$1,147.50</td>
+      <td>administrator</td>
+    </tr>
+    
+    <tr>
+      <td>room_conflict_group</td>
+      <td>34</td>
+      <td>20</td>
+      <td>11.33</td>
+      <td>$75/hr</td>
+      <td>$850.00</td>
+      <td>scheduler</td>
+    </tr>
+    
+    <tr>
+      <td>prerequisite_violation</td>
+      <td>10378</td>
+      <td>10</td>
+      <td>1729.67</td>
+      <td>$80/hr</td>
+      <td>$138,373.33</td>
+      <td>counselor</td>
+    </tr>
+    
+    <tr>
+      <td>academic_history_review</td>
+      <td>28381</td>
+      <td>2</td>
+      <td>946.03</td>
+      <td>$78/hr</td>
+      <td>$73,790.60</td>
+      <td>counselor/admin</td>
+    </tr>
+    
+  </table>
+</div>
+
+<div class="section card">
+  <h2>Source Truth</h2>
+  <p>The fake demo proved velocity.</p>
+  <p>The 5,810-student dataset proved scale.</p>
+  <p>The conflict report proved measurable failure.</p>
+  <p>The cost engine translates failure into executive language.</p>
+  <p><strong>The workflow is the evidence.</strong></p>
+</div>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,5 @@
+item,count,minutes_each,total_hours,loaded_hourly_rate,estimated_cost,role
+teacher_conflict_group,27,30,13.5,85,1147.5,administrator
+room_conflict_group,34,20,11.33,75,850.0,scheduler
+prerequisite_violation,10378,10,1729.67,80,138373.33,counselor
+academic_history_review,28381,2,946.03,78,73790.6,counselor/admin

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>SourceTruth Scheduler v5 — Cascading Constraint Simulator</title>
+<style>
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:#f5f7fa;margin:0;color:#111827}
+.hero{background:white;padding:44px;border-bottom:8px solid #002FA7}
+h1{color:#002FA7;margin:0;font-size:42px}
+.container{max-width:1100px;margin:0 auto;padding:32px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px}
+.card{background:white;border-radius:14px;padding:24px;box-shadow:0 4px 14px rgba(0,0,0,.08)}
+.metric{font-size:40px;font-weight:900;color:#002FA7}
+.danger{color:#991b1b}
+table{width:100%;border-collapse:collapse;background:white;margin-top:24px}
+th{background:#002FA7;color:white}
+td,th{padding:10px;border-bottom:1px solid #e5e7eb;text-align:left;font-size:13px}
+</style>
+</head>
+<body>
+<div class="hero">
+<h1>SourceTruth Scheduler v5</h1>
+<p>Cascading Constraint Simulator: teacher sick leave → substitute capacity → uncovered classes → downstream operational drag.</p>
+</div>
+<div class="container">
+<div class="grid">
+<div class="card"><div class="metric">100</div><div>Teacher Sick-Leave Events</div></div>
+<div class="card"><div class="metric">100</div><div>Covered Events</div></div>
+<div class="card"><div class="metric danger">0</div><div>Uncovered / Partial Events</div></div>
+<div class="card"><div class="metric danger">$4,500</div><div>Estimated Cascade Cost</div></div>
+</div>
+
+<div class="card" style="margin-top:24px">
+<h2>Source Truth</h2>
+<p>v4 measured obvious cost. v5 begins modeling institutional drag.</p>
+<p>The workflow is the evidence.</p>
+</div>
+
+<h2>Sample Cascade Events</h2>
+<table>
+<tr><th>Event</th><th>Teacher</th><th>Day</th><th>Demand</th><th>Capacity</th><th>Resolution</th><th>Cost</th></tr>
+<tr><td>EVT0001</td><td>T0144</td><td>29</td><td>2</td><td>35</td><td>covered</td><td>$45</td></tr>
+<tr><td>EVT0002</td><td>T0020</td><td>68</td><td>1</td><td>22</td><td>covered</td><td>$45</td></tr>
+<tr><td>EVT0003</td><td>T0116</td><td>36</td><td>2</td><td>23</td><td>covered</td><td>$45</td></tr>
+<tr><td>EVT0004</td><td>T0106</td><td>50</td><td>2</td><td>32</td><td>covered</td><td>$45</td></tr>
+<tr><td>EVT0005</td><td>T0129</td><td>70</td><td>1</td><td>20</td><td>covered</td><td>$45</td></tr>
+<tr><td>EVT0006</td><td>T0141</td><td>16</td><td>1</td><td>13</td><td>covered</td><td>$45</td></tr>
+<tr><td>EVT0007</td><td>T0125</td><td>29</td><td>2</td><td>35</td><td>covered</td><td>$45</td></tr>
+<tr><td>EVT0008</td><td>T0236</td><td>8</td><td>2</td><td>12</td><td>covered</td><td>$45</td></tr>
+<tr><td>EVT0009</td><td>T0222</td><td>57</td><td>2</td><td>26</td><td>covered</td><td>$45</td></tr>
+<tr><td>EVT0010</td><td>T0190</td><td>44</td><td>1</td><td>13</td><td>covered</td><td>$45</td></tr>
+<tr><td>EVT0011</td><td>T0021</td><td>71</td><td>1</td><td>30</td><td>covered</td><td>$45</td></tr>
+<tr><td>EVT0012</td><td>T0148</td><td>123</td><td>1</td><td>11</td><td>covered</td><td>$45</td></tr>
+<tr><td>EVT0013</td><td>T0202</td><td>14</td><td>2</td><td>22</td><td>covered</td><td>$45</td></tr>
+<tr><td>EVT0014</td><td>T0014</td><td>11</td><td>1</td><td>33</td><td>covered</td><td>$45</td></tr>
+<tr><td>EVT0015</td><td>T0071</td><td>138</td><td>1</td><td>23</td><td>covered</td><td>$45</td></tr>
+<tr><td>EVT0016</td><td>T0091</td><td>41</td><td>2</td><td>27</td><td>covered</td><td>$45</td></tr>
+<tr><td>EVT0017</td><td>T0124</td><td>82</td><td>3</td><td>26</td><td>covered</td><td>$45</td></tr>
+<tr><td>EVT0018</td><td>T0068</td><td>155</td><td>1</td><td>14</td><td>covered</td><td>$45</td></tr>
+<tr><td>EVT0019</td><td>T0126</td><td>85</td><td>2</td><td>21</td><td>covered</td><td>$45</td></tr>
+<tr><td>EVT0020</td><td>T0183</td><td>175</td><td>1</td><td>26</td><td>covered</td><td>$45</td></tr>
+
+</table>
+</div>
+</body>
+</html>

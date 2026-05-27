@@ -1,0 +1,9 @@
+{
+  "students": 5810,
+  "enrollments": 40670,
+  "course_rules": 12,
+  "graduation_requirements": 7,
+  "student_history_records": 28381,
+  "prerequisite_violations": 10378,
+  "meaning": "This adds sequencing, prerequisites, summer-only courses, credit recovery, and out-of-order enrollment detection."
+}

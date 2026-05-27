@@ -1,0 +1,13 @@
+course,prerequisite,may_take_concurrently,summer_only,notes
+Geometry,Algebra I,no,no,Cannot take Geometry before Algebra I.
+Algebra II,Geometry,no,no,Cannot take Algebra II before Geometry.
+Precalculus,Algebra II,no,no,Cannot take Precalculus before Algebra II.
+Calculus,Precalculus,no,no,Cannot take Calculus before Precalculus.
+Chemistry,Biology,no,no,Chemistry follows Biology.
+Physics,Chemistry,no,no,Physics follows Chemistry.
+English II,English I,no,no,English sequence must be in order.
+English III,English II,no,no,English sequence must be in order.
+English IV,English III,no,no,English sequence must be in order.
+Spanish II,Spanish I,no,no,Language sequence must be in order.
+Credit Recovery Math,Failed Math Credit,yes,yes,Offered only in summer or recovery block.
+Credit Recovery English,Failed English Credit,yes,yes,Offered only in summer or recovery block.

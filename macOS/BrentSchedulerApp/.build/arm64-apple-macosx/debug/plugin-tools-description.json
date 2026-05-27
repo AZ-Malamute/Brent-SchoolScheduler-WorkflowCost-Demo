@@ -1,0 +1,268 @@
+{
+  "builtTestProducts" : [
+
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.BrentSchedulerApp-arm64-apple-macosx15.0-debug.module" : {
+      "executable" : "/Users/greg/Library/Developer/Toolchains/swift-6.1-DEVELOPMENT-SNAPSHOT-2025-01-22-a.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/greg/Projects/Brent_SchoolScheduler_Demo/macOS/BrentSchedulerApp/.build/arm64-apple-macosx/debug/BrentSchedulerApp.build/sources",
+      "importPath" : "/Users/greg/Projects/Brent_SchoolScheduler_Demo/macOS/BrentSchedulerApp/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/greg/Projects/Brent_SchoolScheduler_Demo/macOS/BrentSchedulerApp/Sources/BrentSchedulerApp/main.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/greg/Projects/Brent_SchoolScheduler_Demo/macOS/BrentSchedulerApp/.build/arm64-apple-macosx/debug/swift-version--28A376B0FB1BDD7A.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/greg/Projects/Brent_SchoolScheduler_Demo/macOS/BrentSchedulerApp/.build/arm64-apple-macosx/debug/BrentSchedulerApp.build/sources"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "BrentSchedulerApp",
+      "moduleOutputPath" : "/Users/greg/Projects/Brent_SchoolScheduler_Demo/macOS/BrentSchedulerApp/.build/arm64-apple-macosx/debug/Modules/BrentSchedulerApp.swiftmodule",
+      "objects" : [
+        "/Users/greg/Projects/Brent_SchoolScheduler_Demo/macOS/BrentSchedulerApp/.build/arm64-apple-macosx/debug/BrentSchedulerApp.build/main.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx13.0",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/greg/Projects/Brent_SchoolScheduler_Demo/macOS/BrentSchedulerApp/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j16",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/greg/Projects/Brent_SchoolScheduler_Demo/macOS/BrentSchedulerApp/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-Xfrontend",
+        "-entry-point-function-name",
+        "-Xfrontend",
+        "BrentSchedulerApp_main",
+        "-parse-as-library",
+        "-color-diagnostics",
+        "-swift-version",
+        "5",
+        "-I",
+        "/Users/greg/Library/Developer/Toolchains/swift-6.1-DEVELOPMENT-SNAPSHOT-2025-01-22-a.xctoolchain/usr/lib/swift/macosx/testing",
+        "-L",
+        "/Users/greg/Library/Developer/Toolchains/swift-6.1-DEVELOPMENT-SNAPSHOT-2025-01-22-a.xctoolchain/usr/lib/swift/macosx/testing",
+        "-plugin-path",
+        "/Users/greg/Library/Developer/Toolchains/swift-6.1-DEVELOPMENT-SNAPSHOT-2025-01-22-a.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "brentschedulerapp"
+      ],
+      "outputFileMapPath" : "/Users/greg/Projects/Brent_SchoolScheduler_Demo/macOS/BrentSchedulerApp/.build/arm64-apple-macosx/debug/BrentSchedulerApp.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/greg/Projects/Brent_SchoolScheduler_Demo/macOS/BrentSchedulerApp/.build/arm64-apple-macosx/debug/BrentSchedulerApp.build/main.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/greg/Projects/Brent_SchoolScheduler_Demo/macOS/BrentSchedulerApp/.build/arm64-apple-macosx/debug/Modules/BrentSchedulerApp.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/greg/Projects/Brent_SchoolScheduler_Demo/macOS/BrentSchedulerApp/Sources/BrentSchedulerApp/main.swift"
+      ],
+      "tempsPath" : "/Users/greg/Projects/Brent_SchoolScheduler_Demo/macOS/BrentSchedulerApp/.build/arm64-apple-macosx/debug/BrentSchedulerApp.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "BrentSchedulerApp" : [
+      "/Users/greg/Library/Developer/Toolchains/swift-6.1-DEVELOPMENT-SNAPSHOT-2025-01-22-a.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "BrentSchedulerApp",
+      "-package-name",
+      "brentschedulerapp",
+      "-incremental",
+      "-c",
+      "/Users/greg/Projects/Brent_SchoolScheduler_Demo/macOS/BrentSchedulerApp/Sources/BrentSchedulerApp/main.swift",
+      "-I",
+      "/Users/greg/Projects/Brent_SchoolScheduler_Demo/macOS/BrentSchedulerApp/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx13.0",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/Users/greg/Projects/Brent_SchoolScheduler_Demo/macOS/BrentSchedulerApp/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j16",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-module-cache-path",
+      "/Users/greg/Projects/Brent_SchoolScheduler_Demo/macOS/BrentSchedulerApp/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-Xfrontend",
+      "-entry-point-function-name",
+      "-Xfrontend",
+      "BrentSchedulerApp_main",
+      "-parse-as-library",
+      "-color-diagnostics",
+      "-swift-version",
+      "5",
+      "-I",
+      "/Users/greg/Library/Developer/Toolchains/swift-6.1-DEVELOPMENT-SNAPSHOT-2025-01-22-a.xctoolchain/usr/lib/swift/macosx/testing",
+      "-L",
+      "/Users/greg/Library/Developer/Toolchains/swift-6.1-DEVELOPMENT-SNAPSHOT-2025-01-22-a.xctoolchain/usr/lib/swift/macosx/testing",
+      "-plugin-path",
+      "/Users/greg/Library/Developer/Toolchains/swift-6.1-DEVELOPMENT-SNAPSHOT-2025-01-22-a.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "brentschedulerapp",
+      "-driver-use-frontend-path",
+      "/Users/greg/Library/Developer/Toolchains/swift-6.1-DEVELOPMENT-SNAPSHOT-2025-01-22-a.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "BrentSchedulerApp" : [
+
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+
+  },
+  "traitConfiguration" : {
+    "enableAllTraits" : false
+  },
+  "writeCommands" : {
+    "/Users/greg/Projects/Brent_SchoolScheduler_Demo/macOS/BrentSchedulerApp/.build/arm64-apple-macosx/debug/BrentSchedulerApp-entitlement.plist" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<entitlement-plist>"
+        },
+        {
+          "kind" : "virtual",
+          "name" : "<com.apple.security.get-task-allow>"
+        }
+      ],
+      "outputFilePath" : "/Users/greg/Projects/Brent_SchoolScheduler_Demo/macOS/BrentSchedulerApp/.build/arm64-apple-macosx/debug/BrentSchedulerApp-entitlement.plist"
+    },
+    "/Users/greg/Projects/Brent_SchoolScheduler_Demo/macOS/BrentSchedulerApp/.build/arm64-apple-macosx/debug/BrentSchedulerApp.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/greg/Projects/Brent_SchoolScheduler_Demo/macOS/BrentSchedulerApp/Sources/BrentSchedulerApp/main.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/greg/Projects/Brent_SchoolScheduler_Demo/macOS/BrentSchedulerApp/.build/arm64-apple-macosx/debug/BrentSchedulerApp.build/sources"
+    },
+    "/Users/greg/Projects/Brent_SchoolScheduler_Demo/macOS/BrentSchedulerApp/.build/arm64-apple-macosx/debug/BrentSchedulerApp.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/greg/Projects/Brent_SchoolScheduler_Demo/macOS/BrentSchedulerApp/.build/arm64-apple-macosx/debug/BrentSchedulerApp.build/main.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/greg/Projects/Brent_SchoolScheduler_Demo/macOS/BrentSchedulerApp/.build/arm64-apple-macosx/debug/BrentSchedulerApp.product/Objects.LinkFileList"
+    },
+    "/Users/greg/Projects/Brent_SchoolScheduler_Demo/macOS/BrentSchedulerApp/.build/arm64-apple-macosx/debug/swift-version--28A376B0FB1BDD7A.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/greg/Library/Developer/Toolchains/swift-6.1-DEVELOPMENT-SNAPSHOT-2025-01-22-a.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/greg/Projects/Brent_SchoolScheduler_Demo/macOS/BrentSchedulerApp/.build/arm64-apple-macosx/debug/swift-version--28A376B0FB1BDD7A.txt"
+    }
+  }
+}

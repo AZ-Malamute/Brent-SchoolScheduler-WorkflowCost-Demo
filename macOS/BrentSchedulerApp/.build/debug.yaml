@@ -1,0 +1,81 @@
+client:
+  name: basic
+  file-system: device-agnostic
+tools: {}
+targets:
+  "BrentSchedulerApp-arm64-apple-macosx15.0-debug.exe": ["<BrentSchedulerApp-arm64-apple-macosx15.0-debug.exe>"]
+  "BrentSchedulerApp-arm64-apple-macosx15.0-debug.module": ["<BrentSchedulerApp-arm64-apple-macosx15.0-debug.module>"]
+  "PackageStructure": ["<PackageStructure>"]
+  "main": ["<BrentSchedulerApp-arm64-apple-macosx15.0-debug.exe>","<BrentSchedulerApp-arm64-apple-macosx15.0-debug.module>"]
+  "test": ["<BrentSchedulerApp-arm64-apple-macosx15.0-debug.exe>","<BrentSchedulerApp-arm64-apple-macosx15.0-debug.module>"]
+default: "main"
+nodes:
+  "/Users/greg/Projects/Brent_SchoolScheduler_Demo/macOS/BrentSchedulerApp/Sources/BrentSchedulerApp/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+  "/Users/greg/Projects/Brent_SchoolScheduler_Demo/macOS/BrentSchedulerApp/.build/arm64-apple-macosx/debug/BrentSchedulerApp":
+    is-mutated: true
+commands:
+  "/Users/greg/Projects/Brent_SchoolScheduler_Demo/macOS/BrentSchedulerApp/.build/arm64-apple-macosx/debug/BrentSchedulerApp-entitlement.plist":
+    tool: write-auxiliary-file
+    inputs: ["<entitlement-plist>","<com.apple.security.get-task-allow>"]
+    outputs: ["/Users/greg/Projects/Brent_SchoolScheduler_Demo/macOS/BrentSchedulerApp/.build/arm64-apple-macosx/debug/BrentSchedulerApp-entitlement.plist"]
+    description: "Write auxiliary file /Users/greg/Projects/Brent_SchoolScheduler_Demo/macOS/BrentSchedulerApp/.build/arm64-apple-macosx/debug/BrentSchedulerApp-entitlement.plist"
+
+  "/Users/greg/Projects/Brent_SchoolScheduler_Demo/macOS/BrentSchedulerApp/.build/arm64-apple-macosx/debug/BrentSchedulerApp.build/sources":
+    tool: write-auxiliary-file
+    inputs: ["<sources-file-list>","/Users/greg/Projects/Brent_SchoolScheduler_Demo/macOS/BrentSchedulerApp/Sources/BrentSchedulerApp/main.swift"]
+    outputs: ["/Users/greg/Projects/Brent_SchoolScheduler_Demo/macOS/BrentSchedulerApp/.build/arm64-apple-macosx/debug/BrentSchedulerApp.build/sources"]
+    description: "Write auxiliary file /Users/greg/Projects/Brent_SchoolScheduler_Demo/macOS/BrentSchedulerApp/.build/arm64-apple-macosx/debug/BrentSchedulerApp.build/sources"
+
+  "/Users/greg/Projects/Brent_SchoolScheduler_Demo/macOS/BrentSchedulerApp/.build/arm64-apple-macosx/debug/BrentSchedulerApp.product/Objects.LinkFileList":
+    tool: write-auxiliary-file
+    inputs: ["<link-file-list>","/Users/greg/Projects/Brent_SchoolScheduler_Demo/macOS/BrentSchedulerApp/.build/arm64-apple-macosx/debug/BrentSchedulerApp.build/main.swift.o"]
+    outputs: ["/Users/greg/Projects/Brent_SchoolScheduler_Demo/macOS/BrentSchedulerApp/.build/arm64-apple-macosx/debug/BrentSchedulerApp.product/Objects.LinkFileList"]
+    description: "Write auxiliary file /Users/greg/Projects/Brent_SchoolScheduler_Demo/macOS/BrentSchedulerApp/.build/arm64-apple-macosx/debug/BrentSchedulerApp.product/Objects.LinkFileList"
+
+  "/Users/greg/Projects/Brent_SchoolScheduler_Demo/macOS/BrentSchedulerApp/.build/arm64-apple-macosx/debug/swift-version--28A376B0FB1BDD7A.txt":
+    tool: write-auxiliary-file
+    inputs: ["<swift-get-version>","/Users/greg/Library/Developer/Toolchains/swift-6.1-DEVELOPMENT-SNAPSHOT-2025-01-22-a.xctoolchain/usr/bin/swiftc"]
+    outputs: ["/Users/greg/Projects/Brent_SchoolScheduler_Demo/macOS/BrentSchedulerApp/.build/arm64-apple-macosx/debug/swift-version--28A376B0FB1BDD7A.txt"]
+    always-out-of-date: "true"
+    description: "Write auxiliary file /Users/greg/Projects/Brent_SchoolScheduler_Demo/macOS/BrentSchedulerApp/.build/arm64-apple-macosx/debug/swift-version--28A376B0FB1BDD7A.txt"
+
+  "<BrentSchedulerApp-arm64-apple-macosx15.0-debug.exe>":
+    tool: phony
+    inputs: ["<BrentSchedulerApp-arm64-apple-macosx15.0-debug.exe-CodeSigning>"]
+    outputs: ["<BrentSchedulerApp-arm64-apple-macosx15.0-debug.exe>"]
+
+  "<BrentSchedulerApp-arm64-apple-macosx15.0-debug.module>":
+    tool: phony
+    inputs: ["/Users/greg/Projects/Brent_SchoolScheduler_Demo/macOS/BrentSchedulerApp/.build/arm64-apple-macosx/debug/BrentSchedulerApp.build/main.swift.o","/Users/greg/Projects/Brent_SchoolScheduler_Demo/macOS/BrentSchedulerApp/.build/arm64-apple-macosx/debug/Modules/BrentSchedulerApp.swiftmodule"]
+    outputs: ["<BrentSchedulerApp-arm64-apple-macosx15.0-debug.module>"]
+
+  "C.BrentSchedulerApp-arm64-apple-macosx15.0-debug.exe":
+    tool: shell
+    inputs: ["/Users/greg/Projects/Brent_SchoolScheduler_Demo/macOS/BrentSchedulerApp/.build/arm64-apple-macosx/debug/BrentSchedulerApp.build/main.swift.o","/Users/greg/Projects/Brent_SchoolScheduler_Demo/macOS/BrentSchedulerApp/.build/arm64-apple-macosx/debug/BrentSchedulerApp.product/Objects.LinkFileList"]
+    outputs: ["/Users/greg/Projects/Brent_SchoolScheduler_Demo/macOS/BrentSchedulerApp/.build/arm64-apple-macosx/debug/BrentSchedulerApp"]
+    description: "Linking ./.build/arm64-apple-macosx/debug/BrentSchedulerApp"
+    args: ["/Users/greg/Library/Developer/Toolchains/swift-6.1-DEVELOPMENT-SNAPSHOT-2025-01-22-a.xctoolchain/usr/bin/swiftc","-L","/Users/greg/Projects/Brent_SchoolScheduler_Demo/macOS/BrentSchedulerApp/.build/arm64-apple-macosx/debug","-o","/Users/greg/Projects/Brent_SchoolScheduler_Demo/macOS/BrentSchedulerApp/.build/arm64-apple-macosx/debug/BrentSchedulerApp","-module-name","BrentSchedulerApp","-Xlinker","-no_warn_duplicate_libraries","-emit-executable","-Xlinker","-alias","-Xlinker","_BrentSchedulerApp_main","-Xlinker","_main","-Xlinker","-rpath","-Xlinker","@loader_path","@/Users/greg/Projects/Brent_SchoolScheduler_Demo/macOS/BrentSchedulerApp/.build/arm64-apple-macosx/debug/BrentSchedulerApp.product/Objects.LinkFileList","-target","arm64-apple-macosx13.0","-Xlinker","-add_ast_path","-Xlinker","/Users/greg/Projects/Brent_SchoolScheduler_Demo/macOS/BrentSchedulerApp/.build/arm64-apple-macosx/debug/Modules/BrentSchedulerApp.swiftmodule","-I","/Users/greg/Library/Developer/Toolchains/swift-6.1-DEVELOPMENT-SNAPSHOT-2025-01-22-a.xctoolchain/usr/lib/swift/macosx/testing","-L","/Users/greg/Library/Developer/Toolchains/swift-6.1-DEVELOPMENT-SNAPSHOT-2025-01-22-a.xctoolchain/usr/lib/swift/macosx/testing","-plugin-path","/Users/greg/Library/Developer/Toolchains/swift-6.1-DEVELOPMENT-SNAPSHOT-2025-01-22-a.xctoolchain/usr/lib/swift/host/plugins/testing","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-g","-Xlinker","-rpath","-Xlinker","/Users/greg/Library/Developer/Toolchains/swift-6.1-DEVELOPMENT-SNAPSHOT-2025-01-22-a.xctoolchain/usr/lib/swift/macosx/testing"]
+
+  "C.BrentSchedulerApp-arm64-apple-macosx15.0-debug.exe-entitlements":
+    tool: shell
+    inputs: ["/Users/greg/Projects/Brent_SchoolScheduler_Demo/macOS/BrentSchedulerApp/.build/arm64-apple-macosx/debug/BrentSchedulerApp","/Users/greg/Projects/Brent_SchoolScheduler_Demo/macOS/BrentSchedulerApp/.build/arm64-apple-macosx/debug/BrentSchedulerApp-entitlement.plist"]
+    outputs: ["<BrentSchedulerApp-arm64-apple-macosx15.0-debug.exe-CodeSigning>"]
+    description: "Applying debug entitlements to ./.build/arm64-apple-macosx/debug/BrentSchedulerApp"
+    args: ["codesign","--force","--sign","-","--entitlements","/Users/greg/Projects/Brent_SchoolScheduler_Demo/macOS/BrentSchedulerApp/.build/arm64-apple-macosx/debug/BrentSchedulerApp-entitlement.plist","/Users/greg/Projects/Brent_SchoolScheduler_Demo/macOS/BrentSchedulerApp/.build/arm64-apple-macosx/debug/BrentSchedulerApp"]
+
+  "C.BrentSchedulerApp-arm64-apple-macosx15.0-debug.module":
+    tool: shell
+    inputs: ["/Users/greg/Projects/Brent_SchoolScheduler_Demo/macOS/BrentSchedulerApp/Sources/BrentSchedulerApp/main.swift","/Users/greg/Projects/Brent_SchoolScheduler_Demo/macOS/BrentSchedulerApp/.build/arm64-apple-macosx/debug/swift-version--28A376B0FB1BDD7A.txt","/Users/greg/Projects/Brent_SchoolScheduler_Demo/macOS/BrentSchedulerApp/.build/arm64-apple-macosx/debug/BrentSchedulerApp.build/sources"]
+    outputs: ["/Users/greg/Projects/Brent_SchoolScheduler_Demo/macOS/BrentSchedulerApp/.build/arm64-apple-macosx/debug/BrentSchedulerApp.build/main.swift.o","/Users/greg/Projects/Brent_SchoolScheduler_Demo/macOS/BrentSchedulerApp/.build/arm64-apple-macosx/debug/Modules/BrentSchedulerApp.swiftmodule"]
+    description: "Compiling Swift Module 'BrentSchedulerApp' (1 sources)"
+    args: ["/Users/greg/Library/Developer/Toolchains/swift-6.1-DEVELOPMENT-SNAPSHOT-2025-01-22-a.xctoolchain/usr/bin/swiftc","-module-name","BrentSchedulerApp","-emit-dependencies","-emit-module","-emit-module-path","/Users/greg/Projects/Brent_SchoolScheduler_Demo/macOS/BrentSchedulerApp/.build/arm64-apple-macosx/debug/Modules/BrentSchedulerApp.swiftmodule","-output-file-map","/Users/greg/Projects/Brent_SchoolScheduler_Demo/macOS/BrentSchedulerApp/.build/arm64-apple-macosx/debug/BrentSchedulerApp.build/output-file-map.json","-incremental","-c","@/Users/greg/Projects/Brent_SchoolScheduler_Demo/macOS/BrentSchedulerApp/.build/arm64-apple-macosx/debug/BrentSchedulerApp.build/sources","-I","/Users/greg/Projects/Brent_SchoolScheduler_Demo/macOS/BrentSchedulerApp/.build/arm64-apple-macosx/debug/Modules","-target","arm64-apple-macosx13.0","-enable-batch-mode","-index-store-path","/Users/greg/Projects/Brent_SchoolScheduler_Demo/macOS/BrentSchedulerApp/.build/arm64-apple-macosx/debug/index/store","-Onone","-enable-testing","-j16","-DSWIFT_PACKAGE","-DDEBUG","-module-cache-path","/Users/greg/Projects/Brent_SchoolScheduler_Demo/macOS/BrentSchedulerApp/.build/arm64-apple-macosx/debug/ModuleCache","-parseable-output","-Xfrontend","-entry-point-function-name","-Xfrontend","BrentSchedulerApp_main","-parse-as-library","-color-diagnostics","-swift-version","5","-I","/Users/greg/Library/Developer/Toolchains/swift-6.1-DEVELOPMENT-SNAPSHOT-2025-01-22-a.xctoolchain/usr/lib/swift/macosx/testing","-L","/Users/greg/Library/Developer/Toolchains/swift-6.1-DEVELOPMENT-SNAPSHOT-2025-01-22-a.xctoolchain/usr/lib/swift/macosx/testing","-plugin-path","/Users/greg/Library/Developer/Toolchains/swift-6.1-DEVELOPMENT-SNAPSHOT-2025-01-22-a.xctoolchain/usr/lib/swift/host/plugins/testing","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-g","-Xcc","-isysroot","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk","-Xcc","-F","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-Xcc","-F","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks","-Xcc","-fPIC","-Xcc","-g","-package-name","brentschedulerapp"]
+
+  "PackageStructure":
+    tool: package-structure-tool
+    inputs: ["/Users/greg/Projects/Brent_SchoolScheduler_Demo/macOS/BrentSchedulerApp/Sources/BrentSchedulerApp/","/Users/greg/Projects/Brent_SchoolScheduler_Demo/macOS/BrentSchedulerApp/Package.swift","/Users/greg/Projects/Brent_SchoolScheduler_Demo/macOS/BrentSchedulerApp/Package.resolved"]
+    outputs: ["<PackageStructure>"]
+    description: "Planning build"
+    allow-missing-inputs: true
+

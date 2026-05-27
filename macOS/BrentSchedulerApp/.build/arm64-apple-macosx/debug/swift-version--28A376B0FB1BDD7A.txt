@@ -1,0 +1,2 @@
+Apple Swift version 6.1-dev (LLVM 5f7c9060383ef80, Swift dc7459118d4caa3)
+Target: arm64-apple-macosx15.0

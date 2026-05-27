@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/greg/Projects/Brent_SchoolScheduler_Demo/macOS/BrentSchedulerApp/.build/arm64-apple-macosx/debug/BrentSchedulerApp.build/master.swiftdeps"
+  },
+  "/Users/greg/Projects/Brent_SchoolScheduler_Demo/macOS/BrentSchedulerApp/Sources/BrentSchedulerApp/main.swift": {
+    "dependencies": "/Users/greg/Projects/Brent_SchoolScheduler_Demo/macOS/BrentSchedulerApp/.build/arm64-apple-macosx/debug/BrentSchedulerApp.build/main.d",
+    "object": "/Users/greg/Projects/Brent_SchoolScheduler_Demo/macOS/BrentSchedulerApp/.build/arm64-apple-macosx/debug/BrentSchedulerApp.build/main.swift.o",
+    "swiftmodule": "/Users/greg/Projects/Brent_SchoolScheduler_Demo/macOS/BrentSchedulerApp/.build/arm64-apple-macosx/debug/BrentSchedulerApp.build/main~partial.swiftmodule",
+    "swift-dependencies": "/Users/greg/Projects/Brent_SchoolScheduler_Demo/macOS/BrentSchedulerApp/.build/arm64-apple-macosx/debug/BrentSchedulerApp.build/main.swiftdeps"
+  }
+}

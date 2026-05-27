@@ -1,0 +1,1955 @@
+{
+  "dataset": "synthetic largest-school-scale dataset",
+  "students": 5810,
+  "teachers": 260,
+  "rooms": 185,
+  "sections": 346,
+  "enrollments": 40670,
+  "teacher_conflict_groups": 27,
+  "room_conflict_groups": 34,
+  "total_conflict_groups": 61,
+  "teacher_conflicts": [
+    {
+      "type": "teacher_conflict",
+      "teacher_id": "T0079",
+      "period": "1",
+      "count": 2,
+      "sections": [
+        {
+          "section_id": "SEC00001",
+          "course": "Algebra I",
+          "teacher_id": "T0079",
+          "teacher_name": "Teacher_0079",
+          "room_id": "R0162",
+          "room_name": "Room_0162",
+          "room_capacity": "28",
+          "period": "1",
+          "target_grade": "10"
+        },
+        {
+          "section_id": "SEC00002",
+          "course": "Algebra I",
+          "teacher_id": "T0079",
+          "teacher_name": "Teacher_0079",
+          "room_id": "R0059",
+          "room_name": "Room_0059",
+          "room_capacity": "30",
+          "period": "1",
+          "target_grade": "11"
+        }
+      ]
+    },
+    {
+      "type": "teacher_conflict",
+      "teacher_id": "T0176",
+      "period": "4",
+      "count": 2,
+      "sections": [
+        {
+          "section_id": "SEC00003",
+          "course": "Algebra I",
+          "teacher_id": "T0176",
+          "teacher_name": "Teacher_0176",
+          "room_id": "R0174",
+          "room_name": "Room_0174",
+          "room_capacity": "30",
+          "period": "4",
+          "target_grade": "11"
+        },
+        {
+          "section_id": "SEC00004",
+          "course": "Algebra I",
+          "teacher_id": "T0176",
+          "teacher_name": "Teacher_0176",
+          "room_id": "R0023",
+          "room_name": "Room_0023",
+          "room_capacity": "24",
+          "period": "4",
+          "target_grade": "11"
+        }
+      ]
+    },
+    {
+      "type": "teacher_conflict",
+      "teacher_id": "T0158",
+      "period": "3",
+      "count": 3,
+      "sections": [
+        {
+          "section_id": "SEC00005",
+          "course": "Algebra I",
+          "teacher_id": "T0158",
+          "teacher_name": "Teacher_0158",
+          "room_id": "R0005",
+          "room_name": "Room_0005",
+          "room_capacity": "24",
+          "period": "3",
+          "target_grade": "12"
+        },
+        {
+          "section_id": "SEC00006",
+          "course": "Algebra I",
+          "teacher_id": "T0158",
+          "teacher_name": "Teacher_0158",
+          "room_id": "R0013",
+          "room_name": "Room_0013",
+          "room_capacity": "28",
+          "period": "3",
+          "target_grade": "12"
+        },
+        {
+          "section_id": "SEC00084",
+          "course": "Chemistry",
+          "teacher_id": "T0158",
+          "teacher_name": "Teacher_0158",
+          "room_id": "R0033",
+          "room_name": "Room_0033",
+          "room_capacity": "30",
+          "period": "3",
+          "target_grade": "12"
+        }
+      ]
+    },
+    {
+      "type": "teacher_conflict",
+      "teacher_id": "T0232",
+      "period": "7",
+      "count": 3,
+      "sections": [
+        {
+          "section_id": "SEC00007",
+          "course": "Algebra I",
+          "teacher_id": "T0232",
+          "teacher_name": "Teacher_0232",
+          "room_id": "R0024",
+          "room_name": "Room_0024",
+          "room_capacity": "28",
+          "period": "7",
+          "target_grade": "9"
+        },
+        {
+          "section_id": "SEC00008",
+          "course": "Algebra I",
+          "teacher_id": "T0232",
+          "teacher_name": "Teacher_0232",
+          "room_id": "R0051",
+          "room_name": "Room_0051",
+          "room_capacity": "32",
+          "period": "7",
+          "target_grade": "11"
+        },
+        {
+          "section_id": "SEC00247",
+          "course": "Spanish I",
+          "teacher_id": "T0232",
+          "teacher_name": "Teacher_0232",
+          "room_id": "R0185",
+          "room_name": "Room_0185",
+          "room_capacity": "35",
+          "period": "7",
+          "target_grade": "10"
+        }
+      ]
+    },
+    {
+      "type": "teacher_conflict",
+      "teacher_id": "T0091",
+      "period": "6",
+      "count": 3,
+      "sections": [
+        {
+          "section_id": "SEC00009",
+          "course": "Algebra I",
+          "teacher_id": "T0091",
+          "teacher_name": "Teacher_0091",
+          "room_id": "R0081",
+          "room_name": "Room_0081",
+          "room_capacity": "35",
+          "period": "6",
+          "target_grade": "9"
+        },
+        {
+          "section_id": "SEC00010",
+          "course": "Algebra I",
+          "teacher_id": "T0091",
+          "teacher_name": "Teacher_0091",
+          "room_id": "R0034",
+          "room_name": "Room_0034",
+          "room_capacity": "28",
+          "period": "6",
+          "target_grade": "10"
+        },
+        {
+          "section_id": "SEC00086",
+          "course": "Chemistry",
+          "teacher_id": "T0091",
+          "teacher_name": "Teacher_0091",
+          "room_id": "R0131",
+          "room_name": "Room_0131",
+          "room_capacity": "24",
+          "period": "6",
+          "target_grade": "12"
+        }
+      ]
+    },
+    {
+      "type": "teacher_conflict",
+      "teacher_id": "T0149",
+      "period": "3",
+      "count": 2,
+      "sections": [
+        {
+          "section_id": "SEC00011",
+          "course": "Algebra I",
+          "teacher_id": "T0149",
+          "teacher_name": "Teacher_0149",
+          "room_id": "R0162",
+          "room_name": "Room_0162",
+          "room_capacity": "28",
+          "period": "3",
+          "target_grade": "9"
+        },
+        {
+          "section_id": "SEC00012",
+          "course": "Algebra I",
+          "teacher_id": "T0149",
+          "teacher_name": "Teacher_0149",
+          "room_id": "R0166",
+          "room_name": "Room_0166",
+          "room_capacity": "35",
+          "period": "3",
+          "target_grade": "9"
+        }
+      ]
+    },
+    {
+      "type": "teacher_conflict",
+      "teacher_id": "T0026",
+      "period": "6",
+      "count": 2,
+      "sections": [
+        {
+          "section_id": "SEC00013",
+          "course": "Algebra I",
+          "teacher_id": "T0026",
+          "teacher_name": "Teacher_0026",
+          "room_id": "R0155",
+          "room_name": "Room_0155",
+          "room_capacity": "28",
+          "period": "6",
+          "target_grade": "11"
+        },
+        {
+          "section_id": "SEC00014",
+          "course": "Algebra I",
+          "teacher_id": "T0026",
+          "teacher_name": "Teacher_0026",
+          "room_id": "R0042",
+          "room_name": "Room_0042",
+          "room_capacity": "30",
+          "period": "6",
+          "target_grade": "10"
+        }
+      ]
+    },
+    {
+      "type": "teacher_conflict",
+      "teacher_id": "T0258",
+      "period": "3",
+      "count": 2,
+      "sections": [
+        {
+          "section_id": "SEC00015",
+          "course": "Algebra I",
+          "teacher_id": "T0258",
+          "teacher_name": "Teacher_0258",
+          "room_id": "R0132",
+          "room_name": "Room_0132",
+          "room_capacity": "30",
+          "period": "3",
+          "target_grade": "10"
+        },
+        {
+          "section_id": "SEC00016",
+          "course": "Algebra I",
+          "teacher_id": "T0258",
+          "teacher_name": "Teacher_0258",
+          "room_id": "R0131",
+          "room_name": "Room_0131",
+          "room_capacity": "24",
+          "period": "3",
+          "target_grade": "12"
+        }
+      ]
+    },
+    {
+      "type": "teacher_conflict",
+      "teacher_id": "T0091",
+      "period": "1",
+      "count": 2,
+      "sections": [
+        {
+          "section_id": "SEC00017",
+          "course": "Algebra I",
+          "teacher_id": "T0091",
+          "teacher_name": "Teacher_0091",
+          "room_id": "R0084",
+          "room_name": "Room_0084",
+          "room_capacity": "24",
+          "period": "1",
+          "target_grade": "11"
+        },
+        {
+          "section_id": "SEC00018",
+          "course": "Algebra I",
+          "teacher_id": "T0091",
+          "teacher_name": "Teacher_0091",
+          "room_id": "R0033",
+          "room_name": "Room_0033",
+          "room_capacity": "30",
+          "period": "1",
+          "target_grade": "12"
+        }
+      ]
+    },
+    {
+      "type": "teacher_conflict",
+      "teacher_id": "T0105",
+      "period": "6",
+      "count": 2,
+      "sections": [
+        {
+          "section_id": "SEC00019",
+          "course": "Geometry",
+          "teacher_id": "T0105",
+          "teacher_name": "Teacher_0105",
+          "room_id": "R0111",
+          "room_name": "Room_0111",
+          "room_capacity": "28",
+          "period": "6",
+          "target_grade": "9"
+        },
+        {
+          "section_id": "SEC00020",
+          "course": "Geometry",
+          "teacher_id": "T0105",
+          "teacher_name": "Teacher_0105",
+          "room_id": "R0031",
+          "room_name": "Room_0031",
+          "room_capacity": "30",
+          "period": "6",
+          "target_grade": "12"
+        }
+      ]
+    },
+    {
+      "type": "teacher_conflict",
+      "teacher_id": "T0193",
+      "period": "3",
+      "count": 2,
+      "sections": [
+        {
+          "section_id": "SEC00062",
+          "course": "Calculus",
+          "teacher_id": "T0193",
+          "teacher_name": "Teacher_0193",
+          "room_id": "R0062",
+          "room_name": "Room_0062",
+          "room_capacity": "32",
+          "period": "3",
+          "target_grade": "11"
+        },
+        {
+          "section_id": "SEC00261",
+          "course": "Spanish I",
+          "teacher_id": "T0193",
+          "teacher_name": "Teacher_0193",
+          "room_id": "R0089",
+          "room_name": "Room_0089",
+          "room_capacity": "24",
+          "period": "3",
+          "target_grade": "11"
+        }
+      ]
+    },
+    {
+      "type": "teacher_conflict",
+      "teacher_id": "T0254",
+      "period": "2",
+      "count": 2,
+      "sections": [
+        {
+          "section_id": "SEC00069",
+          "course": "Calculus",
+          "teacher_id": "T0254",
+          "teacher_name": "Teacher_0254",
+          "room_id": "R0053",
+          "room_name": "Room_0053",
+          "room_capacity": "35",
+          "period": "2",
+          "target_grade": "11"
+        },
+        {
+          "section_id": "SEC00250",
+          "course": "Spanish I",
+          "teacher_id": "T0254",
+          "teacher_name": "Teacher_0254",
+          "room_id": "R0033",
+          "room_name": "Room_0033",
+          "room_capacity": "30",
+          "period": "2",
+          "target_grade": "12"
+        }
+      ]
+    },
+    {
+      "type": "teacher_conflict",
+      "teacher_id": "T0140",
+      "period": "1",
+      "count": 2,
+      "sections": [
+        {
+          "section_id": "SEC00075",
+          "course": "Biology",
+          "teacher_id": "T0140",
+          "teacher_name": "Teacher_0140",
+          "room_id": "R0124",
+          "room_name": "Room_0124",
+          "room_capacity": "30",
+          "period": "1",
+          "target_grade": "9"
+        },
+        {
+          "section_id": "SEC00205",
+          "course": "U.S. History",
+          "teacher_id": "T0140",
+          "teacher_name": "Teacher_0140",
+          "room_id": "R0175",
+          "room_name": "Room_0175",
+          "room_capacity": "32",
+          "period": "1",
+          "target_grade": "10"
+        }
+      ]
+    },
+    {
+      "type": "teacher_conflict",
+      "teacher_id": "T0143",
+      "period": "3",
+      "count": 2,
+      "sections": [
+        {
+          "section_id": "SEC00085",
+          "course": "Chemistry",
+          "teacher_id": "T0143",
+          "teacher_name": "Teacher_0143",
+          "room_id": "R0025",
+          "room_name": "Room_0025",
+          "room_capacity": "24",
+          "period": "3",
+          "target_grade": "9"
+        },
+        {
+          "section_id": "SEC00211",
+          "course": "U.S. History",
+          "teacher_id": "T0143",
+          "teacher_name": "Teacher_0143",
+          "room_id": "R0036",
+          "room_name": "Room_0036",
+          "room_capacity": "24",
+          "period": "3",
+          "target_grade": "12"
+        }
+      ]
+    },
+    {
+      "type": "teacher_conflict",
+      "teacher_id": "T0115",
+      "period": "8",
+      "count": 2,
+      "sections": [
+        {
+          "section_id": "SEC00093",
+          "course": "Chemistry",
+          "teacher_id": "T0115",
+          "teacher_name": "Teacher_0115",
+          "room_id": "R0158",
+          "room_name": "Room_0158",
+          "room_capacity": "32",
+          "period": "8",
+          "target_grade": "12"
+        },
+        {
+          "section_id": "SEC00329",
+          "course": "Theater",
+          "teacher_id": "T0115",
+          "teacher_name": "Teacher_0115",
+          "room_id": "R0091",
+          "room_name": "Room_0091",
+          "room_capacity": "28",
+          "period": "8",
+          "target_grade": "9"
+        }
+      ]
+    },
+    {
+      "type": "teacher_conflict",
+      "teacher_id": "T0019",
+      "period": "6",
+      "count": 2,
+      "sections": [
+        {
+          "section_id": "SEC00097",
+          "course": "Chemistry",
+          "teacher_id": "T0019",
+          "teacher_name": "Teacher_0019",
+          "room_id": "R0183",
+          "room_name": "Room_0183",
+          "room_capacity": "32",
+          "period": "6",
+          "target_grade": "10"
+        },
+        {
+          "section_id": "SEC00098",
+          "course": "Chemistry",
+          "teacher_id": "T0019",
+          "teacher_name": "Teacher_0019",
+          "room_id": "R0037",
+          "room_name": "Room_0037",
+          "room_capacity": "24",
+          "period": "6",
+          "target_grade": "12"
+        }
+      ]
+    },
+    {
+      "type": "teacher_conflict",
+      "teacher_id": "T0003",
+      "period": "4",
+      "count": 2,
+      "sections": [
+        {
+          "section_id": "SEC00104",
+          "course": "Physics",
+          "teacher_id": "T0003",
+          "teacher_name": "Teacher_0003",
+          "room_id": "R0033",
+          "room_name": "Room_0033",
+          "room_capacity": "30",
+          "period": "4",
+          "target_grade": "9"
+        },
+        {
+          "section_id": "SEC00260",
+          "course": "Spanish I",
+          "teacher_id": "T0003",
+          "teacher_name": "Teacher_0003",
+          "room_id": "R0086",
+          "room_name": "Room_0086",
+          "room_capacity": "30",
+          "period": "4",
+          "target_grade": "11"
+        }
+      ]
+    },
+    {
+      "type": "teacher_conflict",
+      "teacher_id": "T0067",
+      "period": "4",
+      "count": 2,
+      "sections": [
+        {
+          "section_id": "SEC00117",
+          "course": "Environmental Science",
+          "teacher_id": "T0067",
+          "teacher_name": "Teacher_0067",
+          "room_id": "R0004",
+          "room_name": "Room_0004",
+          "room_capacity": "35",
+          "period": "4",
+          "target_grade": "9"
+        },
+        {
+          "section_id": "SEC00313",
+          "course": "Art",
+          "teacher_id": "T0067",
+          "teacher_name": "Teacher_0067",
+          "room_id": "R0146",
+          "room_name": "Room_0146",
+          "room_capacity": "35",
+          "period": "4",
+          "target_grade": "12"
+        }
+      ]
+    },
+    {
+      "type": "teacher_conflict",
+      "teacher_id": "T0144",
+      "period": "3",
+      "count": 2,
+      "sections": [
+        {
+          "section_id": "SEC00120",
+          "course": "Environmental Science",
+          "teacher_id": "T0144",
+          "teacher_name": "Teacher_0144",
+          "room_id": "R0100",
+          "room_name": "Room_0100",
+          "room_capacity": "32",
+          "period": "3",
+          "target_grade": "10"
+        },
+        {
+          "section_id": "SEC00134",
+          "course": "English I",
+          "teacher_id": "T0144",
+          "teacher_name": "Teacher_0144",
+          "room_id": "R0114",
+          "room_name": "Room_0114",
+          "room_capacity": "28",
+          "period": "3",
+          "target_grade": "10"
+        }
+      ]
+    },
+    {
+      "type": "teacher_conflict",
+      "teacher_id": "T0093",
+      "period": "5",
+      "count": 3,
+      "sections": [
+        {
+          "section_id": "SEC00149",
+          "course": "English II",
+          "teacher_id": "T0093",
+          "teacher_name": "Teacher_0093",
+          "room_id": "R0134",
+          "room_name": "Room_0134",
+          "room_capacity": "28",
+          "period": "5",
+          "target_grade": "11"
+        },
+        {
+          "section_id": "SEC00312",
+          "course": "Art",
+          "teacher_id": "T0093",
+          "teacher_name": "Teacher_0093",
+          "room_id": "R0159",
+          "room_name": "Room_0159",
+          "room_capacity": "35",
+          "period": "5",
+          "target_grade": "10"
+        },
+        {
+          "section_id": "SEC00318",
+          "course": "Band",
+          "teacher_id": "T0093",
+          "teacher_name": "Teacher_0093",
+          "room_id": "R0137",
+          "room_name": "Room_0137",
+          "room_capacity": "28",
+          "period": "5",
+          "target_grade": "11"
+        }
+      ]
+    },
+    {
+      "type": "teacher_conflict",
+      "teacher_id": "T0007",
+      "period": "3",
+      "count": 2,
+      "sections": [
+        {
+          "section_id": "SEC00157",
+          "course": "English III",
+          "teacher_id": "T0007",
+          "teacher_name": "Teacher_0007",
+          "room_id": "R0129",
+          "room_name": "Room_0129",
+          "room_capacity": "32",
+          "period": "3",
+          "target_grade": "11"
+        },
+        {
+          "section_id": "SEC00303",
+          "course": "Computer Science",
+          "teacher_id": "T0007",
+          "teacher_name": "Teacher_0007",
+          "room_id": "R0113",
+          "room_name": "Room_0113",
+          "room_capacity": "35",
+          "period": "3",
+          "target_grade": "11"
+        }
+      ]
+    },
+    {
+      "type": "teacher_conflict",
+      "teacher_id": "T0185",
+      "period": "6",
+      "count": 2,
+      "sections": [
+        {
+          "section_id": "SEC00175",
+          "course": "English IV",
+          "teacher_id": "T0185",
+          "teacher_name": "Teacher_0185",
+          "room_id": "R0116",
+          "room_name": "Room_0116",
+          "room_capacity": "24",
+          "period": "6",
+          "target_grade": "12"
+        },
+        {
+          "section_id": "SEC00293",
+          "course": "French I",
+          "teacher_id": "T0185",
+          "teacher_name": "Teacher_0185",
+          "room_id": "R0044",
+          "room_name": "Room_0044",
+          "room_capacity": "32",
+          "period": "6",
+          "target_grade": "11"
+        }
+      ]
+    },
+    {
+      "type": "teacher_conflict",
+      "teacher_id": "T0185",
+      "period": "2",
+      "count": 2,
+      "sections": [
+        {
+          "section_id": "SEC00180",
+          "course": "English IV",
+          "teacher_id": "T0185",
+          "teacher_name": "Teacher_0185",
+          "room_id": "R0090",
+          "room_name": "Room_0090",
+          "room_capacity": "32",
+          "period": "2",
+          "target_grade": "9"
+        },
+        {
+          "section_id": "SEC00287",
+          "course": "French I",
+          "teacher_id": "T0185",
+          "teacher_name": "Teacher_0185",
+          "room_id": "R0177",
+          "room_name": "Room_0177",
+          "room_capacity": "32",
+          "period": "2",
+          "target_grade": "12"
+        }
+      ]
+    },
+    {
+      "type": "teacher_conflict",
+      "teacher_id": "T0181",
+      "period": "7",
+      "count": 2,
+      "sections": [
+        {
+          "section_id": "SEC00188",
+          "course": "World History",
+          "teacher_id": "T0181",
+          "teacher_name": "Teacher_0181",
+          "room_id": "R0002",
+          "room_name": "Room_0002",
+          "room_capacity": "24",
+          "period": "7",
+          "target_grade": "10"
+        },
+        {
+          "section_id": "SEC00232",
+          "course": "Economics",
+          "teacher_id": "T0181",
+          "teacher_name": "Teacher_0181",
+          "room_id": "R0065",
+          "room_name": "Room_0065",
+          "room_capacity": "28",
+          "period": "7",
+          "target_grade": "9"
+        }
+      ]
+    },
+    {
+      "type": "teacher_conflict",
+      "teacher_id": "T0161",
+      "period": "8",
+      "count": 3,
+      "sections": [
+        {
+          "section_id": "SEC00193",
+          "course": "World History",
+          "teacher_id": "T0161",
+          "teacher_name": "Teacher_0161",
+          "room_id": "R0009",
+          "room_name": "Room_0009",
+          "room_capacity": "35",
+          "period": "8",
+          "target_grade": "9"
+        },
+        {
+          "section_id": "SEC00334",
+          "course": "Physical Education",
+          "teacher_id": "T0161",
+          "teacher_name": "Teacher_0161",
+          "room_id": "R0049",
+          "room_name": "Room_0049",
+          "room_capacity": "24",
+          "period": "8",
+          "target_grade": "10"
+        },
+        {
+          "section_id": "SEC00345",
+          "course": "Physical Education",
+          "teacher_id": "T0161",
+          "teacher_name": "Teacher_0161",
+          "room_id": "R0012",
+          "room_name": "Room_0012",
+          "room_capacity": "24",
+          "period": "8",
+          "target_grade": "12"
+        }
+      ]
+    },
+    {
+      "type": "teacher_conflict",
+      "teacher_id": "T0079",
+      "period": "4",
+      "count": 2,
+      "sections": [
+        {
+          "section_id": "SEC00225",
+          "course": "Government",
+          "teacher_id": "T0079",
+          "teacher_name": "Teacher_0079",
+          "room_id": "R0049",
+          "room_name": "Room_0049",
+          "room_capacity": "24",
+          "period": "4",
+          "target_grade": "10"
+        },
+        {
+          "section_id": "SEC00319",
+          "course": "Band",
+          "teacher_id": "T0079",
+          "teacher_name": "Teacher_0079",
+          "room_id": "R0070",
+          "room_name": "Room_0070",
+          "room_capacity": "35",
+          "period": "4",
+          "target_grade": "9"
+        }
+      ]
+    },
+    {
+      "type": "teacher_conflict",
+      "teacher_id": "T0237",
+      "period": "4",
+      "count": 2,
+      "sections": [
+        {
+          "section_id": "SEC00268",
+          "course": "Spanish II",
+          "teacher_id": "T0237",
+          "teacher_name": "Teacher_0237",
+          "room_id": "R0042",
+          "room_name": "Room_0042",
+          "room_capacity": "30",
+          "period": "4",
+          "target_grade": "10"
+        },
+        {
+          "section_id": "SEC00341",
+          "course": "Physical Education",
+          "teacher_id": "T0237",
+          "teacher_name": "Teacher_0237",
+          "room_id": "R0073",
+          "room_name": "Room_0073",
+          "room_capacity": "30",
+          "period": "4",
+          "target_grade": "9"
+        }
+      ]
+    }
+  ],
+  "room_conflicts": [
+    {
+      "type": "room_conflict",
+      "room_id": "R0013",
+      "period": "3",
+      "count": 2,
+      "sections": [
+        {
+          "section_id": "SEC00006",
+          "course": "Algebra I",
+          "teacher_id": "T0158",
+          "teacher_name": "Teacher_0158",
+          "room_id": "R0013",
+          "room_name": "Room_0013",
+          "room_capacity": "28",
+          "period": "3",
+          "target_grade": "12"
+        },
+        {
+          "section_id": "SEC00106",
+          "course": "Physics",
+          "teacher_id": "T0137",
+          "teacher_name": "Teacher_0137",
+          "room_id": "R0013",
+          "room_name": "Room_0013",
+          "room_capacity": "28",
+          "period": "3",
+          "target_grade": "9"
+        }
+      ]
+    },
+    {
+      "type": "room_conflict",
+      "room_id": "R0111",
+      "period": "6",
+      "count": 2,
+      "sections": [
+        {
+          "section_id": "SEC00019",
+          "course": "Geometry",
+          "teacher_id": "T0105",
+          "teacher_name": "Teacher_0105",
+          "room_id": "R0111",
+          "room_name": "Room_0111",
+          "room_capacity": "28",
+          "period": "6",
+          "target_grade": "9"
+        },
+        {
+          "section_id": "SEC00221",
+          "course": "Government",
+          "teacher_id": "T0229",
+          "teacher_name": "Teacher_0229",
+          "room_id": "R0111",
+          "room_name": "Room_0111",
+          "room_capacity": "28",
+          "period": "6",
+          "target_grade": "10"
+        }
+      ]
+    },
+    {
+      "type": "room_conflict",
+      "room_id": "R0118",
+      "period": "2",
+      "count": 2,
+      "sections": [
+        {
+          "section_id": "SEC00026",
+          "course": "Geometry",
+          "teacher_id": "T0221",
+          "teacher_name": "Teacher_0221",
+          "room_id": "R0118",
+          "room_name": "Room_0118",
+          "room_capacity": "35",
+          "period": "2",
+          "target_grade": "10"
+        },
+        {
+          "section_id": "SEC00201",
+          "course": "World History",
+          "teacher_id": "T0233",
+          "teacher_name": "Teacher_0233",
+          "room_id": "R0118",
+          "room_name": "Room_0118",
+          "room_capacity": "35",
+          "period": "2",
+          "target_grade": "12"
+        }
+      ]
+    },
+    {
+      "type": "room_conflict",
+      "room_id": "R0031",
+      "period": "8",
+      "count": 2,
+      "sections": [
+        {
+          "section_id": "SEC00041",
+          "course": "Algebra II",
+          "teacher_id": "T0066",
+          "teacher_name": "Teacher_0066",
+          "room_id": "R0031",
+          "room_name": "Room_0031",
+          "room_capacity": "30",
+          "period": "8",
+          "target_grade": "10"
+        },
+        {
+          "section_id": "SEC00042",
+          "course": "Algebra II",
+          "teacher_id": "T0220",
+          "teacher_name": "Teacher_0220",
+          "room_id": "R0031",
+          "room_name": "Room_0031",
+          "room_capacity": "24",
+          "period": "8",
+          "target_grade": "11"
+        }
+      ]
+    },
+    {
+      "type": "room_conflict",
+      "room_id": "R0099",
+      "period": "6",
+      "count": 2,
+      "sections": [
+        {
+          "section_id": "SEC00043",
+          "course": "Algebra II",
+          "teacher_id": "T0044",
+          "teacher_name": "Teacher_0044",
+          "room_id": "R0099",
+          "room_name": "Room_0099",
+          "room_capacity": "30",
+          "period": "6",
+          "target_grade": "12"
+        },
+        {
+          "section_id": "SEC00044",
+          "course": "Algebra II",
+          "teacher_id": "T0164",
+          "teacher_name": "Teacher_0164",
+          "room_id": "R0099",
+          "room_name": "Room_0099",
+          "room_capacity": "30",
+          "period": "6",
+          "target_grade": "11"
+        }
+      ]
+    },
+    {
+      "type": "room_conflict",
+      "room_id": "R0147",
+      "period": "1",
+      "count": 2,
+      "sections": [
+        {
+          "section_id": "SEC00045",
+          "course": "Algebra II",
+          "teacher_id": "T0182",
+          "teacher_name": "Teacher_0182",
+          "room_id": "R0147",
+          "room_name": "Room_0147",
+          "room_capacity": "32",
+          "period": "1",
+          "target_grade": "10"
+        },
+        {
+          "section_id": "SEC00046",
+          "course": "Precalculus",
+          "teacher_id": "T0194",
+          "teacher_name": "Teacher_0194",
+          "room_id": "R0147",
+          "room_name": "Room_0147",
+          "room_capacity": "28",
+          "period": "1",
+          "target_grade": "10"
+        }
+      ]
+    },
+    {
+      "type": "room_conflict",
+      "room_id": "R0048",
+      "period": "7",
+      "count": 4,
+      "sections": [
+        {
+          "section_id": "SEC00047",
+          "course": "Precalculus",
+          "teacher_id": "T0140",
+          "teacher_name": "Teacher_0140",
+          "room_id": "R0048",
+          "room_name": "Room_0048",
+          "room_capacity": "35",
+          "period": "7",
+          "target_grade": "12"
+        },
+        {
+          "section_id": "SEC00048",
+          "course": "Precalculus",
+          "teacher_id": "T0041",
+          "teacher_name": "Teacher_0041",
+          "room_id": "R0048",
+          "room_name": "Room_0048",
+          "room_capacity": "30",
+          "period": "7",
+          "target_grade": "9"
+        },
+        {
+          "section_id": "SEC00152",
+          "course": "English II",
+          "teacher_id": "T0202",
+          "teacher_name": "Teacher_0202",
+          "room_id": "R0048",
+          "room_name": "Room_0048",
+          "room_capacity": "35",
+          "period": "7",
+          "target_grade": "9"
+        },
+        {
+          "section_id": "SEC00326",
+          "course": "Theater",
+          "teacher_id": "T0204",
+          "teacher_name": "Teacher_0204",
+          "room_id": "R0048",
+          "room_name": "Room_0048",
+          "room_capacity": "35",
+          "period": "7",
+          "target_grade": "11"
+        }
+      ]
+    },
+    {
+      "type": "room_conflict",
+      "room_id": "R0029",
+      "period": "6",
+      "count": 2,
+      "sections": [
+        {
+          "section_id": "SEC00049",
+          "course": "Precalculus",
+          "teacher_id": "T0200",
+          "teacher_name": "Teacher_0200",
+          "room_id": "R0029",
+          "room_name": "Room_0029",
+          "room_capacity": "32",
+          "period": "6",
+          "target_grade": "11"
+        },
+        {
+          "section_id": "SEC00050",
+          "course": "Precalculus",
+          "teacher_id": "T0058",
+          "teacher_name": "Teacher_0058",
+          "room_id": "R0029",
+          "room_name": "Room_0029",
+          "room_capacity": "24",
+          "period": "6",
+          "target_grade": "10"
+        }
+      ]
+    },
+    {
+      "type": "room_conflict",
+      "room_id": "R0073",
+      "period": "5",
+      "count": 2,
+      "sections": [
+        {
+          "section_id": "SEC00051",
+          "course": "Precalculus",
+          "teacher_id": "T0027",
+          "teacher_name": "Teacher_0027",
+          "room_id": "R0073",
+          "room_name": "Room_0073",
+          "room_capacity": "30",
+          "period": "5",
+          "target_grade": "10"
+        },
+        {
+          "section_id": "SEC00052",
+          "course": "Precalculus",
+          "teacher_id": "T0132",
+          "teacher_name": "Teacher_0132",
+          "room_id": "R0073",
+          "room_name": "Room_0073",
+          "room_capacity": "28",
+          "period": "5",
+          "target_grade": "12"
+        }
+      ]
+    },
+    {
+      "type": "room_conflict",
+      "room_id": "R0157",
+      "period": "2",
+      "count": 2,
+      "sections": [
+        {
+          "section_id": "SEC00053",
+          "course": "Precalculus",
+          "teacher_id": "T0057",
+          "teacher_name": "Teacher_0057",
+          "room_id": "R0157",
+          "room_name": "Room_0157",
+          "room_capacity": "30",
+          "period": "2",
+          "target_grade": "12"
+        },
+        {
+          "section_id": "SEC00054",
+          "course": "Precalculus",
+          "teacher_id": "T0026",
+          "teacher_name": "Teacher_0026",
+          "room_id": "R0157",
+          "room_name": "Room_0157",
+          "room_capacity": "32",
+          "period": "2",
+          "target_grade": "9"
+        }
+      ]
+    },
+    {
+      "type": "room_conflict",
+      "room_id": "R0141",
+      "period": "2",
+      "count": 2,
+      "sections": [
+        {
+          "section_id": "SEC00055",
+          "course": "Precalculus",
+          "teacher_id": "T0169",
+          "teacher_name": "Teacher_0169",
+          "room_id": "R0141",
+          "room_name": "Room_0141",
+          "room_capacity": "24",
+          "period": "2",
+          "target_grade": "9"
+        },
+        {
+          "section_id": "SEC00056",
+          "course": "Precalculus",
+          "teacher_id": "T0129",
+          "teacher_name": "Teacher_0129",
+          "room_id": "R0141",
+          "room_name": "Room_0141",
+          "room_capacity": "35",
+          "period": "2",
+          "target_grade": "10"
+        }
+      ]
+    },
+    {
+      "type": "room_conflict",
+      "room_id": "R0080",
+      "period": "7",
+      "count": 2,
+      "sections": [
+        {
+          "section_id": "SEC00057",
+          "course": "Calculus",
+          "teacher_id": "T0214",
+          "teacher_name": "Teacher_0214",
+          "room_id": "R0080",
+          "room_name": "Room_0080",
+          "room_capacity": "28",
+          "period": "7",
+          "target_grade": "10"
+        },
+        {
+          "section_id": "SEC00058",
+          "course": "Calculus",
+          "teacher_id": "T0131",
+          "teacher_name": "Teacher_0131",
+          "room_id": "R0080",
+          "room_name": "Room_0080",
+          "room_capacity": "32",
+          "period": "7",
+          "target_grade": "12"
+        }
+      ]
+    },
+    {
+      "type": "room_conflict",
+      "room_id": "R0151",
+      "period": "3",
+      "count": 2,
+      "sections": [
+        {
+          "section_id": "SEC00059",
+          "course": "Calculus",
+          "teacher_id": "T0219",
+          "teacher_name": "Teacher_0219",
+          "room_id": "R0151",
+          "room_name": "Room_0151",
+          "room_capacity": "24",
+          "period": "3",
+          "target_grade": "9"
+        },
+        {
+          "section_id": "SEC00060",
+          "course": "Calculus",
+          "teacher_id": "T0214",
+          "teacher_name": "Teacher_0214",
+          "room_id": "R0151",
+          "room_name": "Room_0151",
+          "room_capacity": "30",
+          "period": "3",
+          "target_grade": "10"
+        }
+      ]
+    },
+    {
+      "type": "room_conflict",
+      "room_id": "R0062",
+      "period": "3",
+      "count": 2,
+      "sections": [
+        {
+          "section_id": "SEC00061",
+          "course": "Calculus",
+          "teacher_id": "T0096",
+          "teacher_name": "Teacher_0096",
+          "room_id": "R0062",
+          "room_name": "Room_0062",
+          "room_capacity": "28",
+          "period": "3",
+          "target_grade": "12"
+        },
+        {
+          "section_id": "SEC00062",
+          "course": "Calculus",
+          "teacher_id": "T0193",
+          "teacher_name": "Teacher_0193",
+          "room_id": "R0062",
+          "room_name": "Room_0062",
+          "room_capacity": "32",
+          "period": "3",
+          "target_grade": "11"
+        }
+      ]
+    },
+    {
+      "type": "room_conflict",
+      "room_id": "R0176",
+      "period": "8",
+      "count": 2,
+      "sections": [
+        {
+          "section_id": "SEC00063",
+          "course": "Calculus",
+          "teacher_id": "T0124",
+          "teacher_name": "Teacher_0124",
+          "room_id": "R0176",
+          "room_name": "Room_0176",
+          "room_capacity": "28",
+          "period": "8",
+          "target_grade": "10"
+        },
+        {
+          "section_id": "SEC00064",
+          "course": "Calculus",
+          "teacher_id": "T0223",
+          "teacher_name": "Teacher_0223",
+          "room_id": "R0176",
+          "room_name": "Room_0176",
+          "room_capacity": "30",
+          "period": "8",
+          "target_grade": "10"
+        }
+      ]
+    },
+    {
+      "type": "room_conflict",
+      "room_id": "R0012",
+      "period": "6",
+      "count": 2,
+      "sections": [
+        {
+          "section_id": "SEC00065",
+          "course": "Calculus",
+          "teacher_id": "T0043",
+          "teacher_name": "Teacher_0043",
+          "room_id": "R0012",
+          "room_name": "Room_0012",
+          "room_capacity": "24",
+          "period": "6",
+          "target_grade": "9"
+        },
+        {
+          "section_id": "SEC00066",
+          "course": "Calculus",
+          "teacher_id": "T0042",
+          "teacher_name": "Teacher_0042",
+          "room_id": "R0012",
+          "room_name": "Room_0012",
+          "room_capacity": "32",
+          "period": "6",
+          "target_grade": "12"
+        }
+      ]
+    },
+    {
+      "type": "room_conflict",
+      "room_id": "R0121",
+      "period": "7",
+      "count": 2,
+      "sections": [
+        {
+          "section_id": "SEC00067",
+          "course": "Calculus",
+          "teacher_id": "T0128",
+          "teacher_name": "Teacher_0128",
+          "room_id": "R0121",
+          "room_name": "Room_0121",
+          "room_capacity": "32",
+          "period": "7",
+          "target_grade": "10"
+        },
+        {
+          "section_id": "SEC00068",
+          "course": "Calculus",
+          "teacher_id": "T0145",
+          "teacher_name": "Teacher_0145",
+          "room_id": "R0121",
+          "room_name": "Room_0121",
+          "room_capacity": "32",
+          "period": "7",
+          "target_grade": "11"
+        }
+      ]
+    },
+    {
+      "type": "room_conflict",
+      "room_id": "R0053",
+      "period": "2",
+      "count": 2,
+      "sections": [
+        {
+          "section_id": "SEC00069",
+          "course": "Calculus",
+          "teacher_id": "T0254",
+          "teacher_name": "Teacher_0254",
+          "room_id": "R0053",
+          "room_name": "Room_0053",
+          "room_capacity": "35",
+          "period": "2",
+          "target_grade": "11"
+        },
+        {
+          "section_id": "SEC00070",
+          "course": "Calculus",
+          "teacher_id": "T0128",
+          "teacher_name": "Teacher_0128",
+          "room_id": "R0053",
+          "room_name": "Room_0053",
+          "room_capacity": "30",
+          "period": "2",
+          "target_grade": "11"
+        }
+      ]
+    },
+    {
+      "type": "room_conflict",
+      "room_id": "R0054",
+      "period": "1",
+      "count": 3,
+      "sections": [
+        {
+          "section_id": "SEC00072",
+          "course": "Calculus",
+          "teacher_id": "T0051",
+          "teacher_name": "Teacher_0051",
+          "room_id": "R0054",
+          "room_name": "Room_0054",
+          "room_capacity": "35",
+          "period": "1",
+          "target_grade": "9"
+        },
+        {
+          "section_id": "SEC00133",
+          "course": "English I",
+          "teacher_id": "T0147",
+          "teacher_name": "Teacher_0147",
+          "room_id": "R0054",
+          "room_name": "Room_0054",
+          "room_capacity": "35",
+          "period": "1",
+          "target_grade": "11"
+        },
+        {
+          "section_id": "SEC00272",
+          "course": "Spanish II",
+          "teacher_id": "T0012",
+          "teacher_name": "Teacher_0012",
+          "room_id": "R0054",
+          "room_name": "Room_0054",
+          "room_capacity": "35",
+          "period": "1",
+          "target_grade": "9"
+        }
+      ]
+    },
+    {
+      "type": "room_conflict",
+      "room_id": "R0025",
+      "period": "3",
+      "count": 2,
+      "sections": [
+        {
+          "section_id": "SEC00085",
+          "course": "Chemistry",
+          "teacher_id": "T0143",
+          "teacher_name": "Teacher_0143",
+          "room_id": "R0025",
+          "room_name": "Room_0025",
+          "room_capacity": "24",
+          "period": "3",
+          "target_grade": "9"
+        },
+        {
+          "section_id": "SEC00286",
+          "course": "French I",
+          "teacher_id": "T0210",
+          "teacher_name": "Teacher_0210",
+          "room_id": "R0025",
+          "room_name": "Room_0025",
+          "room_capacity": "24",
+          "period": "3",
+          "target_grade": "9"
+        }
+      ]
+    },
+    {
+      "type": "room_conflict",
+      "room_id": "R0158",
+      "period": "7",
+      "count": 2,
+      "sections": [
+        {
+          "section_id": "SEC00089",
+          "course": "Chemistry",
+          "teacher_id": "T0075",
+          "teacher_name": "Teacher_0075",
+          "room_id": "R0158",
+          "room_name": "Room_0158",
+          "room_capacity": "32",
+          "period": "7",
+          "target_grade": "12"
+        },
+        {
+          "section_id": "SEC00142",
+          "course": "English II",
+          "teacher_id": "T0042",
+          "teacher_name": "Teacher_0042",
+          "room_id": "R0158",
+          "room_name": "Room_0158",
+          "room_capacity": "32",
+          "period": "7",
+          "target_grade": "12"
+        }
+      ]
+    },
+    {
+      "type": "room_conflict",
+      "room_id": "R0140",
+      "period": "4",
+      "count": 2,
+      "sections": [
+        {
+          "section_id": "SEC00091",
+          "course": "Chemistry",
+          "teacher_id": "T0103",
+          "teacher_name": "Teacher_0103",
+          "room_id": "R0140",
+          "room_name": "Room_0140",
+          "room_capacity": "24",
+          "period": "4",
+          "target_grade": "9"
+        },
+        {
+          "section_id": "SEC00276",
+          "course": "Spanish II",
+          "teacher_id": "T0144",
+          "teacher_name": "Teacher_0144",
+          "room_id": "R0140",
+          "room_name": "Room_0140",
+          "room_capacity": "24",
+          "period": "4",
+          "target_grade": "11"
+        }
+      ]
+    },
+    {
+      "type": "room_conflict",
+      "room_id": "R0007",
+      "period": "1",
+      "count": 2,
+      "sections": [
+        {
+          "section_id": "SEC00109",
+          "course": "Physics",
+          "teacher_id": "T0203",
+          "teacher_name": "Teacher_0203",
+          "room_id": "R0007",
+          "room_name": "Room_0007",
+          "room_capacity": "30",
+          "period": "1",
+          "target_grade": "10"
+        },
+        {
+          "section_id": "SEC00179",
+          "course": "English IV",
+          "teacher_id": "T0042",
+          "teacher_name": "Teacher_0042",
+          "room_id": "R0007",
+          "room_name": "Room_0007",
+          "room_capacity": "30",
+          "period": "1",
+          "target_grade": "9"
+        }
+      ]
+    },
+    {
+      "type": "room_conflict",
+      "room_id": "R0097",
+      "period": "5",
+      "count": 2,
+      "sections": [
+        {
+          "section_id": "SEC00128",
+          "course": "English I",
+          "teacher_id": "T0225",
+          "teacher_name": "Teacher_0225",
+          "room_id": "R0097",
+          "room_name": "Room_0097",
+          "room_capacity": "24",
+          "period": "5",
+          "target_grade": "12"
+        },
+        {
+          "section_id": "SEC00215",
+          "course": "U.S. History",
+          "teacher_id": "T0069",
+          "teacher_name": "Teacher_0069",
+          "room_id": "R0097",
+          "room_name": "Room_0097",
+          "room_capacity": "24",
+          "period": "5",
+          "target_grade": "9"
+        }
+      ]
+    },
+    {
+      "type": "room_conflict",
+      "room_id": "R0150",
+      "period": "7",
+      "count": 3,
+      "sections": [
+        {
+          "section_id": "SEC00139",
+          "course": "English I",
+          "teacher_id": "T0160",
+          "teacher_name": "Teacher_0160",
+          "room_id": "R0150",
+          "room_name": "Room_0150",
+          "room_capacity": "28",
+          "period": "7",
+          "target_grade": "12"
+        },
+        {
+          "section_id": "SEC00233",
+          "course": "Economics",
+          "teacher_id": "T0219",
+          "teacher_name": "Teacher_0219",
+          "room_id": "R0150",
+          "room_name": "Room_0150",
+          "room_capacity": "28",
+          "period": "7",
+          "target_grade": "12"
+        },
+        {
+          "section_id": "SEC00277",
+          "course": "French I",
+          "teacher_id": "T0054",
+          "teacher_name": "Teacher_0054",
+          "room_id": "R0150",
+          "room_name": "Room_0150",
+          "room_capacity": "28",
+          "period": "7",
+          "target_grade": "9"
+        }
+      ]
+    },
+    {
+      "type": "room_conflict",
+      "room_id": "R0091",
+      "period": "3",
+      "count": 2,
+      "sections": [
+        {
+          "section_id": "SEC00162",
+          "course": "English III",
+          "teacher_id": "T0136",
+          "teacher_name": "Teacher_0136",
+          "room_id": "R0091",
+          "room_name": "Room_0091",
+          "room_capacity": "28",
+          "period": "3",
+          "target_grade": "11"
+        },
+        {
+          "section_id": "SEC00273",
+          "course": "Spanish II",
+          "teacher_id": "T0065",
+          "teacher_name": "Teacher_0065",
+          "room_id": "R0091",
+          "room_name": "Room_0091",
+          "room_capacity": "28",
+          "period": "3",
+          "target_grade": "12"
+        }
+      ]
+    },
+    {
+      "type": "room_conflict",
+      "room_id": "R0049",
+      "period": "8",
+      "count": 2,
+      "sections": [
+        {
+          "section_id": "SEC00172",
+          "course": "English IV",
+          "teacher_id": "T0106",
+          "teacher_name": "Teacher_0106",
+          "room_id": "R0049",
+          "room_name": "Room_0049",
+          "room_capacity": "24",
+          "period": "8",
+          "target_grade": "12"
+        },
+        {
+          "section_id": "SEC00334",
+          "course": "Physical Education",
+          "teacher_id": "T0161",
+          "teacher_name": "Teacher_0161",
+          "room_id": "R0049",
+          "room_name": "Room_0049",
+          "room_capacity": "24",
+          "period": "8",
+          "target_grade": "10"
+        }
+      ]
+    },
+    {
+      "type": "room_conflict",
+      "room_id": "R0176",
+      "period": "1",
+      "count": 2,
+      "sections": [
+        {
+          "section_id": "SEC00173",
+          "course": "English IV",
+          "teacher_id": "T0157",
+          "teacher_name": "Teacher_0157",
+          "room_id": "R0176",
+          "room_name": "Room_0176",
+          "room_capacity": "28",
+          "period": "1",
+          "target_grade": "10"
+        },
+        {
+          "section_id": "SEC00270",
+          "course": "Spanish II",
+          "teacher_id": "T0087",
+          "teacher_name": "Teacher_0087",
+          "room_id": "R0176",
+          "room_name": "Room_0176",
+          "room_capacity": "28",
+          "period": "1",
+          "target_grade": "9"
+        }
+      ]
+    },
+    {
+      "type": "room_conflict",
+      "room_id": "R0080",
+      "period": "5",
+      "count": 3,
+      "sections": [
+        {
+          "section_id": "SEC00178",
+          "course": "English IV",
+          "teacher_id": "T0006",
+          "teacher_name": "Teacher_0006",
+          "room_id": "R0080",
+          "room_name": "Room_0080",
+          "room_capacity": "28",
+          "period": "5",
+          "target_grade": "9"
+        },
+        {
+          "section_id": "SEC00267",
+          "course": "Spanish II",
+          "teacher_id": "T0234",
+          "teacher_name": "Teacher_0234",
+          "room_id": "R0080",
+          "room_name": "Room_0080",
+          "room_capacity": "28",
+          "period": "5",
+          "target_grade": "12"
+        },
+        {
+          "section_id": "SEC00283",
+          "course": "French I",
+          "teacher_id": "T0078",
+          "teacher_name": "Teacher_0078",
+          "room_id": "R0080",
+          "room_name": "Room_0080",
+          "room_capacity": "28",
+          "period": "5",
+          "target_grade": "9"
+        }
+      ]
+    },
+    {
+      "type": "room_conflict",
+      "room_id": "R0117",
+      "period": "1",
+      "count": 2,
+      "sections": [
+        {
+          "section_id": "SEC00226",
+          "course": "Government",
+          "teacher_id": "T0036",
+          "teacher_name": "Teacher_0036",
+          "room_id": "R0117",
+          "room_name": "Room_0117",
+          "room_capacity": "32",
+          "period": "1",
+          "target_grade": "11"
+        },
+        {
+          "section_id": "SEC00304",
+          "course": "Computer Science",
+          "teacher_id": "T0167",
+          "teacher_name": "Teacher_0167",
+          "room_id": "R0117",
+          "room_name": "Room_0117",
+          "room_capacity": "32",
+          "period": "1",
+          "target_grade": "9"
+        }
+      ]
+    },
+    {
+      "type": "room_conflict",
+      "room_id": "R0089",
+      "period": "3",
+      "count": 2,
+      "sections": [
+        {
+          "section_id": "SEC00235",
+          "course": "Economics",
+          "teacher_id": "T0051",
+          "teacher_name": "Teacher_0051",
+          "room_id": "R0089",
+          "room_name": "Room_0089",
+          "room_capacity": "24",
+          "period": "3",
+          "target_grade": "12"
+        },
+        {
+          "section_id": "SEC00261",
+          "course": "Spanish I",
+          "teacher_id": "T0193",
+          "teacher_name": "Teacher_0193",
+          "room_id": "R0089",
+          "room_name": "Room_0089",
+          "room_capacity": "24",
+          "period": "3",
+          "target_grade": "11"
+        }
+      ]
+    },
+    {
+      "type": "room_conflict",
+      "room_id": "R0137",
+      "period": "5",
+      "count": 2,
+      "sections": [
+        {
+          "section_id": "SEC00244",
+          "course": "Economics",
+          "teacher_id": "T0246",
+          "teacher_name": "Teacher_0246",
+          "room_id": "R0137",
+          "room_name": "Room_0137",
+          "room_capacity": "28",
+          "period": "5",
+          "target_grade": "12"
+        },
+        {
+          "section_id": "SEC00318",
+          "course": "Band",
+          "teacher_id": "T0093",
+          "teacher_name": "Teacher_0093",
+          "room_id": "R0137",
+          "room_name": "Room_0137",
+          "room_capacity": "28",
+          "period": "5",
+          "target_grade": "11"
+        }
+      ]
+    },
+    {
+      "type": "room_conflict",
+      "room_id": "R0033",
+      "period": "2",
+      "count": 2,
+      "sections": [
+        {
+          "section_id": "SEC00250",
+          "course": "Spanish I",
+          "teacher_id": "T0254",
+          "teacher_name": "Teacher_0254",
+          "room_id": "R0033",
+          "room_name": "Room_0033",
+          "room_capacity": "30",
+          "period": "2",
+          "target_grade": "12"
+        },
+        {
+          "section_id": "SEC00298",
+          "course": "Computer Science",
+          "teacher_id": "T0132",
+          "teacher_name": "Teacher_0132",
+          "room_id": "R0033",
+          "room_name": "Room_0033",
+          "room_capacity": "30",
+          "period": "2",
+          "target_grade": "9"
+        }
+      ]
+    },
+    {
+      "type": "room_conflict",
+      "room_id": "R0124",
+      "period": "3",
+      "count": 2,
+      "sections": [
+        {
+          "section_id": "SEC00259",
+          "course": "Spanish I",
+          "teacher_id": "T0006",
+          "teacher_name": "Teacher_0006",
+          "room_id": "R0124",
+          "room_name": "Room_0124",
+          "room_capacity": "30",
+          "period": "3",
+          "target_grade": "11"
+        },
+        {
+          "section_id": "SEC00331",
+          "course": "Physical Education",
+          "teacher_id": "T0038",
+          "teacher_name": "Teacher_0038",
+          "room_id": "R0124",
+          "room_name": "Room_0124",
+          "room_capacity": "30",
+          "period": "3",
+          "target_grade": "10"
+        }
+      ]
+    }
+  ]
+}

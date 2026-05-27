@@ -1,0 +1,9 @@
+metric,value
+students,5810
+teachers,260
+rooms,185
+sections,346
+enrollments,40670
+teacher_conflict_groups,27
+room_conflict_groups,34
+total_conflict_groups,61

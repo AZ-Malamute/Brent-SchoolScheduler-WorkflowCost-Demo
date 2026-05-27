@@ -1,0 +1,13 @@
+period,teacher,room,course,grade,student_group,status,conflict
+1,Smith,101,Algebra I,9,Freshman A,OK,
+1,Jones,205,Biology,10,Sophomore A,OK,
+1,Smith,101,Geometry,10,Sophomore B,CONFLICT,Teacher Smith double-booked; Room 101 double-booked
+2,Brown,101,English Literature,11,Junior A,OK,
+2,Taylor,205,Chemistry,11,Junior B,OK,
+2,Brown,301,U.S. History,10,Sophomore A,CONFLICT,Teacher Brown double-booked
+3,Garcia,101,Spanish I,9,Freshman B,OK,
+3,Lee,205,Physics,12,Senior A,OK,
+3,Garcia,205,Spanish II,10,Sophomore C,CONFLICT,Teacher Garcia double-booked; Room 205 double-booked
+4,Patel,101,Computer Science,12,Senior B,OK,
+4,Nguyen,205,World History,9,Freshman A,OK,
+4,Patel,101,Calculus,12,Senior A,CONFLICT,Teacher Patel double-booked; Room 101 double-booked

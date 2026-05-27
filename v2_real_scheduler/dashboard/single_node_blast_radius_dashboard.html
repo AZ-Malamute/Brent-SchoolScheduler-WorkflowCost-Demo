@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>SourceTruth Scheduler v8 — Single Node Blast Radius</title>
+<style>
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:#f5f7fa;margin:0;color:#111827}
+.hero{background:white;padding:44px;border-bottom:8px solid #002FA7}
+h1{color:#002FA7;margin:0;font-size:42px}
+.container{max-width:1200px;margin:0 auto;padding:32px}
+.card{background:white;border-radius:14px;padding:24px;box-shadow:0 4px 14px rgba(0,0,0,.08);margin-bottom:24px}
+.metric{font-size:42px;font-weight:900;color:#002FA7}
+.danger{color:#991b1b}
+table{width:100%;border-collapse:collapse;background:white}
+th{background:#002FA7;color:white}
+td,th{padding:12px;border-bottom:1px solid #e5e7eb;text-align:left}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px}
+</style>
+</head>
+<body>
+
+<div class="hero">
+<h1>SourceTruth Scheduler v8</h1>
+<p>Single-node blast radius analysis: teacher, room, and section failures.</p>
+</div>
+
+<div class="container">
+
+<div class="grid">
+<div class="card"><div class="metric">3</div><div>Nodes Analyzed</div></div>
+<div class="card"><div class="metric danger">715</div><div>Largest Student Blast Radius</div></div>
+<div class="card"><div class="metric danger">$4,378</div><div>Largest Estimated Cost</div></div>
+</div>
+
+<div class="card">
+<h2>Highest Impact Node</h2>
+<p><strong>T0161</strong> is a <strong>teacher</strong> node affecting <strong>715</strong> students.</p>
+<p>This is the transition from generic scheduling to impact analysis.</p>
+</div>
+
+<div class="card">
+<h2>Blast Radius Comparison</h2>
+<table>
+<tr>
+<th>Node</th>
+<th>Type</th>
+<th>Sections</th>
+<th>Teachers</th>
+<th>Rooms</th>
+<th>Students</th>
+<th>Hours</th>
+<th>Cost</th>
+</tr>
+
+    <tr>
+      <td>T0161</td>
+      <td>teacher</td>
+      <td>7</td>
+      <td>1</td>
+      <td>7</td>
+      <td>715</td>
+      <td>51.5</td>
+      <td>$4,377.50</td>
+    </tr>
+    
+    <tr>
+      <td>R0112</td>
+      <td>room</td>
+      <td>3</td>
+      <td>3</td>
+      <td>1</td>
+      <td>504</td>
+      <td>30.45</td>
+      <td>$2,588.25</td>
+    </tr>
+    
+    <tr>
+      <td>SEC00321</td>
+      <td>section</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>230</td>
+      <td>13.75</td>
+      <td>$1,168.75</td>
+    </tr>
+    
+</table>
+</div>
+
+<div class="card">
+<h2>Source Truth</h2>
+<p>The scheduler now answers a real operational question:</p>
+<p><strong>If this node fails, what is the blast radius?</strong></p>
+</div>
+
+</div>
+</body>
+</html>

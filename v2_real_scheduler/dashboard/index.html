@@ -3,13 +3,15 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>SourceTruth Scheduler v2 — 5,810 Student Conflict Dashboard</title>
+<title>SourceTruth Scheduler v3 — Full School Constraint Dashboard</title>
 <style>
 :root {
   --blue: #002FA7;
   --bg: #f5f7fa;
   --ink: #111827;
   --muted: #64748b;
+  --danger: #991b1b;
+  --danger-bg: #fee2e2;
 }
 body {
   margin: 0;
@@ -32,7 +34,7 @@ body {
   color: var(--muted);
 }
 .container {
-  max-width: 1200px;
+  max-width: 1280px;
   margin: 0 auto;
   padding: 32px;
 }
@@ -48,9 +50,14 @@ body {
   box-shadow: 0 4px 14px rgba(0,0,0,.08);
 }
 .metric {
-  font-size: 42px;
+  font-size: 40px;
   font-weight: 800;
   color: var(--blue);
+}
+.metric-danger {
+  font-size: 40px;
+  font-weight: 800;
+  color: var(--danger);
 }
 .label {
   color: var(--muted);
@@ -78,10 +85,11 @@ td, th {
 .badge {
   display: inline-block;
   padding: 8px 12px;
-  background: #fee2e2;
-  color: #991b1b;
+  background: var(--danger-bg);
+  color: var(--danger);
   border-radius: 999px;
   font-weight: 700;
+  margin-right: 8px;
 }
 .footer {
   margin-top: 40px;
@@ -92,8 +100,8 @@ td, th {
 <body>
 
 <div class="hero">
-  <h1>SourceTruth Scheduler v2</h1>
-  <p>5,810-student synthetic high-school scheduling benchmark with intentional over-constraints.</p>
+  <h1>SourceTruth Scheduler v3</h1>
+  <p>5,810-student school operations constraint dashboard: scheduling, prerequisites, academic history, and graduation pressure.</p>
 </div>
 
 <div class="container">
@@ -104,14 +112,18 @@ td, th {
   <div class="card"><div class="metric">185</div><div class="label">Rooms</div></div>
   <div class="card"><div class="metric">346</div><div class="label">Sections</div></div>
   <div class="card"><div class="metric">40670</div><div class="label">Enrollments</div></div>
-  <div class="card"><div class="metric">61</div><div class="label">Conflict Groups</div></div>
+  <div class="card"><div class="metric-danger">61</div><div class="label">Room / Teacher Conflict Groups</div></div>
+  <div class="card"><div class="metric-danger">10378</div><div class="label">Prerequisite / Sequencing Violations</div></div>
+  <div class="card"><div class="metric">28381</div><div class="label">Academic History Records</div></div>
 </div>
 
 <div class="section card">
-  <h2>Conflict Summary</h2>
-  <p><span class="badge">27 teacher conflict groups</span></p>
-  <p><span class="badge">34 room conflict groups</span></p>
-  <p>This dashboard no longer demonstrates a fake four-row classroom table. It demonstrates a measurable scheduling failure on a 5,810-student synthetic high-school benchmark.</p>
+  <h2>What Changed</h2>
+  <p>This is no longer a fake four-row scheduler. This is a school-operations constraint model.</p>
+  <p><span class="badge">27 teacher conflict groups</span>
+     <span class="badge">34 room conflict groups</span>
+     <span class="badge">10378 academic-rule violations</span></p>
+  <p>The first demo proved velocity. This version begins proving scale, constraints, and measurable institutional friction.</p>
 </div>
 
 <div class="section">
@@ -157,20 +169,6 @@ td, th {
         <tr>
           <td>teacher_conflict</td>
           <td>T0149</td>
-          <td>3</td>
-          <td>2</td>
-        </tr>
-        
-        <tr>
-          <td>teacher_conflict</td>
-          <td>T0026</td>
-          <td>6</td>
-          <td>2</td>
-        </tr>
-        
-        <tr>
-          <td>teacher_conflict</td>
-          <td>T0258</td>
           <td>3</td>
           <td>2</td>
         </tr>
@@ -225,31 +223,120 @@ td, th {
           <td>2</td>
         </tr>
         
+  </table>
+</div>
+
+<div class="section">
+  <h2>Sample Prerequisite / Sequencing Violations</h2>
+  <table>
+    <tr><th>Student</th><th>Course</th><th>Violation</th><th>Required Prerequisite</th><th>Summer Only</th></tr>
+    
         <tr>
-          <td>room_conflict</td>
-          <td>R0048</td>
-          <td>7</td>
-          <td>4</td>
+          <td>S00001</td>
+          <td>Spanish II</td>
+          <td>missing_prerequisite</td>
+          <td>Spanish I</td>
+          <td>no</td>
         </tr>
         
         <tr>
-          <td>room_conflict</td>
-          <td>R0029</td>
-          <td>6</td>
-          <td>2</td>
+          <td>S00002</td>
+          <td>Algebra II</td>
+          <td>missing_prerequisite</td>
+          <td>Geometry</td>
+          <td>no</td>
+        </tr>
+        
+        <tr>
+          <td>S00002</td>
+          <td>Precalculus</td>
+          <td>missing_prerequisite</td>
+          <td>Algebra II</td>
+          <td>no</td>
+        </tr>
+        
+        <tr>
+          <td>S00002</td>
+          <td>Spanish II</td>
+          <td>missing_prerequisite</td>
+          <td>Spanish I</td>
+          <td>no</td>
+        </tr>
+        
+        <tr>
+          <td>S00002</td>
+          <td>English II</td>
+          <td>missing_prerequisite</td>
+          <td>English I</td>
+          <td>no</td>
+        </tr>
+        
+        <tr>
+          <td>S00003</td>
+          <td>Calculus</td>
+          <td>missing_prerequisite</td>
+          <td>Precalculus</td>
+          <td>no</td>
+        </tr>
+        
+        <tr>
+          <td>S00004</td>
+          <td>Algebra II</td>
+          <td>missing_prerequisite</td>
+          <td>Geometry</td>
+          <td>no</td>
+        </tr>
+        
+        <tr>
+          <td>S00004</td>
+          <td>Geometry</td>
+          <td>missing_prerequisite</td>
+          <td>Algebra I</td>
+          <td>no</td>
+        </tr>
+        
+        <tr>
+          <td>S00006</td>
+          <td>Algebra II</td>
+          <td>missing_prerequisite</td>
+          <td>Geometry</td>
+          <td>no</td>
+        </tr>
+        
+        <tr>
+          <td>S00006</td>
+          <td>English IV</td>
+          <td>missing_prerequisite</td>
+          <td>English III</td>
+          <td>no</td>
         </tr>
         
   </table>
 </div>
 
 <div class="section card">
+  <h2>Realistic Problems Now Represented</h2>
+  <ul>
+    <li>Teacher double-booking</li>
+    <li>Room double-booking</li>
+    <li>Course sequencing</li>
+    <li>Missing prerequisites</li>
+    <li>Summer-only credit recovery pressure</li>
+    <li>Graduation requirement categories</li>
+    <li>Academic history records</li>
+    <li>Out-of-order enrollment detection</li>
+  </ul>
+</div>
+
+<div class="section card">
   <h2>Source Truth</h2>
-  <p>The first demo proved velocity. This rewrite starts proving scale, constraints, and measurable workflow failure.</p>
-  <p><strong>The workflow is the evidence.</strong></p>
+  <p>The workflow is the evidence.</p>
+  <p>The evidence is the movie.</p>
+  <p>The movie proves itself.</p>
 </div>
 
 <div class="footer">
-  SourceTruth Scheduler v2 • Greg Gasson • Orion Source Truth Blue
+  SourceTruth Scheduler v3 • Greg Gasson • Orion Source Truth Blue
 </div>
 
 </div>

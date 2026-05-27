@@ -1,0 +1,1483 @@
+{
+  "teachers": {
+    "T0079": {
+      "section_count": 4,
+      "student_count": 494,
+      "sections": [
+        "SEC00001",
+        "SEC00002",
+        "SEC00225",
+        "SEC00319"
+      ]
+    },
+    "T0176": {
+      "section_count": 2,
+      "student_count": 165,
+      "sections": [
+        "SEC00003",
+        "SEC00004"
+      ]
+    },
+    "T0158": {
+      "section_count": 5,
+      "student_count": 512,
+      "sections": [
+        "SEC00005",
+        "SEC00006",
+        "SEC00084",
+        "SEC00203",
+        "SEC00337"
+      ]
+    },
+    "T0232": {
+      "section_count": 3,
+      "student_count": 278,
+      "sections": [
+        "SEC00007",
+        "SEC00008",
+        "SEC00247"
+      ]
+    },
+    "T0091": {
+      "section_count": 7,
+      "student_count": 624,
+      "sections": [
+        "SEC00009",
+        "SEC00010",
+        "SEC00017",
+        "SEC00018",
+        "SEC00086",
+        "SEC00198",
+        "SEC00249"
+      ]
+    },
+    "T0149": {
+      "section_count": 3,
+      "student_count": 249,
+      "sections": [
+        "SEC00011",
+        "SEC00012",
+        "SEC00246"
+      ]
+    },
+    "T0026": {
+      "section_count": 4,
+      "student_count": 420,
+      "sections": [
+        "SEC00013",
+        "SEC00014",
+        "SEC00054",
+        "SEC00252"
+      ]
+    },
+    "T0258": {
+      "section_count": 2,
+      "student_count": 174,
+      "sections": [
+        "SEC00015",
+        "SEC00016"
+      ]
+    },
+    "T0105": {
+      "section_count": 3,
+      "student_count": 455,
+      "sections": [
+        "SEC00019",
+        "SEC00020",
+        "SEC00161"
+      ]
+    },
+    "T0230": {
+      "section_count": 1,
+      "student_count": 201,
+      "sections": [
+        "SEC00021"
+      ]
+    },
+    "T0235": {
+      "section_count": 2,
+      "student_count": 261,
+      "sections": [
+        "SEC00022",
+        "SEC00292"
+      ]
+    },
+    "T0063": {
+      "section_count": 2,
+      "student_count": 295,
+      "sections": [
+        "SEC00023",
+        "SEC00216"
+      ]
+    },
+    "T0177": {
+      "section_count": 2,
+      "student_count": 366,
+      "sections": [
+        "SEC00024",
+        "SEC00082"
+      ]
+    },
+    "T0002": {
+      "section_count": 2,
+      "student_count": 275,
+      "sections": [
+        "SEC00025",
+        "SEC00074"
+      ]
+    },
+    "T0221": {
+      "section_count": 1,
+      "student_count": 186,
+      "sections": [
+        "SEC00026"
+      ]
+    },
+    "T0024": {
+      "section_count": 3,
+      "student_count": 428,
+      "sections": [
+        "SEC00027",
+        "SEC00111",
+        "SEC00343"
+      ]
+    },
+    "T0143": {
+      "section_count": 4,
+      "student_count": 520,
+      "sections": [
+        "SEC00028",
+        "SEC00080",
+        "SEC00085",
+        "SEC00211"
+      ]
+    },
+    "T0061": {
+      "section_count": 1,
+      "student_count": 88,
+      "sections": [
+        "SEC00029"
+      ]
+    },
+    "T0190": {
+      "section_count": 2,
+      "student_count": 179,
+      "sections": [
+        "SEC00030",
+        "SEC00092"
+      ]
+    },
+    "T0050": {
+      "section_count": 1,
+      "student_count": 75,
+      "sections": [
+        "SEC00031"
+      ]
+    },
+    "T0137": {
+      "section_count": 2,
+      "student_count": 220,
+      "sections": [
+        "SEC00032",
+        "SEC00106"
+      ]
+    },
+    "T0244": {
+      "section_count": 3,
+      "student_count": 307,
+      "sections": [
+        "SEC00033",
+        "SEC00207",
+        "SEC00344"
+      ]
+    },
+    "T0182": {
+      "section_count": 2,
+      "student_count": 154,
+      "sections": [
+        "SEC00034",
+        "SEC00045"
+      ]
+    },
+    "T0072": {
+      "section_count": 3,
+      "student_count": 303,
+      "sections": [
+        "SEC00035",
+        "SEC00200",
+        "SEC00224"
+      ]
+    },
+    "T0150": {
+      "section_count": 2,
+      "student_count": 181,
+      "sections": [
+        "SEC00036",
+        "SEC00236"
+      ]
+    },
+    "T0171": {
+      "section_count": 2,
+      "student_count": 244,
+      "sections": [
+        "SEC00037",
+        "SEC00100"
+      ]
+    },
+    "T0136": {
+      "section_count": 2,
+      "student_count": 198,
+      "sections": [
+        "SEC00038",
+        "SEC00162"
+      ]
+    },
+    "T0028": {
+      "section_count": 1,
+      "student_count": 93,
+      "sections": [
+        "SEC00039"
+      ]
+    },
+    "T0017": {
+      "section_count": 3,
+      "student_count": 251,
+      "sections": [
+        "SEC00040",
+        "SEC00171",
+        "SEC00269"
+      ]
+    },
+    "T0066": {
+      "section_count": 1,
+      "student_count": 95,
+      "sections": [
+        "SEC00041"
+      ]
+    },
+    "T0220": {
+      "section_count": 1,
+      "student_count": 93,
+      "sections": [
+        "SEC00042"
+      ]
+    },
+    "T0044": {
+      "section_count": 2,
+      "student_count": 233,
+      "sections": [
+        "SEC00043",
+        "SEC00107"
+      ]
+    },
+    "T0164": {
+      "section_count": 1,
+      "student_count": 105,
+      "sections": [
+        "SEC00044"
+      ]
+    },
+    "T0194": {
+      "section_count": 2,
+      "student_count": 243,
+      "sections": [
+        "SEC00046",
+        "SEC00257"
+      ]
+    },
+    "T0140": {
+      "section_count": 3,
+      "student_count": 458,
+      "sections": [
+        "SEC00047",
+        "SEC00075",
+        "SEC00205"
+      ]
+    },
+    "T0041": {
+      "section_count": 3,
+      "student_count": 391,
+      "sections": [
+        "SEC00048",
+        "SEC00110",
+        "SEC00300"
+      ]
+    },
+    "T0200": {
+      "section_count": 1,
+      "student_count": 164,
+      "sections": [
+        "SEC00049"
+      ]
+    },
+    "T0058": {
+      "section_count": 1,
+      "student_count": 147,
+      "sections": [
+        "SEC00050"
+      ]
+    },
+    "T0027": {
+      "section_count": 2,
+      "student_count": 254,
+      "sections": [
+        "SEC00051",
+        "SEC00163"
+      ]
+    },
+    "T0132": {
+      "section_count": 3,
+      "student_count": 330,
+      "sections": [
+        "SEC00052",
+        "SEC00124",
+        "SEC00298"
+      ]
+    },
+    "T0057": {
+      "section_count": 4,
+      "student_count": 475,
+      "sections": [
+        "SEC00053",
+        "SEC00160",
+        "SEC00258",
+        "SEC00275"
+      ]
+    },
+    "T0169": {
+      "section_count": 2,
+      "student_count": 268,
+      "sections": [
+        "SEC00055",
+        "SEC00159"
+      ]
+    },
+    "T0129": {
+      "section_count": 1,
+      "student_count": 158,
+      "sections": [
+        "SEC00056"
+      ]
+    },
+    "T0214": {
+      "section_count": 2,
+      "student_count": 176,
+      "sections": [
+        "SEC00057",
+        "SEC00060"
+      ]
+    },
+    "T0131": {
+      "section_count": 1,
+      "student_count": 87,
+      "sections": [
+        "SEC00058"
+      ]
+    },
+    "T0219": {
+      "section_count": 2,
+      "student_count": 205,
+      "sections": [
+        "SEC00059",
+        "SEC00233"
+      ]
+    },
+    "T0096": {
+      "section_count": 1,
+      "student_count": 94,
+      "sections": [
+        "SEC00061"
+      ]
+    },
+    "T0193": {
+      "section_count": 2,
+      "student_count": 169,
+      "sections": [
+        "SEC00062",
+        "SEC00261"
+      ]
+    },
+    "T0124": {
+      "section_count": 1,
+      "student_count": 84,
+      "sections": [
+        "SEC00063"
+      ]
+    },
+    "T0223": {
+      "section_count": 2,
+      "student_count": 188,
+      "sections": [
+        "SEC00064",
+        "SEC00289"
+      ]
+    },
+    "T0043": {
+      "section_count": 1,
+      "student_count": 91,
+      "sections": [
+        "SEC00065"
+      ]
+    },
+    "T0042": {
+      "section_count": 5,
+      "student_count": 622,
+      "sections": [
+        "SEC00066",
+        "SEC00138",
+        "SEC00142",
+        "SEC00179",
+        "SEC00308"
+      ]
+    },
+    "T0128": {
+      "section_count": 2,
+      "student_count": 168,
+      "sections": [
+        "SEC00067",
+        "SEC00070"
+      ]
+    },
+    "T0145": {
+      "section_count": 3,
+      "student_count": 256,
+      "sections": [
+        "SEC00068",
+        "SEC00129",
+        "SEC00254"
+      ]
+    },
+    "T0254": {
+      "section_count": 2,
+      "student_count": 170,
+      "sections": [
+        "SEC00069",
+        "SEC00250"
+      ]
+    },
+    "T0231": {
+      "section_count": 1,
+      "student_count": 76,
+      "sections": [
+        "SEC00071"
+      ]
+    },
+    "T0051": {
+      "section_count": 3,
+      "student_count": 298,
+      "sections": [
+        "SEC00072",
+        "SEC00182",
+        "SEC00235"
+      ]
+    },
+    "T0195": {
+      "section_count": 1,
+      "student_count": 110,
+      "sections": [
+        "SEC00073"
+      ]
+    },
+    "T0172": {
+      "section_count": 1,
+      "student_count": 212,
+      "sections": [
+        "SEC00076"
+      ]
+    },
+    "T0060": {
+      "section_count": 3,
+      "student_count": 489,
+      "sections": [
+        "SEC00077",
+        "SEC00229",
+        "SEC00307"
+      ]
+    },
+    "T0078": {
+      "section_count": 2,
+      "student_count": 311,
+      "sections": [
+        "SEC00078",
+        "SEC00283"
+      ]
+    },
+    "T0237": {
+      "section_count": 3,
+      "student_count": 386,
+      "sections": [
+        "SEC00079",
+        "SEC00268",
+        "SEC00341"
+      ]
+    },
+    "T0249": {
+      "section_count": 2,
+      "student_count": 309,
+      "sections": [
+        "SEC00081",
+        "SEC00212"
+      ]
+    },
+    "T0202": {
+      "section_count": 2,
+      "student_count": 204,
+      "sections": [
+        "SEC00083",
+        "SEC00152"
+      ]
+    },
+    "T0005": {
+      "section_count": 1,
+      "student_count": 100,
+      "sections": [
+        "SEC00087"
+      ]
+    },
+    "T0073": {
+      "section_count": 3,
+      "student_count": 380,
+      "sections": [
+        "SEC00088",
+        "SEC00125",
+        "SEC00310"
+      ]
+    },
+    "T0075": {
+      "section_count": 1,
+      "student_count": 101,
+      "sections": [
+        "SEC00089"
+      ]
+    },
+    "T0212": {
+      "section_count": 3,
+      "student_count": 364,
+      "sections": [
+        "SEC00090",
+        "SEC00102",
+        "SEC00195"
+      ]
+    },
+    "T0103": {
+      "section_count": 1,
+      "student_count": 89,
+      "sections": [
+        "SEC00091"
+      ]
+    },
+    "T0115": {
+      "section_count": 2,
+      "student_count": 313,
+      "sections": [
+        "SEC00093",
+        "SEC00329"
+      ]
+    },
+    "T0175": {
+      "section_count": 1,
+      "student_count": 91,
+      "sections": [
+        "SEC00094"
+      ]
+    },
+    "T0205": {
+      "section_count": 2,
+      "student_count": 198,
+      "sections": [
+        "SEC00095",
+        "SEC00284"
+      ]
+    },
+    "T0161": {
+      "section_count": 7,
+      "student_count": 715,
+      "sections": [
+        "SEC00096",
+        "SEC00193",
+        "SEC00217",
+        "SEC00251",
+        "SEC00290",
+        "SEC00334",
+        "SEC00345"
+      ]
+    },
+    "T0019": {
+      "section_count": 4,
+      "student_count": 405,
+      "sections": [
+        "SEC00097",
+        "SEC00098",
+        "SEC00127",
+        "SEC00248"
+      ]
+    },
+    "T0146": {
+      "section_count": 2,
+      "student_count": 244,
+      "sections": [
+        "SEC00099",
+        "SEC00185"
+      ]
+    },
+    "T0228": {
+      "section_count": 3,
+      "student_count": 337,
+      "sections": [
+        "SEC00101",
+        "SEC00136",
+        "SEC00265"
+      ]
+    },
+    "T0085": {
+      "section_count": 2,
+      "student_count": 252,
+      "sections": [
+        "SEC00103",
+        "SEC00278"
+      ]
+    },
+    "T0003": {
+      "section_count": 2,
+      "student_count": 251,
+      "sections": [
+        "SEC00104",
+        "SEC00260"
+      ]
+    },
+    "T0074": {
+      "section_count": 1,
+      "student_count": 128,
+      "sections": [
+        "SEC00105"
+      ]
+    },
+    "T0092": {
+      "section_count": 1,
+      "student_count": 154,
+      "sections": [
+        "SEC00108"
+      ]
+    },
+    "T0203": {
+      "section_count": 1,
+      "student_count": 166,
+      "sections": [
+        "SEC00109"
+      ]
+    },
+    "T0121": {
+      "section_count": 1,
+      "student_count": 116,
+      "sections": [
+        "SEC00112"
+      ]
+    },
+    "T0009": {
+      "section_count": 2,
+      "student_count": 215,
+      "sections": [
+        "SEC00113",
+        "SEC00335"
+      ]
+    },
+    "T0062": {
+      "section_count": 2,
+      "student_count": 187,
+      "sections": [
+        "SEC00114",
+        "SEC00131"
+      ]
+    },
+    "T0127": {
+      "section_count": 1,
+      "student_count": 106,
+      "sections": [
+        "SEC00115"
+      ]
+    },
+    "T0139": {
+      "section_count": 1,
+      "student_count": 122,
+      "sections": [
+        "SEC00116"
+      ]
+    },
+    "T0067": {
+      "section_count": 3,
+      "student_count": 479,
+      "sections": [
+        "SEC00117",
+        "SEC00313",
+        "SEC00327"
+      ]
+    },
+    "T0014": {
+      "section_count": 1,
+      "student_count": 132,
+      "sections": [
+        "SEC00118"
+      ]
+    },
+    "T0239": {
+      "section_count": 3,
+      "student_count": 402,
+      "sections": [
+        "SEC00119",
+        "SEC00137",
+        "SEC00324"
+      ]
+    },
+    "T0144": {
+      "section_count": 4,
+      "student_count": 438,
+      "sections": [
+        "SEC00120",
+        "SEC00134",
+        "SEC00153",
+        "SEC00276"
+      ]
+    },
+    "T0004": {
+      "section_count": 2,
+      "student_count": 242,
+      "sections": [
+        "SEC00121",
+        "SEC00336"
+      ]
+    },
+    "T0207": {
+      "section_count": 1,
+      "student_count": 111,
+      "sections": [
+        "SEC00122"
+      ]
+    },
+    "T0047": {
+      "section_count": 1,
+      "student_count": 107,
+      "sections": [
+        "SEC00123"
+      ]
+    },
+    "T0215": {
+      "section_count": 1,
+      "student_count": 107,
+      "sections": [
+        "SEC00126"
+      ]
+    },
+    "T0225": {
+      "section_count": 2,
+      "student_count": 299,
+      "sections": [
+        "SEC00128",
+        "SEC00320"
+      ]
+    },
+    "T0123": {
+      "section_count": 2,
+      "student_count": 245,
+      "sections": [
+        "SEC00130",
+        "SEC00228"
+      ]
+    },
+    "T0174": {
+      "section_count": 1,
+      "student_count": 112,
+      "sections": [
+        "SEC00132"
+      ]
+    },
+    "T0147": {
+      "section_count": 2,
+      "student_count": 203,
+      "sections": [
+        "SEC00133",
+        "SEC00202"
+      ]
+    },
+    "T0187": {
+      "section_count": 1,
+      "student_count": 88,
+      "sections": [
+        "SEC00135"
+      ]
+    },
+    "T0160": {
+      "section_count": 2,
+      "student_count": 216,
+      "sections": [
+        "SEC00139",
+        "SEC00151"
+      ]
+    },
+    "T0141": {
+      "section_count": 3,
+      "student_count": 351,
+      "sections": [
+        "SEC00140",
+        "SEC00155",
+        "SEC00274"
+      ]
+    },
+    "T0107": {
+      "section_count": 2,
+      "student_count": 229,
+      "sections": [
+        "SEC00141",
+        "SEC00209"
+      ]
+    },
+    "T0118": {
+      "section_count": 1,
+      "student_count": 133,
+      "sections": [
+        "SEC00143"
+      ]
+    },
+    "T0181": {
+      "section_count": 3,
+      "student_count": 346,
+      "sections": [
+        "SEC00144",
+        "SEC00188",
+        "SEC00232"
+      ]
+    },
+    "T0252": {
+      "section_count": 1,
+      "student_count": 133,
+      "sections": [
+        "SEC00145"
+      ]
+    },
+    "T0197": {
+      "section_count": 2,
+      "student_count": 194,
+      "sections": [
+        "SEC00146",
+        "SEC00291"
+      ]
+    },
+    "T0001": {
+      "section_count": 2,
+      "student_count": 260,
+      "sections": [
+        "SEC00147",
+        "SEC00294"
+      ]
+    },
+    "T0242": {
+      "section_count": 2,
+      "student_count": 235,
+      "sections": [
+        "SEC00148",
+        "SEC00154"
+      ]
+    },
+    "T0093": {
+      "section_count": 3,
+      "student_count": 477,
+      "sections": [
+        "SEC00149",
+        "SEC00312",
+        "SEC00318"
+      ]
+    },
+    "T0059": {
+      "section_count": 2,
+      "student_count": 206,
+      "sections": [
+        "SEC00150",
+        "SEC00174"
+      ]
+    },
+    "T0260": {
+      "section_count": 2,
+      "student_count": 247,
+      "sections": [
+        "SEC00156",
+        "SEC00305"
+      ]
+    },
+    "T0007": {
+      "section_count": 3,
+      "student_count": 312,
+      "sections": [
+        "SEC00157",
+        "SEC00282",
+        "SEC00303"
+      ]
+    },
+    "T0095": {
+      "section_count": 2,
+      "student_count": 224,
+      "sections": [
+        "SEC00158",
+        "SEC00296"
+      ]
+    },
+    "T0016": {
+      "section_count": 2,
+      "student_count": 204,
+      "sections": [
+        "SEC00164",
+        "SEC00255"
+      ]
+    },
+    "T0097": {
+      "section_count": 2,
+      "student_count": 338,
+      "sections": [
+        "SEC00165",
+        "SEC00314"
+      ]
+    },
+    "T0224": {
+      "section_count": 1,
+      "student_count": 122,
+      "sections": [
+        "SEC00166"
+      ]
+    },
+    "T0048": {
+      "section_count": 3,
+      "student_count": 318,
+      "sections": [
+        "SEC00167",
+        "SEC00192",
+        "SEC00281"
+      ]
+    },
+    "T0101": {
+      "section_count": 1,
+      "student_count": 91,
+      "sections": [
+        "SEC00168"
+      ]
+    },
+    "T0022": {
+      "section_count": 2,
+      "student_count": 309,
+      "sections": [
+        "SEC00169",
+        "SEC00316"
+      ]
+    },
+    "T0038": {
+      "section_count": 2,
+      "student_count": 214,
+      "sections": [
+        "SEC00170",
+        "SEC00331"
+      ]
+    },
+    "T0106": {
+      "section_count": 1,
+      "student_count": 83,
+      "sections": [
+        "SEC00172"
+      ]
+    },
+    "T0157": {
+      "section_count": 2,
+      "student_count": 182,
+      "sections": [
+        "SEC00173",
+        "SEC00280"
+      ]
+    },
+    "T0185": {
+      "section_count": 4,
+      "student_count": 368,
+      "sections": [
+        "SEC00175",
+        "SEC00180",
+        "SEC00287",
+        "SEC00293"
+      ]
+    },
+    "T0064": {
+      "section_count": 1,
+      "student_count": 86,
+      "sections": [
+        "SEC00176"
+      ]
+    },
+    "T0245": {
+      "section_count": 2,
+      "student_count": 259,
+      "sections": [
+        "SEC00177",
+        "SEC00322"
+      ]
+    },
+    "T0006": {
+      "section_count": 2,
+      "student_count": 190,
+      "sections": [
+        "SEC00178",
+        "SEC00259"
+      ]
+    },
+    "T0178": {
+      "section_count": 1,
+      "student_count": 81,
+      "sections": [
+        "SEC00181"
+      ]
+    },
+    "T0213": {
+      "section_count": 1,
+      "student_count": 91,
+      "sections": [
+        "SEC00183"
+      ]
+    },
+    "T0100": {
+      "section_count": 2,
+      "student_count": 183,
+      "sections": [
+        "SEC00184",
+        "SEC00342"
+      ]
+    },
+    "T0184": {
+      "section_count": 2,
+      "student_count": 196,
+      "sections": [
+        "SEC00186",
+        "SEC00231"
+      ]
+    },
+    "T0256": {
+      "section_count": 1,
+      "student_count": 104,
+      "sections": [
+        "SEC00187"
+      ]
+    },
+    "T0015": {
+      "section_count": 1,
+      "student_count": 121,
+      "sections": [
+        "SEC00189"
+      ]
+    },
+    "T0080": {
+      "section_count": 1,
+      "student_count": 103,
+      "sections": [
+        "SEC00190"
+      ]
+    },
+    "T0135": {
+      "section_count": 1,
+      "student_count": 98,
+      "sections": [
+        "SEC00191"
+      ]
+    },
+    "T0180": {
+      "section_count": 1,
+      "student_count": 111,
+      "sections": [
+        "SEC00194"
+      ]
+    },
+    "T0086": {
+      "section_count": 1,
+      "student_count": 113,
+      "sections": [
+        "SEC00196"
+      ]
+    },
+    "T0020": {
+      "section_count": 1,
+      "student_count": 102,
+      "sections": [
+        "SEC00197"
+      ]
+    },
+    "T0053": {
+      "section_count": 1,
+      "student_count": 104,
+      "sections": [
+        "SEC00199"
+      ]
+    },
+    "T0233": {
+      "section_count": 1,
+      "student_count": 110,
+      "sections": [
+        "SEC00201"
+      ]
+    },
+    "T0210": {
+      "section_count": 3,
+      "student_count": 295,
+      "sections": [
+        "SEC00204",
+        "SEC00286",
+        "SEC00340"
+      ]
+    },
+    "T0040": {
+      "section_count": 2,
+      "student_count": 215,
+      "sections": [
+        "SEC00206",
+        "SEC00210"
+      ]
+    },
+    "T0076": {
+      "section_count": 2,
+      "student_count": 264,
+      "sections": [
+        "SEC00208",
+        "SEC00227"
+      ]
+    },
+    "T0102": {
+      "section_count": 1,
+      "student_count": 123,
+      "sections": [
+        "SEC00213"
+      ]
+    },
+    "T0234": {
+      "section_count": 2,
+      "student_count": 202,
+      "sections": [
+        "SEC00214",
+        "SEC00267"
+      ]
+    },
+    "T0069": {
+      "section_count": 2,
+      "student_count": 227,
+      "sections": [
+        "SEC00215",
+        "SEC00237"
+      ]
+    },
+    "T0008": {
+      "section_count": 1,
+      "student_count": 119,
+      "sections": [
+        "SEC00218"
+      ]
+    },
+    "T0250": {
+      "section_count": 1,
+      "student_count": 111,
+      "sections": [
+        "SEC00219"
+      ]
+    },
+    "T0156": {
+      "section_count": 1,
+      "student_count": 110,
+      "sections": [
+        "SEC00220"
+      ]
+    },
+    "T0229": {
+      "section_count": 1,
+      "student_count": 101,
+      "sections": [
+        "SEC00221"
+      ]
+    },
+    "T0236": {
+      "section_count": 2,
+      "student_count": 328,
+      "sections": [
+        "SEC00222",
+        "SEC00315"
+      ]
+    },
+    "T0013": {
+      "section_count": 1,
+      "student_count": 112,
+      "sections": [
+        "SEC00223"
+      ]
+    },
+    "T0036": {
+      "section_count": 3,
+      "student_count": 334,
+      "sections": [
+        "SEC00226",
+        "SEC00234",
+        "SEC00245"
+      ]
+    },
+    "T0071": {
+      "section_count": 1,
+      "student_count": 103,
+      "sections": [
+        "SEC00230"
+      ]
+    },
+    "T0023": {
+      "section_count": 1,
+      "student_count": 105,
+      "sections": [
+        "SEC00238"
+      ]
+    },
+    "T0209": {
+      "section_count": 1,
+      "student_count": 120,
+      "sections": [
+        "SEC00239"
+      ]
+    },
+    "T0030": {
+      "section_count": 2,
+      "student_count": 216,
+      "sections": [
+        "SEC00240",
+        "SEC00243"
+      ]
+    },
+    "T0226": {
+      "section_count": 1,
+      "student_count": 108,
+      "sections": [
+        "SEC00241"
+      ]
+    },
+    "T0241": {
+      "section_count": 1,
+      "student_count": 98,
+      "sections": [
+        "SEC00242"
+      ]
+    },
+    "T0246": {
+      "section_count": 1,
+      "student_count": 103,
+      "sections": [
+        "SEC00244"
+      ]
+    },
+    "T0119": {
+      "section_count": 1,
+      "student_count": 86,
+      "sections": [
+        "SEC00253"
+      ]
+    },
+    "T0208": {
+      "section_count": 2,
+      "student_count": 274,
+      "sections": [
+        "SEC00256",
+        "SEC00323"
+      ]
+    },
+    "T0259": {
+      "section_count": 1,
+      "student_count": 118,
+      "sections": [
+        "SEC00262"
+      ]
+    },
+    "T0151": {
+      "section_count": 1,
+      "student_count": 107,
+      "sections": [
+        "SEC00263"
+      ]
+    },
+    "T0113": {
+      "section_count": 1,
+      "student_count": 112,
+      "sections": [
+        "SEC00264"
+      ]
+    },
+    "T0218": {
+      "section_count": 1,
+      "student_count": 110,
+      "sections": [
+        "SEC00266"
+      ]
+    },
+    "T0087": {
+      "section_count": 1,
+      "student_count": 112,
+      "sections": [
+        "SEC00270"
+      ]
+    },
+    "T0247": {
+      "section_count": 2,
+      "student_count": 200,
+      "sections": [
+        "SEC00271",
+        "SEC00333"
+      ]
+    },
+    "T0012": {
+      "section_count": 1,
+      "student_count": 100,
+      "sections": [
+        "SEC00272"
+      ]
+    },
+    "T0065": {
+      "section_count": 1,
+      "student_count": 109,
+      "sections": [
+        "SEC00273"
+      ]
+    },
+    "T0054": {
+      "section_count": 1,
+      "student_count": 105,
+      "sections": [
+        "SEC00277"
+      ]
+    },
+    "T0217": {
+      "section_count": 1,
+      "student_count": 92,
+      "sections": [
+        "SEC00279"
+      ]
+    },
+    "T0138": {
+      "section_count": 1,
+      "student_count": 92,
+      "sections": [
+        "SEC00285"
+      ]
+    },
+    "T0081": {
+      "section_count": 1,
+      "student_count": 100,
+      "sections": [
+        "SEC00288"
+      ]
+    },
+    "T0198": {
+      "section_count": 1,
+      "student_count": 125,
+      "sections": [
+        "SEC00295"
+      ]
+    },
+    "T0257": {
+      "section_count": 2,
+      "student_count": 287,
+      "sections": [
+        "SEC00297",
+        "SEC00328"
+      ]
+    },
+    "T0159": {
+      "section_count": 1,
+      "student_count": 166,
+      "sections": [
+        "SEC00299"
+      ]
+    },
+    "T0088": {
+      "section_count": 3,
+      "student_count": 548,
+      "sections": [
+        "SEC00301",
+        "SEC00309",
+        "SEC00311"
+      ]
+    },
+    "T0188": {
+      "section_count": 1,
+      "student_count": 136,
+      "sections": [
+        "SEC00302"
+      ]
+    },
+    "T0167": {
+      "section_count": 2,
+      "student_count": 373,
+      "sections": [
+        "SEC00304",
+        "SEC00321"
+      ]
+    },
+    "T0116": {
+      "section_count": 1,
+      "student_count": 202,
+      "sections": [
+        "SEC00306"
+      ]
+    },
+    "T0142": {
+      "section_count": 1,
+      "student_count": 187,
+      "sections": [
+        "SEC00317"
+      ]
+    },
+    "T0134": {
+      "section_count": 1,
+      "student_count": 186,
+      "sections": [
+        "SEC00325"
+      ]
+    },
+    "T0204": {
+      "section_count": 1,
+      "student_count": 189,
+      "sections": [
+        "SEC00326"
+      ]
+    },
+    "T0021": {
+      "section_count": 1,
+      "student_count": 172,
+      "sections": [
+        "SEC00330"
+      ]
+    },
+    "T0068": {
+      "section_count": 1,
+      "student_count": 100,
+      "sections": [
+        "SEC00332"
+      ]
+    },
+    "T0122": {
+      "section_count": 1,
+      "student_count": 94,
+      "sections": [
+        "SEC00338"
+      ]
+    },
+    "T0152": {
+      "section_count": 1,
+      "student_count": 94,
+      "sections": [
+        "SEC00339"
+      ]
+    },
+    "T0162": {
+      "section_count": 1,
+      "student_count": 92,
+      "sections": [
+        "SEC00346"
+      ]
+    }
+  },
+  "statistics": {
+    "teacher_nodes": 188,
+    "section_links": 346,
+    "student_impact_links": 40220
+  }
+}

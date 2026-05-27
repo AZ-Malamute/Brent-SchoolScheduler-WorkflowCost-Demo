@@ -3,52 +3,181 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
 <title>Workflow Cost Scheduler Demo</title>
+
 <style>
-body{font-family:-apple-system,BlinkMacSystemFont,sans-serif;max-width:1200px;margin:40px auto;padding:20px;background:#f5f7fa}
-.card{background:white;padding:20px;border-radius:12px;box-shadow:0 2px 8px rgba(0,0,0,.1);margin:20px 0}
-table{width:100%;border-collapse:collapse}
-th,td{padding:12px;border:1px solid #ddd}
-th{background:#111827;color:white}
-.button{display:inline-block;padding:12px 20px;background:#111827;color:white;text-decoration:none;border-radius:8px}
+
+:root {
+    --source-truth-blue: #002FA7;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #f5f7fa;
+    color: #222;
+}
+
+h1 {
+    color: var(--source-truth-blue);
+    font-size: 56px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: var(--source-truth-blue);
+    font-weight: 700;
+}
+
+.card {
+    background: white;
+    padding: 24px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,.10);
+    margin: 24px 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+
+th {
+    background: var(--source-truth-blue);
+    color: white;
+}
+
+.button {
+    display: inline-block;
+    padding: 14px 24px;
+    background: var(--source-truth-blue);
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+.source-truth {
+    color: var(--source-truth-blue);
+    font-size: 32px;
+    font-weight: 900;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+
+.footer {
+    margin-top: 40px;
+    color: #666;
+}
+
 </style>
 </head>
+
 <body>
+
 <h1>Workflow Cost Scheduler Demo</h1>
-<p><strong>Fifteen minutes ago this did not exist.</strong></p>
+
+<p>
+<strong>Fifteen minutes ago this did not exist.</strong>
+</p>
 
 <div class="card">
 <h2>What You're Looking At</h2>
-<p>A proof-of-concept demonstrating how quickly an idea can move from conversation to implementation when workflow friction is reduced.</p>
+
+<p>
+A proof-of-concept demonstrating how quickly an idea can move from conversation to implementation when workflow friction is reduced.
+</p>
+
+<p>
+This is not production software.
+This is a demonstration of workflow velocity.
+</p>
 </div>
 
 <div class="card">
+
 <h2>Sample Schedule</h2>
+
 <table>
-<tr><th>Period</th><th>Teacher</th><th>Room</th><th>Class</th></tr>
-<tr><td>1</td><td>Smith</td><td>101</td><td>Algebra I</td></tr>
-<tr><td>1</td><td>Jones</td><td>205</td><td>Biology</td></tr>
-<tr><td>2</td><td>Brown</td><td>101</td><td>Geometry</td></tr>
-<tr><td>2</td><td>Taylor</td><td>205</td><td>Chemistry</td></tr>
+<tr>
+<th>Period</th>
+<th>Teacher</th>
+<th>Room</th>
+<th>Class</th>
+</tr>
+
+<tr>
+<td>1</td>
+<td>Smith</td>
+<td>101</td>
+<td>Algebra I</td>
+</tr>
+
+<tr>
+<td>1</td>
+<td>Jones</td>
+<td>205</td>
+<td>Biology</td>
+</tr>
+
+<tr>
+<td>2</td>
+<td>Brown</td>
+<td>101</td>
+<td>Geometry</td>
+</tr>
+
+<tr>
+<td>2</td>
+<td>Taylor</td>
+<td>205</td>
+<td>Chemistry</td>
+</tr>
+
 </table>
+
 </div>
 
 <div class="card">
+
 <h2>Why This Matters</h2>
+
 <ul>
 <li>Teacher conflicts become visible immediately</li>
 <li>Room conflicts become visible immediately</li>
 <li>Workflow costs become measurable</li>
 <li>Rapid prototyping becomes possible</li>
+<li>Source-truth data becomes auditable</li>
 </ul>
+
 </div>
 
 <p>
-<a class="button" href="https://github.com/AZ-Malamute/Brent-SchoolScheduler-WorkflowCost-Demo" target="_blank">
-View Source Repository
+<a class="button"
+href="https://github.com/AZ-Malamute/Brent-SchoolScheduler-WorkflowCost-Demo"
+target="_blank">
+View GitHub Repository
 </a>
 </p>
 
-<p><em>Workflow Cost Scheduler Demo — Greg Gasson</em></p>
+<div class="source-truth">
+SOURCE OF TRUTH
+</div>
+
+<div class="footer">
+Workflow Cost Scheduler Demo<br>
+Greg Gasson • Yves Klein Blue Edition
+</div>
+
 </body>
 </html>

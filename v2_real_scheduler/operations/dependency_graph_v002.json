@@ -1,0 +1,2080 @@
+{
+  "sections": {
+    "SEC00001": {
+      "teacher_id": "T0079",
+      "room_id": "R0162",
+      "period": "1",
+      "student_count": 70
+    },
+    "SEC00002": {
+      "teacher_id": "T0079",
+      "room_id": "R0059",
+      "period": "1",
+      "student_count": 102
+    },
+    "SEC00003": {
+      "teacher_id": "T0176",
+      "room_id": "R0174",
+      "period": "4",
+      "student_count": 85
+    },
+    "SEC00004": {
+      "teacher_id": "T0176",
+      "room_id": "R0023",
+      "period": "4",
+      "student_count": 80
+    },
+    "SEC00005": {
+      "teacher_id": "T0158",
+      "room_id": "R0005",
+      "period": "3",
+      "student_count": 102
+    },
+    "SEC00006": {
+      "teacher_id": "T0158",
+      "room_id": "R0013",
+      "period": "3",
+      "student_count": 92
+    },
+    "SEC00007": {
+      "teacher_id": "T0232",
+      "room_id": "R0024",
+      "period": "7",
+      "student_count": 103
+    },
+    "SEC00008": {
+      "teacher_id": "T0232",
+      "room_id": "R0051",
+      "period": "7",
+      "student_count": 78
+    },
+    "SEC00009": {
+      "teacher_id": "T0091",
+      "room_id": "R0081",
+      "period": "6",
+      "student_count": 76
+    },
+    "SEC00010": {
+      "teacher_id": "T0091",
+      "room_id": "R0034",
+      "period": "6",
+      "student_count": 101
+    },
+    "SEC00011": {
+      "teacher_id": "T0149",
+      "room_id": "R0162",
+      "period": "3",
+      "student_count": 95
+    },
+    "SEC00012": {
+      "teacher_id": "T0149",
+      "room_id": "R0166",
+      "period": "3",
+      "student_count": 66
+    },
+    "SEC00013": {
+      "teacher_id": "T0026",
+      "room_id": "R0155",
+      "period": "6",
+      "student_count": 84
+    },
+    "SEC00014": {
+      "teacher_id": "T0026",
+      "room_id": "R0042",
+      "period": "6",
+      "student_count": 101
+    },
+    "SEC00015": {
+      "teacher_id": "T0258",
+      "room_id": "R0132",
+      "period": "3",
+      "student_count": 88
+    },
+    "SEC00016": {
+      "teacher_id": "T0258",
+      "room_id": "R0131",
+      "period": "3",
+      "student_count": 86
+    },
+    "SEC00017": {
+      "teacher_id": "T0091",
+      "room_id": "R0084",
+      "period": "1",
+      "student_count": 84
+    },
+    "SEC00018": {
+      "teacher_id": "T0091",
+      "room_id": "R0033",
+      "period": "1",
+      "student_count": 98
+    },
+    "SEC00019": {
+      "teacher_id": "T0105",
+      "room_id": "R0111",
+      "period": "6",
+      "student_count": 173
+    },
+    "SEC00020": {
+      "teacher_id": "T0105",
+      "room_id": "R0031",
+      "period": "6",
+      "student_count": 180
+    },
+    "SEC00021": {
+      "teacher_id": "T0230",
+      "room_id": "R0028",
+      "period": "8",
+      "student_count": 201
+    },
+    "SEC00022": {
+      "teacher_id": "T0235",
+      "room_id": "R0057",
+      "period": "6",
+      "student_count": 172
+    },
+    "SEC00023": {
+      "teacher_id": "T0063",
+      "room_id": "R0032",
+      "period": "6",
+      "student_count": 186
+    },
+    "SEC00024": {
+      "teacher_id": "T0177",
+      "room_id": "R0012",
+      "period": "4",
+      "student_count": 157
+    },
+    "SEC00025": {
+      "teacher_id": "T0002",
+      "room_id": "R0061",
+      "period": "8",
+      "student_count": 179
+    },
+    "SEC00026": {
+      "teacher_id": "T0221",
+      "room_id": "R0118",
+      "period": "2",
+      "student_count": 186
+    },
+    "SEC00027": {
+      "teacher_id": "T0024",
+      "room_id": "R0094",
+      "period": "2",
+      "student_count": 163
+    },
+    "SEC00028": {
+      "teacher_id": "T0143",
+      "room_id": "R0052",
+      "period": "4",
+      "student_count": 114
+    },
+    "SEC00029": {
+      "teacher_id": "T0061",
+      "room_id": "R0019",
+      "period": "7",
+      "student_count": 88
+    },
+    "SEC00030": {
+      "teacher_id": "T0190",
+      "room_id": "R0091",
+      "period": "2",
+      "student_count": 92
+    },
+    "SEC00031": {
+      "teacher_id": "T0050",
+      "room_id": "R0073",
+      "period": "7",
+      "student_count": 75
+    },
+    "SEC00032": {
+      "teacher_id": "T0137",
+      "room_id": "R0156",
+      "period": "4",
+      "student_count": 95
+    },
+    "SEC00033": {
+      "teacher_id": "T0244",
+      "room_id": "R0141",
+      "period": "6",
+      "student_count": 97
+    },
+    "SEC00034": {
+      "teacher_id": "T0182",
+      "room_id": "R0160",
+      "period": "4",
+      "student_count": 84
+    },
+    "SEC00035": {
+      "teacher_id": "T0072",
+      "room_id": "R0165",
+      "period": "3",
+      "student_count": 111
+    },
+    "SEC00036": {
+      "teacher_id": "T0150",
+      "room_id": "R0093",
+      "period": "2",
+      "student_count": 83
+    },
+    "SEC00037": {
+      "teacher_id": "T0171",
+      "room_id": "R0087",
+      "period": "6",
+      "student_count": 97
+    },
+    "SEC00038": {
+      "teacher_id": "T0136",
+      "room_id": "R0035",
+      "period": "7",
+      "student_count": 104
+    },
+    "SEC00039": {
+      "teacher_id": "T0028",
+      "room_id": "R0148",
+      "period": "8",
+      "student_count": 93
+    },
+    "SEC00040": {
+      "teacher_id": "T0017",
+      "room_id": "R0041",
+      "period": "5",
+      "student_count": 74
+    },
+    "SEC00041": {
+      "teacher_id": "T0066",
+      "room_id": "R0031",
+      "period": "8",
+      "student_count": 95
+    },
+    "SEC00042": {
+      "teacher_id": "T0220",
+      "room_id": "R0031",
+      "period": "8",
+      "student_count": 93
+    },
+    "SEC00043": {
+      "teacher_id": "T0044",
+      "room_id": "R0099",
+      "period": "6",
+      "student_count": 82
+    },
+    "SEC00044": {
+      "teacher_id": "T0164",
+      "room_id": "R0099",
+      "period": "6",
+      "student_count": 105
+    },
+    "SEC00045": {
+      "teacher_id": "T0182",
+      "room_id": "R0147",
+      "period": "1",
+      "student_count": 70
+    },
+    "SEC00046": {
+      "teacher_id": "T0194",
+      "room_id": "R0147",
+      "period": "1",
+      "student_count": 160
+    },
+    "SEC00047": {
+      "teacher_id": "T0140",
+      "room_id": "R0048",
+      "period": "7",
+      "student_count": 148
+    },
+    "SEC00048": {
+      "teacher_id": "T0041",
+      "room_id": "R0048",
+      "period": "7",
+      "student_count": 151
+    },
+    "SEC00049": {
+      "teacher_id": "T0200",
+      "room_id": "R0029",
+      "period": "6",
+      "student_count": 164
+    },
+    "SEC00050": {
+      "teacher_id": "T0058",
+      "room_id": "R0029",
+      "period": "6",
+      "student_count": 147
+    },
+    "SEC00051": {
+      "teacher_id": "T0027",
+      "room_id": "R0073",
+      "period": "5",
+      "student_count": 147
+    },
+    "SEC00052": {
+      "teacher_id": "T0132",
+      "room_id": "R0073",
+      "period": "5",
+      "student_count": 122
+    },
+    "SEC00053": {
+      "teacher_id": "T0057",
+      "room_id": "R0157",
+      "period": "2",
+      "student_count": 169
+    },
+    "SEC00054": {
+      "teacher_id": "T0026",
+      "room_id": "R0157",
+      "period": "2",
+      "student_count": 143
+    },
+    "SEC00055": {
+      "teacher_id": "T0169",
+      "room_id": "R0141",
+      "period": "2",
+      "student_count": 157
+    },
+    "SEC00056": {
+      "teacher_id": "T0129",
+      "room_id": "R0141",
+      "period": "2",
+      "student_count": 158
+    },
+    "SEC00057": {
+      "teacher_id": "T0214",
+      "room_id": "R0080",
+      "period": "7",
+      "student_count": 75
+    },
+    "SEC00058": {
+      "teacher_id": "T0131",
+      "room_id": "R0080",
+      "period": "7",
+      "student_count": 87
+    },
+    "SEC00059": {
+      "teacher_id": "T0219",
+      "room_id": "R0151",
+      "period": "3",
+      "student_count": 94
+    },
+    "SEC00060": {
+      "teacher_id": "T0214",
+      "room_id": "R0151",
+      "period": "3",
+      "student_count": 101
+    },
+    "SEC00061": {
+      "teacher_id": "T0096",
+      "room_id": "R0062",
+      "period": "3",
+      "student_count": 94
+    },
+    "SEC00062": {
+      "teacher_id": "T0193",
+      "room_id": "R0062",
+      "period": "3",
+      "student_count": 86
+    },
+    "SEC00063": {
+      "teacher_id": "T0124",
+      "room_id": "R0176",
+      "period": "8",
+      "student_count": 84
+    },
+    "SEC00064": {
+      "teacher_id": "T0223",
+      "room_id": "R0176",
+      "period": "8",
+      "student_count": 86
+    },
+    "SEC00065": {
+      "teacher_id": "T0043",
+      "room_id": "R0012",
+      "period": "6",
+      "student_count": 91
+    },
+    "SEC00066": {
+      "teacher_id": "T0042",
+      "room_id": "R0012",
+      "period": "6",
+      "student_count": 82
+    },
+    "SEC00067": {
+      "teacher_id": "T0128",
+      "room_id": "R0121",
+      "period": "7",
+      "student_count": 86
+    },
+    "SEC00068": {
+      "teacher_id": "T0145",
+      "room_id": "R0121",
+      "period": "7",
+      "student_count": 71
+    },
+    "SEC00069": {
+      "teacher_id": "T0254",
+      "room_id": "R0053",
+      "period": "2",
+      "student_count": 78
+    },
+    "SEC00070": {
+      "teacher_id": "T0128",
+      "room_id": "R0053",
+      "period": "2",
+      "student_count": 82
+    },
+    "SEC00071": {
+      "teacher_id": "T0231",
+      "room_id": "R0180",
+      "period": "7",
+      "student_count": 76
+    },
+    "SEC00072": {
+      "teacher_id": "T0051",
+      "room_id": "R0054",
+      "period": "1",
+      "student_count": 98
+    },
+    "SEC00073": {
+      "teacher_id": "T0195",
+      "room_id": "R0015",
+      "period": "2",
+      "student_count": 110
+    },
+    "SEC00074": {
+      "teacher_id": "T0002",
+      "room_id": "R0048",
+      "period": "4",
+      "student_count": 100
+    },
+    "SEC00075": {
+      "teacher_id": "T0140",
+      "room_id": "R0124",
+      "period": "1",
+      "student_count": 208
+    },
+    "SEC00076": {
+      "teacher_id": "T0172",
+      "room_id": "R0058",
+      "period": "5",
+      "student_count": 212
+    },
+    "SEC00077": {
+      "teacher_id": "T0060",
+      "room_id": "R0020",
+      "period": "1",
+      "student_count": 199
+    },
+    "SEC00078": {
+      "teacher_id": "T0078",
+      "room_id": "R0104",
+      "period": "8",
+      "student_count": 216
+    },
+    "SEC00079": {
+      "teacher_id": "T0237",
+      "room_id": "R0131",
+      "period": "5",
+      "student_count": 206
+    },
+    "SEC00080": {
+      "teacher_id": "T0143",
+      "room_id": "R0093",
+      "period": "1",
+      "student_count": 211
+    },
+    "SEC00081": {
+      "teacher_id": "T0249",
+      "room_id": "R0003",
+      "period": "4",
+      "student_count": 184
+    },
+    "SEC00082": {
+      "teacher_id": "T0177",
+      "room_id": "R0099",
+      "period": "3",
+      "student_count": 211
+    },
+    "SEC00083": {
+      "teacher_id": "T0202",
+      "room_id": "R0054",
+      "period": "4",
+      "student_count": 83
+    },
+    "SEC00084": {
+      "teacher_id": "T0158",
+      "room_id": "R0033",
+      "period": "3",
+      "student_count": 90
+    },
+    "SEC00085": {
+      "teacher_id": "T0143",
+      "room_id": "R0025",
+      "period": "3",
+      "student_count": 80
+    },
+    "SEC00086": {
+      "teacher_id": "T0091",
+      "room_id": "R0131",
+      "period": "6",
+      "student_count": 99
+    },
+    "SEC00087": {
+      "teacher_id": "T0005",
+      "room_id": "R0043",
+      "period": "2",
+      "student_count": 100
+    },
+    "SEC00088": {
+      "teacher_id": "T0073",
+      "room_id": "R0085",
+      "period": "7",
+      "student_count": 105
+    },
+    "SEC00089": {
+      "teacher_id": "T0075",
+      "room_id": "R0158",
+      "period": "7",
+      "student_count": 101
+    },
+    "SEC00090": {
+      "teacher_id": "T0212",
+      "room_id": "R0041",
+      "period": "8",
+      "student_count": 111
+    },
+    "SEC00091": {
+      "teacher_id": "T0103",
+      "room_id": "R0140",
+      "period": "4",
+      "student_count": 89
+    },
+    "SEC00092": {
+      "teacher_id": "T0190",
+      "room_id": "R0006",
+      "period": "7",
+      "student_count": 89
+    },
+    "SEC00093": {
+      "teacher_id": "T0115",
+      "room_id": "R0158",
+      "period": "8",
+      "student_count": 122
+    },
+    "SEC00094": {
+      "teacher_id": "T0175",
+      "room_id": "R0153",
+      "period": "5",
+      "student_count": 91
+    },
+    "SEC00095": {
+      "teacher_id": "T0205",
+      "room_id": "R0119",
+      "period": "3",
+      "student_count": 99
+    },
+    "SEC00096": {
+      "teacher_id": "T0161",
+      "room_id": "R0134",
+      "period": "4",
+      "student_count": 104
+    },
+    "SEC00097": {
+      "teacher_id": "T0019",
+      "room_id": "R0183",
+      "period": "6",
+      "student_count": 110
+    },
+    "SEC00098": {
+      "teacher_id": "T0019",
+      "room_id": "R0037",
+      "period": "6",
+      "student_count": 120
+    },
+    "SEC00099": {
+      "teacher_id": "T0146",
+      "room_id": "R0142",
+      "period": "7",
+      "student_count": 156
+    },
+    "SEC00100": {
+      "teacher_id": "T0171",
+      "room_id": "R0042",
+      "period": "1",
+      "student_count": 150
+    },
+    "SEC00101": {
+      "teacher_id": "T0228",
+      "room_id": "R0151",
+      "period": "5",
+      "student_count": 160
+    },
+    "SEC00102": {
+      "teacher_id": "T0212",
+      "room_id": "R0124",
+      "period": "6",
+      "student_count": 162
+    },
+    "SEC00103": {
+      "teacher_id": "T0085",
+      "room_id": "R0130",
+      "period": "2",
+      "student_count": 149
+    },
+    "SEC00104": {
+      "teacher_id": "T0003",
+      "room_id": "R0033",
+      "period": "4",
+      "student_count": 144
+    },
+    "SEC00105": {
+      "teacher_id": "T0074",
+      "room_id": "R0055",
+      "period": "6",
+      "student_count": 128
+    },
+    "SEC00106": {
+      "teacher_id": "T0137",
+      "room_id": "R0013",
+      "period": "3",
+      "student_count": 127
+    },
+    "SEC00107": {
+      "teacher_id": "T0044",
+      "room_id": "R0092",
+      "period": "7",
+      "student_count": 152
+    },
+    "SEC00108": {
+      "teacher_id": "T0092",
+      "room_id": "R0040",
+      "period": "8",
+      "student_count": 154
+    },
+    "SEC00109": {
+      "teacher_id": "T0203",
+      "room_id": "R0007",
+      "period": "1",
+      "student_count": 166
+    },
+    "SEC00110": {
+      "teacher_id": "T0041",
+      "room_id": "R0180",
+      "period": "4",
+      "student_count": 118
+    },
+    "SEC00111": {
+      "teacher_id": "T0024",
+      "room_id": "R0011",
+      "period": "1",
+      "student_count": 148
+    },
+    "SEC00112": {
+      "teacher_id": "T0121",
+      "room_id": "R0139",
+      "period": "3",
+      "student_count": 116
+    },
+    "SEC00113": {
+      "teacher_id": "T0009",
+      "room_id": "R0003",
+      "period": "7",
+      "student_count": 115
+    },
+    "SEC00114": {
+      "teacher_id": "T0062",
+      "room_id": "R0087",
+      "period": "8",
+      "student_count": 101
+    },
+    "SEC00115": {
+      "teacher_id": "T0127",
+      "room_id": "R0012",
+      "period": "5",
+      "student_count": 106
+    },
+    "SEC00116": {
+      "teacher_id": "T0139",
+      "room_id": "R0136",
+      "period": "1",
+      "student_count": 122
+    },
+    "SEC00117": {
+      "teacher_id": "T0067",
+      "room_id": "R0004",
+      "period": "4",
+      "student_count": 120
+    },
+    "SEC00118": {
+      "teacher_id": "T0014",
+      "room_id": "R0070",
+      "period": "2",
+      "student_count": 132
+    },
+    "SEC00119": {
+      "teacher_id": "T0239",
+      "room_id": "R0075",
+      "period": "2",
+      "student_count": 124
+    },
+    "SEC00120": {
+      "teacher_id": "T0144",
+      "room_id": "R0100",
+      "period": "3",
+      "student_count": 118
+    },
+    "SEC00121": {
+      "teacher_id": "T0004",
+      "room_id": "R0081",
+      "period": "7",
+      "student_count": 141
+    },
+    "SEC00122": {
+      "teacher_id": "T0207",
+      "room_id": "R0022",
+      "period": "3",
+      "student_count": 111
+    },
+    "SEC00123": {
+      "teacher_id": "T0047",
+      "room_id": "R0163",
+      "period": "5",
+      "student_count": 107
+    },
+    "SEC00124": {
+      "teacher_id": "T0132",
+      "room_id": "R0093",
+      "period": "8",
+      "student_count": 93
+    },
+    "SEC00125": {
+      "teacher_id": "T0073",
+      "room_id": "R0003",
+      "period": "1",
+      "student_count": 107
+    },
+    "SEC00126": {
+      "teacher_id": "T0215",
+      "room_id": "R0120",
+      "period": "1",
+      "student_count": 107
+    },
+    "SEC00127": {
+      "teacher_id": "T0019",
+      "room_id": "R0159",
+      "period": "8",
+      "student_count": 91
+    },
+    "SEC00128": {
+      "teacher_id": "T0225",
+      "room_id": "R0097",
+      "period": "5",
+      "student_count": 107
+    },
+    "SEC00129": {
+      "teacher_id": "T0145",
+      "room_id": "R0103",
+      "period": "1",
+      "student_count": 95
+    },
+    "SEC00130": {
+      "teacher_id": "T0123",
+      "room_id": "R0182",
+      "period": "6",
+      "student_count": 117
+    },
+    "SEC00131": {
+      "teacher_id": "T0062",
+      "room_id": "R0055",
+      "period": "2",
+      "student_count": 88
+    },
+    "SEC00132": {
+      "teacher_id": "T0174",
+      "room_id": "R0146",
+      "period": "7",
+      "student_count": 112
+    },
+    "SEC00133": {
+      "teacher_id": "T0147",
+      "room_id": "R0054",
+      "period": "1",
+      "student_count": 93
+    },
+    "SEC00134": {
+      "teacher_id": "T0144",
+      "room_id": "R0114",
+      "period": "3",
+      "student_count": 119
+    },
+    "SEC00135": {
+      "teacher_id": "T0187",
+      "room_id": "R0157",
+      "period": "8",
+      "student_count": 88
+    },
+    "SEC00136": {
+      "teacher_id": "T0228",
+      "room_id": "R0055",
+      "period": "1",
+      "student_count": 90
+    },
+    "SEC00137": {
+      "teacher_id": "T0239",
+      "room_id": "R0152",
+      "period": "5",
+      "student_count": 101
+    },
+    "SEC00138": {
+      "teacher_id": "T0042",
+      "room_id": "R0083",
+      "period": "5",
+      "student_count": 110
+    },
+    "SEC00139": {
+      "teacher_id": "T0160",
+      "room_id": "R0150",
+      "period": "7",
+      "student_count": 82
+    },
+    "SEC00140": {
+      "teacher_id": "T0141",
+      "room_id": "R0177",
+      "period": "5",
+      "student_count": 124
+    },
+    "SEC00141": {
+      "teacher_id": "T0107",
+      "room_id": "R0139",
+      "period": "8",
+      "student_count": 127
+    },
+    "SEC00142": {
+      "teacher_id": "T0042",
+      "room_id": "R0158",
+      "period": "7",
+      "student_count": 139
+    },
+    "SEC00143": {
+      "teacher_id": "T0118",
+      "room_id": "R0010",
+      "period": "4",
+      "student_count": 133
+    },
+    "SEC00144": {
+      "teacher_id": "T0181",
+      "room_id": "R0128",
+      "period": "1",
+      "student_count": 135
+    },
+    "SEC00145": {
+      "teacher_id": "T0252",
+      "room_id": "R0174",
+      "period": "2",
+      "student_count": 133
+    },
+    "SEC00146": {
+      "teacher_id": "T0197",
+      "room_id": "R0066",
+      "period": "6",
+      "student_count": 97
+    },
+    "SEC00147": {
+      "teacher_id": "T0001",
+      "room_id": "R0131",
+      "period": "2",
+      "student_count": 142
+    },
+    "SEC00148": {
+      "teacher_id": "T0242",
+      "room_id": "R0045",
+      "period": "3",
+      "student_count": 126
+    },
+    "SEC00149": {
+      "teacher_id": "T0093",
+      "room_id": "R0134",
+      "period": "5",
+      "student_count": 115
+    },
+    "SEC00150": {
+      "teacher_id": "T0059",
+      "room_id": "R0176",
+      "period": "3",
+      "student_count": 116
+    },
+    "SEC00151": {
+      "teacher_id": "T0160",
+      "room_id": "R0127",
+      "period": "4",
+      "student_count": 135
+    },
+    "SEC00152": {
+      "teacher_id": "T0202",
+      "room_id": "R0048",
+      "period": "7",
+      "student_count": 125
+    },
+    "SEC00153": {
+      "teacher_id": "T0144",
+      "room_id": "R0161",
+      "period": "2",
+      "student_count": 112
+    },
+    "SEC00154": {
+      "teacher_id": "T0242",
+      "room_id": "R0114",
+      "period": "6",
+      "student_count": 115
+    },
+    "SEC00155": {
+      "teacher_id": "T0141",
+      "room_id": "R0153",
+      "period": "7",
+      "student_count": 106
+    },
+    "SEC00156": {
+      "teacher_id": "T0260",
+      "room_id": "R0180",
+      "period": "2",
+      "student_count": 116
+    },
+    "SEC00157": {
+      "teacher_id": "T0007",
+      "room_id": "R0129",
+      "period": "3",
+      "student_count": 98
+    },
+    "SEC00158": {
+      "teacher_id": "T0095",
+      "room_id": "R0002",
+      "period": "3",
+      "student_count": 95
+    },
+    "SEC00159": {
+      "teacher_id": "T0169",
+      "room_id": "R0068",
+      "period": "8",
+      "student_count": 112
+    },
+    "SEC00160": {
+      "teacher_id": "T0057",
+      "room_id": "R0018",
+      "period": "1",
+      "student_count": 100
+    },
+    "SEC00161": {
+      "teacher_id": "T0105",
+      "room_id": "R0138",
+      "period": "3",
+      "student_count": 107
+    },
+    "SEC00162": {
+      "teacher_id": "T0136",
+      "room_id": "R0091",
+      "period": "3",
+      "student_count": 94
+    },
+    "SEC00163": {
+      "teacher_id": "T0027",
+      "room_id": "R0010",
+      "period": "1",
+      "student_count": 111
+    },
+    "SEC00164": {
+      "teacher_id": "T0016",
+      "room_id": "R0032",
+      "period": "3",
+      "student_count": 112
+    },
+    "SEC00165": {
+      "teacher_id": "T0097",
+      "room_id": "R0121",
+      "period": "5",
+      "student_count": 130
+    },
+    "SEC00166": {
+      "teacher_id": "T0224",
+      "room_id": "R0141",
+      "period": "5",
+      "student_count": 122
+    },
+    "SEC00167": {
+      "teacher_id": "T0048",
+      "room_id": "R0087",
+      "period": "5",
+      "student_count": 115
+    },
+    "SEC00168": {
+      "teacher_id": "T0101",
+      "room_id": "R0178",
+      "period": "5",
+      "student_count": 91
+    },
+    "SEC00169": {
+      "teacher_id": "T0022",
+      "room_id": "R0046",
+      "period": "3",
+      "student_count": 95
+    },
+    "SEC00170": {
+      "teacher_id": "T0038",
+      "room_id": "R0123",
+      "period": "4",
+      "student_count": 100
+    },
+    "SEC00171": {
+      "teacher_id": "T0017",
+      "room_id": "R0119",
+      "period": "6",
+      "student_count": 75
+    },
+    "SEC00172": {
+      "teacher_id": "T0106",
+      "room_id": "R0049",
+      "period": "8",
+      "student_count": 83
+    },
+    "SEC00173": {
+      "teacher_id": "T0157",
+      "room_id": "R0176",
+      "period": "1",
+      "student_count": 89
+    },
+    "SEC00174": {
+      "teacher_id": "T0059",
+      "room_id": "R0142",
+      "period": "5",
+      "student_count": 91
+    },
+    "SEC00175": {
+      "teacher_id": "T0185",
+      "room_id": "R0116",
+      "period": "6",
+      "student_count": 98
+    },
+    "SEC00176": {
+      "teacher_id": "T0064",
+      "room_id": "R0173",
+      "period": "8",
+      "student_count": 86
+    },
+    "SEC00177": {
+      "teacher_id": "T0245",
+      "room_id": "R0125",
+      "period": "2",
+      "student_count": 84
+    },
+    "SEC00178": {
+      "teacher_id": "T0006",
+      "room_id": "R0080",
+      "period": "5",
+      "student_count": 97
+    },
+    "SEC00179": {
+      "teacher_id": "T0042",
+      "room_id": "R0007",
+      "period": "1",
+      "student_count": 103
+    },
+    "SEC00180": {
+      "teacher_id": "T0185",
+      "room_id": "R0090",
+      "period": "2",
+      "student_count": 93
+    },
+    "SEC00181": {
+      "teacher_id": "T0178",
+      "room_id": "R0058",
+      "period": "2",
+      "student_count": 81
+    },
+    "SEC00182": {
+      "teacher_id": "T0051",
+      "room_id": "R0133",
+      "period": "5",
+      "student_count": 95
+    },
+    "SEC00183": {
+      "teacher_id": "T0213",
+      "room_id": "R0164",
+      "period": "5",
+      "student_count": 91
+    },
+    "SEC00184": {
+      "teacher_id": "T0100",
+      "room_id": "R0093",
+      "period": "6",
+      "student_count": 85
+    },
+    "SEC00185": {
+      "teacher_id": "T0146",
+      "room_id": "R0003",
+      "period": "2",
+      "student_count": 90
+    },
+    "SEC00186": {
+      "teacher_id": "T0184",
+      "room_id": "R0042",
+      "period": "3",
+      "student_count": 100
+    },
+    "SEC00187": {
+      "teacher_id": "T0256",
+      "room_id": "R0102",
+      "period": "7",
+      "student_count": 104
+    },
+    "SEC00188": {
+      "teacher_id": "T0181",
+      "room_id": "R0002",
+      "period": "7",
+      "student_count": 92
+    },
+    "SEC00189": {
+      "teacher_id": "T0015",
+      "room_id": "R0179",
+      "period": "5",
+      "student_count": 121
+    },
+    "SEC00190": {
+      "teacher_id": "T0080",
+      "room_id": "R0168",
+      "period": "3",
+      "student_count": 103
+    },
+    "SEC00191": {
+      "teacher_id": "T0135",
+      "room_id": "R0185",
+      "period": "8",
+      "student_count": 98
+    },
+    "SEC00192": {
+      "teacher_id": "T0048",
+      "room_id": "R0012",
+      "period": "1",
+      "student_count": 106
+    },
+    "SEC00193": {
+      "teacher_id": "T0161",
+      "room_id": "R0009",
+      "period": "8",
+      "student_count": 111
+    },
+    "SEC00194": {
+      "teacher_id": "T0180",
+      "room_id": "R0054",
+      "period": "5",
+      "student_count": 111
+    },
+    "SEC00195": {
+      "teacher_id": "T0212",
+      "room_id": "R0082",
+      "period": "1",
+      "student_count": 92
+    },
+    "SEC00196": {
+      "teacher_id": "T0086",
+      "room_id": "R0080",
+      "period": "6",
+      "student_count": 113
+    },
+    "SEC00197": {
+      "teacher_id": "T0020",
+      "room_id": "R0031",
+      "period": "1",
+      "student_count": 102
+    },
+    "SEC00198": {
+      "teacher_id": "T0091",
+      "room_id": "R0077",
+      "period": "2",
+      "student_count": 89
+    },
+    "SEC00199": {
+      "teacher_id": "T0053",
+      "room_id": "R0002",
+      "period": "4",
+      "student_count": 104
+    },
+    "SEC00200": {
+      "teacher_id": "T0072",
+      "room_id": "R0155",
+      "period": "2",
+      "student_count": 94
+    },
+    "SEC00201": {
+      "teacher_id": "T0233",
+      "room_id": "R0118",
+      "period": "2",
+      "student_count": 110
+    },
+    "SEC00202": {
+      "teacher_id": "T0147",
+      "room_id": "R0037",
+      "period": "7",
+      "student_count": 111
+    },
+    "SEC00203": {
+      "teacher_id": "T0158",
+      "room_id": "R0144",
+      "period": "8",
+      "student_count": 139
+    },
+    "SEC00204": {
+      "teacher_id": "T0210",
+      "room_id": "R0137",
+      "period": "6",
+      "student_count": 121
+    },
+    "SEC00205": {
+      "teacher_id": "T0140",
+      "room_id": "R0175",
+      "period": "1",
+      "student_count": 115
+    },
+    "SEC00206": {
+      "teacher_id": "T0040",
+      "room_id": "R0100",
+      "period": "1",
+      "student_count": 94
+    },
+    "SEC00207": {
+      "teacher_id": "T0244",
+      "room_id": "R0144",
+      "period": "1",
+      "student_count": 102
+    },
+    "SEC00208": {
+      "teacher_id": "T0076",
+      "room_id": "R0098",
+      "period": "7",
+      "student_count": 135
+    },
+    "SEC00209": {
+      "teacher_id": "T0107",
+      "room_id": "R0150",
+      "period": "6",
+      "student_count": 103
+    },
+    "SEC00210": {
+      "teacher_id": "T0040",
+      "room_id": "R0069",
+      "period": "8",
+      "student_count": 121
+    },
+    "SEC00211": {
+      "teacher_id": "T0143",
+      "room_id": "R0036",
+      "period": "3",
+      "student_count": 137
+    },
+    "SEC00212": {
+      "teacher_id": "T0249",
+      "room_id": "R0003",
+      "period": "6",
+      "student_count": 130
+    },
+    "SEC00213": {
+      "teacher_id": "T0102",
+      "room_id": "R0057",
+      "period": "7",
+      "student_count": 123
+    },
+    "SEC00214": {
+      "teacher_id": "T0234",
+      "room_id": "R0032",
+      "period": "2",
+      "student_count": 104
+    },
+    "SEC00215": {
+      "teacher_id": "T0069",
+      "room_id": "R0097",
+      "period": "5",
+      "student_count": 120
+    },
+    "SEC00216": {
+      "teacher_id": "T0063",
+      "room_id": "R0067",
+      "period": "8",
+      "student_count": 113
+    },
+    "SEC00217": {
+      "teacher_id": "T0161",
+      "room_id": "R0140",
+      "period": "5",
+      "student_count": 105
+    },
+    "SEC00218": {
+      "teacher_id": "T0008",
+      "room_id": "R0038",
+      "period": "5",
+      "student_count": 119
+    },
+    "SEC00219": {
+      "teacher_id": "T0250",
+      "room_id": "R0022",
+      "period": "1",
+      "student_count": 111
+    },
+    "SEC00220": {
+      "teacher_id": "T0156",
+      "room_id": "R0040",
+      "period": "7",
+      "student_count": 110
+    },
+    "SEC00221": {
+      "teacher_id": "T0229",
+      "room_id": "R0111",
+      "period": "6",
+      "student_count": 101
+    },
+    "SEC00222": {
+      "teacher_id": "T0236",
+      "room_id": "R0011",
+      "period": "8",
+      "student_count": 116
+    },
+    "SEC00223": {
+      "teacher_id": "T0013",
+      "room_id": "R0108",
+      "period": "5",
+      "student_count": 112
+    },
+    "SEC00224": {
+      "teacher_id": "T0072",
+      "room_id": "R0012",
+      "period": "7",
+      "student_count": 101
+    },
+    "SEC00225": {
+      "teacher_id": "T0079",
+      "room_id": "R0049",
+      "period": "4",
+      "student_count": 112
+    },
+    "SEC00226": {
+      "teacher_id": "T0036",
+      "room_id": "R0117",
+      "period": "1",
+      "student_count": 129
+    },
+    "SEC00227": {
+      "teacher_id": "T0076",
+      "room_id": "R0157",
+      "period": "4",
+      "student_count": 131
+    },
+    "SEC00228": {
+      "teacher_id": "T0123",
+      "room_id": "R0065",
+      "period": "5",
+      "student_count": 129
+    },
+    "SEC00229": {
+      "teacher_id": "T0060",
+      "room_id": "R0048",
+      "period": "6",
+      "student_count": 122
+    },
+    "SEC00230": {
+      "teacher_id": "T0071",
+      "room_id": "R0015",
+      "period": "6",
+      "student_count": 103
+    },
+    "SEC00231": {
+      "teacher_id": "T0184",
+      "room_id": "R0068",
+      "period": "4",
+      "student_count": 97
+    },
+    "SEC00232": {
+      "teacher_id": "T0181",
+      "room_id": "R0065",
+      "period": "7",
+      "student_count": 123
+    },
+    "SEC00233": {
+      "teacher_id": "T0219",
+      "room_id": "R0150",
+      "period": "7",
+      "student_count": 112
+    },
+    "SEC00234": {
+      "teacher_id": "T0036",
+      "room_id": "R0051",
+      "period": "2",
+      "student_count": 110
+    },
+    "SEC00235": {
+      "teacher_id": "T0051",
+      "room_id": "R0089",
+      "period": "3",
+      "student_count": 107
+    },
+    "SEC00236": {
+      "teacher_id": "T0150",
+      "room_id": "R0112",
+      "period": "1",
+      "student_count": 101
+    },
+    "SEC00237": {
+      "teacher_id": "T0069",
+      "room_id": "R0043",
+      "period": "3",
+      "student_count": 109
+    },
+    "SEC00238": {
+      "teacher_id": "T0023",
+      "room_id": "R0079",
+      "period": "6",
+      "student_count": 105
+    },
+    "SEC00239": {
+      "teacher_id": "T0209",
+      "room_id": "R0077",
+      "period": "4",
+      "student_count": 120
+    },
+    "SEC00240": {
+      "teacher_id": "T0030",
+      "room_id": "R0154",
+      "period": "6",
+      "student_count": 101
+    },
+    "SEC00241": {
+      "teacher_id": "T0226",
+      "room_id": "R0093",
+      "period": "5",
+      "student_count": 108
+    },
+    "SEC00242": {
+      "teacher_id": "T0241",
+      "room_id": "R0136",
+      "period": "8",
+      "student_count": 98
+    },
+    "SEC00243": {
+      "teacher_id": "T0030",
+      "room_id": "R0024",
+      "period": "3",
+      "student_count": 115
+    },
+    "SEC00244": {
+      "teacher_id": "T0246",
+      "room_id": "R0137",
+      "period": "5",
+      "student_count": 103
+    },
+    "SEC00245": {
+      "teacher_id": "T0036",
+      "room_id": "R0152",
+      "period": "7",
+      "student_count": 101
+    },
+    "SEC00246": {
+      "teacher_id": "T0149",
+      "room_id": "R0064",
+      "period": "7",
+      "student_count": 93
+    },
+    "SEC00247": {
+      "teacher_id": "T0232",
+      "room_id": "R0185",
+      "period": "7",
+      "student_count": 100
+    },
+    "SEC00248": {
+      "teacher_id": "T0019",
+      "room_id": "R0069",
+      "period": "5",
+      "student_count": 91
+    },
+    "SEC00249": {
+      "teacher_id": "T0091",
+      "room_id": "R0089",
+      "period": "5",
+      "student_count": 98
+    },
+    "SEC00250": {
+      "teacher_id": "T0254",
+      "room_id": "R0033",
+      "period": "2",
+      "student_count": 95
+    },
+    "SEC00251": {
+      "teacher_id": "T0161",
+      "room_id": "R0184",
+      "period": "3",
+      "student_count": 98
+    },
+    "SEC00252": {
+      "teacher_id": "T0026",
+      "room_id": "R0039",
+      "period": "7",
+      "student_count": 97
+    },
+    "SEC00253": {
+      "teacher_id": "T0119",
+      "room_id": "R0097",
+      "period": "2",
+      "student_count": 86
+    },
+    "SEC00254": {
+      "teacher_id": "T0145",
+      "room_id": "R0178",
+      "period": "8",
+      "student_count": 94
+    },
+    "SEC00255": {
+      "teacher_id": "T0016",
+      "room_id": "R0053",
+      "period": "8",
+      "student_count": 94
+    },
+    "SEC00256": {
+      "teacher_id": "T0208",
+      "room_id": "R0127",
+      "period": "5",
+      "student_count": 100
+    },
+    "SEC00257": {
+      "teacher_id": "T0194",
+      "room_id": "R0122",
+      "period": "5",
+      "student_count": 84
+    },
+    "SEC00258": {
+      "teacher_id": "T0057",
+      "room_id": "R0174",
+      "period": "6",
+      "student_count": 102
+    },
+    "SEC00259": {
+      "teacher_id": "T0006",
+      "room_id": "R0124",
+      "period": "3",
+      "student_count": 93
+    },
+    "SEC00260": {
+      "teacher_id": "T0003",
+      "room_id": "R0086",
+      "period": "4",
+      "student_count": 110
+    },
+    "SEC00261": {
+      "teacher_id": "T0193",
+      "room_id": "R0089",
+      "period": "3",
+      "student_count": 84
+    },
+    "SEC00262": {
+      "teacher_id": "T0259",
+      "room_id": "R0111",
+      "period": "3",
+      "student_count": 118
+    },
+    "SEC00263": {
+      "teacher_id": "T0151",
+      "room_id": "R0063",
+      "period": "7",
+      "student_count": 107
+    },
+    "SEC00264": {
+      "teacher_id": "T0113",
+      "room_id": "R0047",
+      "period": "4",
+      "student_count": 112
+    },
+    "SEC00265": {
+      "teacher_id": "T0228",
+      "room_id": "R0124",
+      "period": "4",
+      "student_count": 92
+    },
+    "SEC00266": {
+      "teacher_id": "T0218",
+      "room_id": "R0092",
+      "period": "5",
+      "student_count": 110
+    },
+    "SEC00267": {
+      "teacher_id": "T0234",
+      "room_id": "R0080",
+      "period": "5",
+      "student_count": 100
+    },
+    "SEC00268": {
+      "teacher_id": "T0237",
+      "room_id": "R0042",
+      "period": "4",
+      "student_count": 86
+    },
+    "SEC00269": {
+      "teacher_id": "T0017",
+      "room_id": "R0167",
+      "period": "8",
+      "student_count": 105
+    },
+    "SEC00270": {
+      "teacher_id": "T0087",
+      "room_id": "R0176",
+      "period": "1",
+      "student_count": 112
+    },
+    "SEC00271": {
+      "teacher_id": "T0247",
+      "room_id": "R0007",
+      "period": "3",
+      "student_count": 93
+    },
+    "SEC00272": {
+      "teacher_id": "T0012",
+      "room_id": "R0054",
+      "period": "1",
+      "student_count": 100
+    },
+    "SEC00273": {
+      "teacher_id": "T0065",
+      "room_id": "R0091",
+      "period": "3",
+      "student_count": 109
+    },
+    "SEC00274": {
+      "teacher_id": "T0141",
+      "room_id": "R0040",
+      "period": "1",
+      "student_count": 128
+    },
+    "SEC00275": {
+      "teacher_id": "T0057",
+      "room_id": "R0092",
+      "period": "4",
+      "student_count": 111
+    },
+    "SEC00276": {
+      "teacher_id": "T0144",
+      "room_id": "R0140",
+      "period": "4",
+      "student_count": 93
+    },
+    "SEC00277": {
+      "teacher_id": "T0054",
+      "room_id": "R0150",
+      "period": "7",
+      "student_count": 105
+    },
+    "SEC00278": {
+      "teacher_id": "T0085",
+      "room_id": "R0160",
+      "period": "1",
+      "student_count": 106
+    },
+    "SEC00279": {
+      "teacher_id": "T0217",
+      "room_id": "R0183",
+      "period": "2",
+      "student_count": 92
+    },
+    "SEC00280": {
+      "teacher_id": "T0157",
+      "room_id": "R0177",
+      "period": "8",
+      "student_count": 96
+    },
+    "SEC00281": {
+      "teacher_id": "T0048",
+      "room_id": "R0013",
+      "period": "6",
+      "student_count": 101
+    },
+    "SEC00282": {
+      "teacher_id": "T0007",
+      "room_id": "R0057",
+      "period": "1",
+      "student_count": 83
+    },
+    "SEC00283": {
+      "teacher_id": "T0078",
+      "room_id": "R0080",
+      "period": "5",
+      "student_count": 100
+    },
+    "SEC00284": {
+      "teacher_id": "T0205",
+      "room_id": "R0154",
+      "period": "7",
+      "student_count": 103
+    },
+    "SEC00285": {
+      "teacher_id": "T0138",
+      "room_id": "R0118",
+      "period": "3",
+      "student_count": 92
+    },
+    "SEC00286": {
+      "teacher_id": "T0210",
+      "room_id": "R0025",
+      "period": "3",
+      "student_count": 81
+    },
+    "SEC00287": {
+      "teacher_id": "T0185",
+      "room_id": "R0177",
+      "period": "2",
+      "student_count": 91
+    },
+    "SEC00288": {
+      "teacher_id": "T0081",
+      "room_id": "R0067",
+      "period": "1",
+      "student_count": 100
+    },
+    "SEC00289": {
+      "teacher_id": "T0223",
+      "room_id": "R0114",
+      "period": "4",
+      "student_count": 105
+    },
+    "SEC00290": {
+      "teacher_id": "T0161",
+      "room_id": "R0089",
+      "period": "6",
+      "student_count": 97
+    },
+    "SEC00291": {
+      "teacher_id": "T0197",
+      "room_id": "R0155",
+      "period": "8",
+      "student_count": 98
+    },
+    "SEC00292": {
+      "teacher_id": "T0235",
+      "room_id": "R0100",
+      "period": "4",
+      "student_count": 90
+    },
+    "SEC00293": {
+      "teacher_id": "T0185",
+      "room_id": "R0044",
+      "period": "6",
+      "student_count": 97
+    },
+    "SEC00294": {
+      "teacher_id": "T0001",
+      "room_id": "R0167",
+      "period": "7",
+      "student_count": 118
+    },
+    "SEC00295": {
+      "teacher_id": "T0198",
+      "room_id": "R0175",
+      "period": "6",
+      "student_count": 125
+    },
+    "SEC00296": {
+      "teacher_id": "T0095",
+      "room_id": "R0013",
+      "period": "1",
+      "student_count": 131
+    },
+    "SEC00297": {
+      "teacher_id": "T0257",
+      "room_id": "R0069",
+      "period": "7",
+      "student_count": 122
+    },
+    "SEC00298": {
+      "teacher_id": "T0132",
+      "room_id": "R0033",
+      "period": "2",
+      "student_count": 120
+    },
+    "SEC00299": {
+      "teacher_id": "T0159",
+      "room_id": "R0086",
+      "period": "1",
+      "student_count": 166
+    },
+    "SEC00300": {
+      "teacher_id": "T0041",
+      "room_id": "R0002",
+      "period": "2",
+      "student_count": 129
+    },
+    "SEC00301": {
+      "teacher_id": "T0088",
+      "room_id": "R0008",
+      "period": "4",
+      "student_count": 147
+    },
+    "SEC00302": {
+      "teacher_id": "T0188",
+      "room_id": "R0082",
+      "period": "2",
+      "student_count": 136
+    },
+    "SEC00303": {
+      "teacher_id": "T0007",
+      "room_id": "R0113",
+      "period": "3",
+      "student_count": 134
+    },
+    "SEC00304": {
+      "teacher_id": "T0167",
+      "room_id": "R0117",
+      "period": "1",
+      "student_count": 151
+    },
+    "SEC00305": {
+      "teacher_id": "T0260",
+      "room_id": "R0043",
+      "period": "4",
+      "student_count": 131
+    },
+    "SEC00306": {
+      "teacher_id": "T0116",
+      "room_id": "R0009",
+      "period": "3",
+      "student_count": 202
+    },
+    "SEC00307": {
+      "teacher_id": "T0060",
+      "room_id": "R0173",
+      "period": "7",
+      "student_count": 184
+    },
+    "SEC00308": {
+      "teacher_id": "T0042",
+      "room_id": "R0022",
+      "period": "8",
+      "student_count": 208
+    },
+    "SEC00309": {
+      "teacher_id": "T0088",
+      "room_id": "R0092",
+      "period": "8",
+      "student_count": 202
+    },
+    "SEC00310": {
+      "teacher_id": "T0073",
+      "room_id": "R0008",
+      "period": "5",
+      "student_count": 176
+    },
+    "SEC00311": {
+      "teacher_id": "T0088",
+      "room_id": "R0015",
+      "period": "3",
+      "student_count": 207
+    },
+    "SEC00312": {
+      "teacher_id": "T0093",
+      "room_id": "R0159",
+      "period": "5",
+      "student_count": 175
+    },
+    "SEC00313": {
+      "teacher_id": "T0067",
+      "room_id": "R0146",
+      "period": "4",
+      "student_count": 192
+    },
+    "SEC00314": {
+      "teacher_id": "T0097",
+      "room_id": "R0060",
+      "period": "1",
+      "student_count": 212
+    },
+    "SEC00315": {
+      "teacher_id": "T0236",
+      "room_id": "R0072",
+      "period": "7",
+      "student_count": 217
+    },
+    "SEC00316": {
+      "teacher_id": "T0022",
+      "room_id": "R0033",
+      "period": "6",
+      "student_count": 216
+    },
+    "SEC00317": {
+      "teacher_id": "T0142",
+      "room_id": "R0172",
+      "period": "3",
+      "student_count": 187
+    },
+    "SEC00318": {
+      "teacher_id": "T0093",
+      "room_id": "R0137",
+      "period": "5",
+      "student_count": 196
+    },
+    "SEC00319": {
+      "teacher_id": "T0079",
+      "room_id": "R0070",
+      "period": "4",
+      "student_count": 218
+    },
+    "SEC00320": {
+      "teacher_id": "T0225",
+      "room_id": "R0118",
+      "period": "4",
+      "student_count": 195
+    },
+    "SEC00321": {
+      "teacher_id": "T0167",
+      "room_id": "R0112",
+      "period": "7",
+      "student_count": 230
+    },
+    "SEC00322": {
+      "teacher_id": "T0245",
+      "room_id": "R0143",
+      "period": "4",
+      "student_count": 179
+    },
+    "SEC00323": {
+      "teacher_id": "T0208",
+      "room_id": "R0103",
+      "period": "8",
+      "student_count": 175
+    },
+    "SEC00324": {
+      "teacher_id": "T0239",
+      "room_id": "R0078",
+      "period": "6",
+      "student_count": 186
+    },
+    "SEC00325": {
+      "teacher_id": "T0134",
+      "room_id": "R0076",
+      "period": "8",
+      "student_count": 186
+    },
+    "SEC00326": {
+      "teacher_id": "T0204",
+      "room_id": "R0048",
+      "period": "7",
+      "student_count": 189
+    },
+    "SEC00327": {
+      "teacher_id": "T0067",
+      "room_id": "R0112",
+      "period": "3",
+      "student_count": 183
+    },
+    "SEC00328": {
+      "teacher_id": "T0257",
+      "room_id": "R0005",
+      "period": "5",
+      "student_count": 169
+    },
+    "SEC00329": {
+      "teacher_id": "T0115",
+      "room_id": "R0091",
+      "period": "8",
+      "student_count": 192
+    },
+    "SEC00330": {
+      "teacher_id": "T0021",
+      "room_id": "R0002",
+      "period": "5",
+      "student_count": 172
+    },
+    "SEC00331": {
+      "teacher_id": "T0038",
+      "room_id": "R0124",
+      "period": "3",
+      "student_count": 115
+    },
+    "SEC00332": {
+      "teacher_id": "T0068",
+      "room_id": "R0021",
+      "period": "1",
+      "student_count": 100
+    },
+    "SEC00333": {
+      "teacher_id": "T0247",
+      "room_id": "R0080",
+      "period": "2",
+      "student_count": 108
+    },
+    "SEC00334": {
+      "teacher_id": "T0161",
+      "room_id": "R0049",
+      "period": "8",
+      "student_count": 113
+    },
+    "SEC00335": {
+      "teacher_id": "T0009",
+      "room_id": "R0130",
+      "period": "3",
+      "student_count": 100
+    },
+    "SEC00336": {
+      "teacher_id": "T0004",
+      "room_id": "R0181",
+      "period": "2",
+      "student_count": 105
+    },
+    "SEC00337": {
+      "teacher_id": "T0158",
+      "room_id": "R0051",
+      "period": "4",
+      "student_count": 111
+    },
+    "SEC00338": {
+      "teacher_id": "T0122",
+      "room_id": "R0042",
+      "period": "5",
+      "student_count": 94
+    },
+    "SEC00339": {
+      "teacher_id": "T0152",
+      "room_id": "R0165",
+      "period": "6",
+      "student_count": 94
+    },
+    "SEC00340": {
+      "teacher_id": "T0210",
+      "room_id": "R0024",
+      "period": "8",
+      "student_count": 98
+    },
+    "SEC00341": {
+      "teacher_id": "T0237",
+      "room_id": "R0073",
+      "period": "4",
+      "student_count": 100
+    },
+    "SEC00342": {
+      "teacher_id": "T0100",
+      "room_id": "R0168",
+      "period": "5",
+      "student_count": 99
+    },
+    "SEC00343": {
+      "teacher_id": "T0024",
+      "room_id": "R0034",
+      "period": "8",
+      "student_count": 126
+    },
+    "SEC00344": {
+      "teacher_id": "T0244",
+      "room_id": "R0163",
+      "period": "2",
+      "student_count": 114
+    },
+    "SEC00345": {
+      "teacher_id": "T0161",
+      "room_id": "R0012",
+      "period": "8",
+      "student_count": 109
+    },
+    "SEC00346": {
+      "teacher_id": "T0162",
+      "room_id": "R0179",
+      "period": "2",
+      "student_count": 92
+    }
+  }
+}

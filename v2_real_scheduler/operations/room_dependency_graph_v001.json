@@ -1,0 +1,1289 @@
+{
+  "R0162": {
+    "teacher_count": 2,
+    "section_count": 2,
+    "teachers": [
+      "T0079",
+      "T0149"
+    ]
+  },
+  "R0059": {
+    "teacher_count": 1,
+    "section_count": 1,
+    "teachers": [
+      "T0079"
+    ]
+  },
+  "R0174": {
+    "teacher_count": 3,
+    "section_count": 3,
+    "teachers": [
+      "T0057",
+      "T0176",
+      "T0252"
+    ]
+  },
+  "R0023": {
+    "teacher_count": 1,
+    "section_count": 1,
+    "teachers": [
+      "T0176"
+    ]
+  },
+  "R0005": {
+    "teacher_count": 2,
+    "section_count": 2,
+    "teachers": [
+      "T0158",
+      "T0257"
+    ]
+  },
+  "R0013": {
+    "teacher_count": 4,
+    "section_count": 4,
+    "teachers": [
+      "T0048",
+      "T0095",
+      "T0137",
+      "T0158"
+    ]
+  },
+  "R0024": {
+    "teacher_count": 3,
+    "section_count": 3,
+    "teachers": [
+      "T0030",
+      "T0210",
+      "T0232"
+    ]
+  },
+  "R0051": {
+    "teacher_count": 3,
+    "section_count": 3,
+    "teachers": [
+      "T0036",
+      "T0158",
+      "T0232"
+    ]
+  },
+  "R0081": {
+    "teacher_count": 2,
+    "section_count": 2,
+    "teachers": [
+      "T0004",
+      "T0091"
+    ]
+  },
+  "R0034": {
+    "teacher_count": 2,
+    "section_count": 2,
+    "teachers": [
+      "T0024",
+      "T0091"
+    ]
+  },
+  "R0166": {
+    "teacher_count": 1,
+    "section_count": 1,
+    "teachers": [
+      "T0149"
+    ]
+  },
+  "R0155": {
+    "teacher_count": 3,
+    "section_count": 3,
+    "teachers": [
+      "T0026",
+      "T0072",
+      "T0197"
+    ]
+  },
+  "R0042": {
+    "teacher_count": 5,
+    "section_count": 5,
+    "teachers": [
+      "T0026",
+      "T0122",
+      "T0171",
+      "T0184",
+      "T0237"
+    ]
+  },
+  "R0132": {
+    "teacher_count": 1,
+    "section_count": 1,
+    "teachers": [
+      "T0258"
+    ]
+  },
+  "R0131": {
+    "teacher_count": 4,
+    "section_count": 4,
+    "teachers": [
+      "T0001",
+      "T0091",
+      "T0237",
+      "T0258"
+    ]
+  },
+  "R0084": {
+    "teacher_count": 1,
+    "section_count": 1,
+    "teachers": [
+      "T0091"
+    ]
+  },
+  "R0033": {
+    "teacher_count": 6,
+    "section_count": 6,
+    "teachers": [
+      "T0003",
+      "T0022",
+      "T0091",
+      "T0132",
+      "T0158",
+      "T0254"
+    ]
+  },
+  "R0111": {
+    "teacher_count": 3,
+    "section_count": 3,
+    "teachers": [
+      "T0105",
+      "T0229",
+      "T0259"
+    ]
+  },
+  "R0031": {
+    "teacher_count": 4,
+    "section_count": 4,
+    "teachers": [
+      "T0020",
+      "T0066",
+      "T0105",
+      "T0220"
+    ]
+  },
+  "R0028": {
+    "teacher_count": 1,
+    "section_count": 1,
+    "teachers": [
+      "T0230"
+    ]
+  },
+  "R0057": {
+    "teacher_count": 3,
+    "section_count": 3,
+    "teachers": [
+      "T0007",
+      "T0102",
+      "T0235"
+    ]
+  },
+  "R0032": {
+    "teacher_count": 3,
+    "section_count": 3,
+    "teachers": [
+      "T0016",
+      "T0063",
+      "T0234"
+    ]
+  },
+  "R0012": {
+    "teacher_count": 7,
+    "section_count": 7,
+    "teachers": [
+      "T0042",
+      "T0043",
+      "T0048",
+      "T0072",
+      "T0127",
+      "T0161",
+      "T0177"
+    ]
+  },
+  "R0061": {
+    "teacher_count": 1,
+    "section_count": 1,
+    "teachers": [
+      "T0002"
+    ]
+  },
+  "R0118": {
+    "teacher_count": 4,
+    "section_count": 4,
+    "teachers": [
+      "T0138",
+      "T0221",
+      "T0225",
+      "T0233"
+    ]
+  },
+  "R0094": {
+    "teacher_count": 1,
+    "section_count": 1,
+    "teachers": [
+      "T0024"
+    ]
+  },
+  "R0052": {
+    "teacher_count": 1,
+    "section_count": 1,
+    "teachers": [
+      "T0143"
+    ]
+  },
+  "R0019": {
+    "teacher_count": 1,
+    "section_count": 1,
+    "teachers": [
+      "T0061"
+    ]
+  },
+  "R0091": {
+    "teacher_count": 4,
+    "section_count": 4,
+    "teachers": [
+      "T0065",
+      "T0115",
+      "T0136",
+      "T0190"
+    ]
+  },
+  "R0073": {
+    "teacher_count": 4,
+    "section_count": 4,
+    "teachers": [
+      "T0027",
+      "T0050",
+      "T0132",
+      "T0237"
+    ]
+  },
+  "R0156": {
+    "teacher_count": 1,
+    "section_count": 1,
+    "teachers": [
+      "T0137"
+    ]
+  },
+  "R0141": {
+    "teacher_count": 4,
+    "section_count": 4,
+    "teachers": [
+      "T0129",
+      "T0169",
+      "T0224",
+      "T0244"
+    ]
+  },
+  "R0160": {
+    "teacher_count": 2,
+    "section_count": 2,
+    "teachers": [
+      "T0085",
+      "T0182"
+    ]
+  },
+  "R0165": {
+    "teacher_count": 2,
+    "section_count": 2,
+    "teachers": [
+      "T0072",
+      "T0152"
+    ]
+  },
+  "R0093": {
+    "teacher_count": 5,
+    "section_count": 5,
+    "teachers": [
+      "T0100",
+      "T0132",
+      "T0143",
+      "T0150",
+      "T0226"
+    ]
+  },
+  "R0087": {
+    "teacher_count": 3,
+    "section_count": 3,
+    "teachers": [
+      "T0048",
+      "T0062",
+      "T0171"
+    ]
+  },
+  "R0035": {
+    "teacher_count": 1,
+    "section_count": 1,
+    "teachers": [
+      "T0136"
+    ]
+  },
+  "R0148": {
+    "teacher_count": 1,
+    "section_count": 1,
+    "teachers": [
+      "T0028"
+    ]
+  },
+  "R0041": {
+    "teacher_count": 2,
+    "section_count": 2,
+    "teachers": [
+      "T0017",
+      "T0212"
+    ]
+  },
+  "R0099": {
+    "teacher_count": 3,
+    "section_count": 3,
+    "teachers": [
+      "T0044",
+      "T0164",
+      "T0177"
+    ]
+  },
+  "R0147": {
+    "teacher_count": 2,
+    "section_count": 2,
+    "teachers": [
+      "T0182",
+      "T0194"
+    ]
+  },
+  "R0048": {
+    "teacher_count": 6,
+    "section_count": 6,
+    "teachers": [
+      "T0002",
+      "T0041",
+      "T0060",
+      "T0140",
+      "T0202",
+      "T0204"
+    ]
+  },
+  "R0029": {
+    "teacher_count": 2,
+    "section_count": 2,
+    "teachers": [
+      "T0058",
+      "T0200"
+    ]
+  },
+  "R0157": {
+    "teacher_count": 4,
+    "section_count": 4,
+    "teachers": [
+      "T0026",
+      "T0057",
+      "T0076",
+      "T0187"
+    ]
+  },
+  "R0080": {
+    "teacher_count": 7,
+    "section_count": 7,
+    "teachers": [
+      "T0006",
+      "T0078",
+      "T0086",
+      "T0131",
+      "T0214",
+      "T0234",
+      "T0247"
+    ]
+  },
+  "R0151": {
+    "teacher_count": 3,
+    "section_count": 3,
+    "teachers": [
+      "T0214",
+      "T0219",
+      "T0228"
+    ]
+  },
+  "R0062": {
+    "teacher_count": 2,
+    "section_count": 2,
+    "teachers": [
+      "T0096",
+      "T0193"
+    ]
+  },
+  "R0176": {
+    "teacher_count": 5,
+    "section_count": 5,
+    "teachers": [
+      "T0059",
+      "T0087",
+      "T0124",
+      "T0157",
+      "T0223"
+    ]
+  },
+  "R0121": {
+    "teacher_count": 3,
+    "section_count": 3,
+    "teachers": [
+      "T0097",
+      "T0128",
+      "T0145"
+    ]
+  },
+  "R0053": {
+    "teacher_count": 3,
+    "section_count": 3,
+    "teachers": [
+      "T0016",
+      "T0128",
+      "T0254"
+    ]
+  },
+  "R0180": {
+    "teacher_count": 3,
+    "section_count": 3,
+    "teachers": [
+      "T0041",
+      "T0231",
+      "T0260"
+    ]
+  },
+  "R0054": {
+    "teacher_count": 5,
+    "section_count": 5,
+    "teachers": [
+      "T0012",
+      "T0051",
+      "T0147",
+      "T0180",
+      "T0202"
+    ]
+  },
+  "R0015": {
+    "teacher_count": 3,
+    "section_count": 3,
+    "teachers": [
+      "T0071",
+      "T0088",
+      "T0195"
+    ]
+  },
+  "R0124": {
+    "teacher_count": 5,
+    "section_count": 5,
+    "teachers": [
+      "T0006",
+      "T0038",
+      "T0140",
+      "T0212",
+      "T0228"
+    ]
+  },
+  "R0058": {
+    "teacher_count": 2,
+    "section_count": 2,
+    "teachers": [
+      "T0172",
+      "T0178"
+    ]
+  },
+  "R0020": {
+    "teacher_count": 1,
+    "section_count": 1,
+    "teachers": [
+      "T0060"
+    ]
+  },
+  "R0104": {
+    "teacher_count": 1,
+    "section_count": 1,
+    "teachers": [
+      "T0078"
+    ]
+  },
+  "R0003": {
+    "teacher_count": 4,
+    "section_count": 5,
+    "teachers": [
+      "T0009",
+      "T0073",
+      "T0146",
+      "T0249"
+    ]
+  },
+  "R0025": {
+    "teacher_count": 2,
+    "section_count": 2,
+    "teachers": [
+      "T0143",
+      "T0210"
+    ]
+  },
+  "R0043": {
+    "teacher_count": 3,
+    "section_count": 3,
+    "teachers": [
+      "T0005",
+      "T0069",
+      "T0260"
+    ]
+  },
+  "R0085": {
+    "teacher_count": 1,
+    "section_count": 1,
+    "teachers": [
+      "T0073"
+    ]
+  },
+  "R0158": {
+    "teacher_count": 3,
+    "section_count": 3,
+    "teachers": [
+      "T0042",
+      "T0075",
+      "T0115"
+    ]
+  },
+  "R0140": {
+    "teacher_count": 3,
+    "section_count": 3,
+    "teachers": [
+      "T0103",
+      "T0144",
+      "T0161"
+    ]
+  },
+  "R0006": {
+    "teacher_count": 1,
+    "section_count": 1,
+    "teachers": [
+      "T0190"
+    ]
+  },
+  "R0153": {
+    "teacher_count": 2,
+    "section_count": 2,
+    "teachers": [
+      "T0141",
+      "T0175"
+    ]
+  },
+  "R0119": {
+    "teacher_count": 2,
+    "section_count": 2,
+    "teachers": [
+      "T0017",
+      "T0205"
+    ]
+  },
+  "R0134": {
+    "teacher_count": 2,
+    "section_count": 2,
+    "teachers": [
+      "T0093",
+      "T0161"
+    ]
+  },
+  "R0183": {
+    "teacher_count": 2,
+    "section_count": 2,
+    "teachers": [
+      "T0019",
+      "T0217"
+    ]
+  },
+  "R0037": {
+    "teacher_count": 2,
+    "section_count": 2,
+    "teachers": [
+      "T0019",
+      "T0147"
+    ]
+  },
+  "R0142": {
+    "teacher_count": 2,
+    "section_count": 2,
+    "teachers": [
+      "T0059",
+      "T0146"
+    ]
+  },
+  "R0130": {
+    "teacher_count": 2,
+    "section_count": 2,
+    "teachers": [
+      "T0009",
+      "T0085"
+    ]
+  },
+  "R0055": {
+    "teacher_count": 3,
+    "section_count": 3,
+    "teachers": [
+      "T0062",
+      "T0074",
+      "T0228"
+    ]
+  },
+  "R0092": {
+    "teacher_count": 4,
+    "section_count": 4,
+    "teachers": [
+      "T0044",
+      "T0057",
+      "T0088",
+      "T0218"
+    ]
+  },
+  "R0040": {
+    "teacher_count": 3,
+    "section_count": 3,
+    "teachers": [
+      "T0092",
+      "T0141",
+      "T0156"
+    ]
+  },
+  "R0007": {
+    "teacher_count": 3,
+    "section_count": 3,
+    "teachers": [
+      "T0042",
+      "T0203",
+      "T0247"
+    ]
+  },
+  "R0011": {
+    "teacher_count": 2,
+    "section_count": 2,
+    "teachers": [
+      "T0024",
+      "T0236"
+    ]
+  },
+  "R0139": {
+    "teacher_count": 2,
+    "section_count": 2,
+    "teachers": [
+      "T0107",
+      "T0121"
+    ]
+  },
+  "R0136": {
+    "teacher_count": 2,
+    "section_count": 2,
+    "teachers": [
+      "T0139",
+      "T0241"
+    ]
+  },
+  "R0004": {
+    "teacher_count": 1,
+    "section_count": 1,
+    "teachers": [
+      "T0067"
+    ]
+  },
+  "R0070": {
+    "teacher_count": 2,
+    "section_count": 2,
+    "teachers": [
+      "T0014",
+      "T0079"
+    ]
+  },
+  "R0075": {
+    "teacher_count": 1,
+    "section_count": 1,
+    "teachers": [
+      "T0239"
+    ]
+  },
+  "R0100": {
+    "teacher_count": 3,
+    "section_count": 3,
+    "teachers": [
+      "T0040",
+      "T0144",
+      "T0235"
+    ]
+  },
+  "R0022": {
+    "teacher_count": 3,
+    "section_count": 3,
+    "teachers": [
+      "T0042",
+      "T0207",
+      "T0250"
+    ]
+  },
+  "R0163": {
+    "teacher_count": 2,
+    "section_count": 2,
+    "teachers": [
+      "T0047",
+      "T0244"
+    ]
+  },
+  "R0120": {
+    "teacher_count": 1,
+    "section_count": 1,
+    "teachers": [
+      "T0215"
+    ]
+  },
+  "R0159": {
+    "teacher_count": 2,
+    "section_count": 2,
+    "teachers": [
+      "T0019",
+      "T0093"
+    ]
+  },
+  "R0097": {
+    "teacher_count": 3,
+    "section_count": 3,
+    "teachers": [
+      "T0069",
+      "T0119",
+      "T0225"
+    ]
+  },
+  "R0103": {
+    "teacher_count": 2,
+    "section_count": 2,
+    "teachers": [
+      "T0145",
+      "T0208"
+    ]
+  },
+  "R0182": {
+    "teacher_count": 1,
+    "section_count": 1,
+    "teachers": [
+      "T0123"
+    ]
+  },
+  "R0146": {
+    "teacher_count": 2,
+    "section_count": 2,
+    "teachers": [
+      "T0067",
+      "T0174"
+    ]
+  },
+  "R0114": {
+    "teacher_count": 3,
+    "section_count": 3,
+    "teachers": [
+      "T0144",
+      "T0223",
+      "T0242"
+    ]
+  },
+  "R0152": {
+    "teacher_count": 2,
+    "section_count": 2,
+    "teachers": [
+      "T0036",
+      "T0239"
+    ]
+  },
+  "R0083": {
+    "teacher_count": 1,
+    "section_count": 1,
+    "teachers": [
+      "T0042"
+    ]
+  },
+  "R0150": {
+    "teacher_count": 4,
+    "section_count": 4,
+    "teachers": [
+      "T0054",
+      "T0107",
+      "T0160",
+      "T0219"
+    ]
+  },
+  "R0177": {
+    "teacher_count": 3,
+    "section_count": 3,
+    "teachers": [
+      "T0141",
+      "T0157",
+      "T0185"
+    ]
+  },
+  "R0010": {
+    "teacher_count": 2,
+    "section_count": 2,
+    "teachers": [
+      "T0027",
+      "T0118"
+    ]
+  },
+  "R0128": {
+    "teacher_count": 1,
+    "section_count": 1,
+    "teachers": [
+      "T0181"
+    ]
+  },
+  "R0066": {
+    "teacher_count": 1,
+    "section_count": 1,
+    "teachers": [
+      "T0197"
+    ]
+  },
+  "R0045": {
+    "teacher_count": 1,
+    "section_count": 1,
+    "teachers": [
+      "T0242"
+    ]
+  },
+  "R0127": {
+    "teacher_count": 2,
+    "section_count": 2,
+    "teachers": [
+      "T0160",
+      "T0208"
+    ]
+  },
+  "R0161": {
+    "teacher_count": 1,
+    "section_count": 1,
+    "teachers": [
+      "T0144"
+    ]
+  },
+  "R0129": {
+    "teacher_count": 1,
+    "section_count": 1,
+    "teachers": [
+      "T0007"
+    ]
+  },
+  "R0002": {
+    "teacher_count": 5,
+    "section_count": 5,
+    "teachers": [
+      "T0021",
+      "T0041",
+      "T0053",
+      "T0095",
+      "T0181"
+    ]
+  },
+  "R0068": {
+    "teacher_count": 2,
+    "section_count": 2,
+    "teachers": [
+      "T0169",
+      "T0184"
+    ]
+  },
+  "R0018": {
+    "teacher_count": 1,
+    "section_count": 1,
+    "teachers": [
+      "T0057"
+    ]
+  },
+  "R0138": {
+    "teacher_count": 1,
+    "section_count": 1,
+    "teachers": [
+      "T0105"
+    ]
+  },
+  "R0178": {
+    "teacher_count": 2,
+    "section_count": 2,
+    "teachers": [
+      "T0101",
+      "T0145"
+    ]
+  },
+  "R0046": {
+    "teacher_count": 1,
+    "section_count": 1,
+    "teachers": [
+      "T0022"
+    ]
+  },
+  "R0123": {
+    "teacher_count": 1,
+    "section_count": 1,
+    "teachers": [
+      "T0038"
+    ]
+  },
+  "R0049": {
+    "teacher_count": 3,
+    "section_count": 3,
+    "teachers": [
+      "T0079",
+      "T0106",
+      "T0161"
+    ]
+  },
+  "R0116": {
+    "teacher_count": 1,
+    "section_count": 1,
+    "teachers": [
+      "T0185"
+    ]
+  },
+  "R0173": {
+    "teacher_count": 2,
+    "section_count": 2,
+    "teachers": [
+      "T0060",
+      "T0064"
+    ]
+  },
+  "R0125": {
+    "teacher_count": 1,
+    "section_count": 1,
+    "teachers": [
+      "T0245"
+    ]
+  },
+  "R0090": {
+    "teacher_count": 1,
+    "section_count": 1,
+    "teachers": [
+      "T0185"
+    ]
+  },
+  "R0133": {
+    "teacher_count": 1,
+    "section_count": 1,
+    "teachers": [
+      "T0051"
+    ]
+  },
+  "R0164": {
+    "teacher_count": 1,
+    "section_count": 1,
+    "teachers": [
+      "T0213"
+    ]
+  },
+  "R0102": {
+    "teacher_count": 1,
+    "section_count": 1,
+    "teachers": [
+      "T0256"
+    ]
+  },
+  "R0179": {
+    "teacher_count": 2,
+    "section_count": 2,
+    "teachers": [
+      "T0015",
+      "T0162"
+    ]
+  },
+  "R0168": {
+    "teacher_count": 2,
+    "section_count": 2,
+    "teachers": [
+      "T0080",
+      "T0100"
+    ]
+  },
+  "R0185": {
+    "teacher_count": 2,
+    "section_count": 2,
+    "teachers": [
+      "T0135",
+      "T0232"
+    ]
+  },
+  "R0009": {
+    "teacher_count": 2,
+    "section_count": 2,
+    "teachers": [
+      "T0116",
+      "T0161"
+    ]
+  },
+  "R0082": {
+    "teacher_count": 2,
+    "section_count": 2,
+    "teachers": [
+      "T0188",
+      "T0212"
+    ]
+  },
+  "R0077": {
+    "teacher_count": 2,
+    "section_count": 2,
+    "teachers": [
+      "T0091",
+      "T0209"
+    ]
+  },
+  "R0144": {
+    "teacher_count": 2,
+    "section_count": 2,
+    "teachers": [
+      "T0158",
+      "T0244"
+    ]
+  },
+  "R0137": {
+    "teacher_count": 3,
+    "section_count": 3,
+    "teachers": [
+      "T0093",
+      "T0210",
+      "T0246"
+    ]
+  },
+  "R0175": {
+    "teacher_count": 2,
+    "section_count": 2,
+    "teachers": [
+      "T0140",
+      "T0198"
+    ]
+  },
+  "R0098": {
+    "teacher_count": 1,
+    "section_count": 1,
+    "teachers": [
+      "T0076"
+    ]
+  },
+  "R0069": {
+    "teacher_count": 3,
+    "section_count": 3,
+    "teachers": [
+      "T0019",
+      "T0040",
+      "T0257"
+    ]
+  },
+  "R0036": {
+    "teacher_count": 1,
+    "section_count": 1,
+    "teachers": [
+      "T0143"
+    ]
+  },
+  "R0067": {
+    "teacher_count": 2,
+    "section_count": 2,
+    "teachers": [
+      "T0063",
+      "T0081"
+    ]
+  },
+  "R0038": {
+    "teacher_count": 1,
+    "section_count": 1,
+    "teachers": [
+      "T0008"
+    ]
+  },
+  "R0108": {
+    "teacher_count": 1,
+    "section_count": 1,
+    "teachers": [
+      "T0013"
+    ]
+  },
+  "R0117": {
+    "teacher_count": 2,
+    "section_count": 2,
+    "teachers": [
+      "T0036",
+      "T0167"
+    ]
+  },
+  "R0065": {
+    "teacher_count": 2,
+    "section_count": 2,
+    "teachers": [
+      "T0123",
+      "T0181"
+    ]
+  },
+  "R0089": {
+    "teacher_count": 4,
+    "section_count": 4,
+    "teachers": [
+      "T0051",
+      "T0091",
+      "T0161",
+      "T0193"
+    ]
+  },
+  "R0112": {
+    "teacher_count": 3,
+    "section_count": 3,
+    "teachers": [
+      "T0067",
+      "T0150",
+      "T0167"
+    ]
+  },
+  "R0079": {
+    "teacher_count": 1,
+    "section_count": 1,
+    "teachers": [
+      "T0023"
+    ]
+  },
+  "R0154": {
+    "teacher_count": 2,
+    "section_count": 2,
+    "teachers": [
+      "T0030",
+      "T0205"
+    ]
+  },
+  "R0064": {
+    "teacher_count": 1,
+    "section_count": 1,
+    "teachers": [
+      "T0149"
+    ]
+  },
+  "R0184": {
+    "teacher_count": 1,
+    "section_count": 1,
+    "teachers": [
+      "T0161"
+    ]
+  },
+  "R0039": {
+    "teacher_count": 1,
+    "section_count": 1,
+    "teachers": [
+      "T0026"
+    ]
+  },
+  "R0122": {
+    "teacher_count": 1,
+    "section_count": 1,
+    "teachers": [
+      "T0194"
+    ]
+  },
+  "R0086": {
+    "teacher_count": 2,
+    "section_count": 2,
+    "teachers": [
+      "T0003",
+      "T0159"
+    ]
+  },
+  "R0063": {
+    "teacher_count": 1,
+    "section_count": 1,
+    "teachers": [
+      "T0151"
+    ]
+  },
+  "R0047": {
+    "teacher_count": 1,
+    "section_count": 1,
+    "teachers": [
+      "T0113"
+    ]
+  },
+  "R0167": {
+    "teacher_count": 2,
+    "section_count": 2,
+    "teachers": [
+      "T0001",
+      "T0017"
+    ]
+  },
+  "R0044": {
+    "teacher_count": 1,
+    "section_count": 1,
+    "teachers": [
+      "T0185"
+    ]
+  },
+  "R0008": {
+    "teacher_count": 2,
+    "section_count": 2,
+    "teachers": [
+      "T0073",
+      "T0088"
+    ]
+  },
+  "R0113": {
+    "teacher_count": 1,
+    "section_count": 1,
+    "teachers": [
+      "T0007"
+    ]
+  },
+  "R0060": {
+    "teacher_count": 1,
+    "section_count": 1,
+    "teachers": [
+      "T0097"
+    ]
+  },
+  "R0072": {
+    "teacher_count": 1,
+    "section_count": 1,
+    "teachers": [
+      "T0236"
+    ]
+  },
+  "R0172": {
+    "teacher_count": 1,
+    "section_count": 1,
+    "teachers": [
+      "T0142"
+    ]
+  },
+  "R0143": {
+    "teacher_count": 1,
+    "section_count": 1,
+    "teachers": [
+      "T0245"
+    ]
+  },
+  "R0078": {
+    "teacher_count": 1,
+    "section_count": 1,
+    "teachers": [
+      "T0239"
+    ]
+  },
+  "R0076": {
+    "teacher_count": 1,
+    "section_count": 1,
+    "teachers": [
+      "T0134"
+    ]
+  },
+  "R0021": {
+    "teacher_count": 1,
+    "section_count": 1,
+    "teachers": [
+      "T0068"
+    ]
+  },
+  "R0181": {
+    "teacher_count": 1,
+    "section_count": 1,
+    "teachers": [
+      "T0004"
+    ]
+  }
+}

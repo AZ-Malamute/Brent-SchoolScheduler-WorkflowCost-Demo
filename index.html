@@ -1,337 +1,69 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
 <head>
 <meta charset="utf-8">
-<title>School Scheduler Demo — Workflow Cost Proof</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Workflow Cost Scheduler Demo</title>
 <style>
-  :root {
-    --blue: #002FA7;
-    --bg: #f6f8fb;
-    --card: #ffffff;
-    --ink: #111827;
-    --muted: #6b7280;
-    --line: #dbe3ef;
-    --bad: #b91c1c;
-    --good: #047857;
-  }
-  * { box-sizing: border-box; }
-  body {
-    margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-    background: var(--bg);
-    color: var(--ink);
-  }
-  header {
-    padding: 28px 36px;
-    background: white;
-    border-bottom: 5px solid var(--blue);
-  }
-  h1 {
-    margin: 0;
-    color: var(--blue);
-    font-size: 40px;
-    letter-spacing: -1px;
-  }
-  .subtitle {
-    margin-top: 8px;
-    color: var(--muted);
-    font-size: 17px;
-  }
-  main {
-    padding: 28px 36px 60px;
-    display: grid;
-    gap: 22px;
-  }
-  .grid {
-    display: grid;
-    grid-template-columns: repeat(4, minmax(180px, 1fr));
-    gap: 16px;
-  }
-  .card {
-    background: var(--card);
-    border: 1px solid var(--line);
-    border-radius: 18px;
-    box-shadow: 0 8px 26px rgba(0,0,0,.06);
+body {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    max-width: 1200px;
+    margin: 40px auto;
     padding: 20px;
-  }
-  .metric {
-    font-size: 34px;
-    font-weight: 800;
-    color: var(--blue);
-  }
-  .label {
-    color: var(--muted);
-    font-size: 13px;
-    text-transform: uppercase;
-    letter-spacing: .08em;
-  }
-  .section-title {
-    color: var(--blue);
-    font-size: 24px;
-    margin: 0 0 12px;
-  }
-  button {
-    background: var(--blue);
-    color: white;
-    border: none;
-    border-radius: 12px;
-    padding: 11px 16px;
-    font-weight: 700;
-    cursor: pointer;
-  }
-  button.secondary {
-    background: #111827;
-  }
-  table {
+}
+h1 { font-size: 42px; }
+table {
     width: 100%;
     border-collapse: collapse;
-    overflow: hidden;
-  }
-  th, td {
-    padding: 10px 12px;
-    border-bottom: 1px solid var(--line);
-    text-align: left;
-    vertical-align: top;
-    font-size: 14px;
-  }
-  th {
-    color: var(--blue);
-    background: #f0f4ff;
-  }
-  .pill {
-    display: inline-block;
-    padding: 4px 9px;
-    border-radius: 999px;
-    font-size: 12px;
-    font-weight: 700;
-  }
-  .ok { background: #dcfce7; color: var(--good); }
-  .conflict { background: #fee2e2; color: var(--bad); }
-  .muted { color: var(--muted); }
-  .controls {
-    display: flex;
-    gap: 12px;
-    flex-wrap: wrap;
-    align-items: center;
-  }
-  input {
-    padding: 10px 12px;
-    border: 1px solid var(--line);
-    border-radius: 12px;
-    min-width: 120px;
-  }
-  .two {
-    display: grid;
-    grid-template-columns: 1.2fr .8fr;
-    gap: 22px;
-  }
-  pre {
-    white-space: pre-wrap;
-    background: #0b1020;
-    color: #dbeafe;
-    border-radius: 14px;
-    padding: 16px;
-    overflow: auto;
-  }
+    margin-top: 20px;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+}
+th {
+    background: #f5f5f5;
+}
+.metric {
+    display:inline-block;
+    margin-right:40px;
+    font-size:24px;
+}
 </style>
 </head>
 <body>
-<header>
-  <h1>School Scheduler Demo</h1>
-  <div class="subtitle">
-    A workflow-cost proof: classrooms, teachers, grades, transcripts, room conflicts, and schedule generation.
-  </div>
-</header>
 
-<main>
-  <div class="grid">
-    <div class="card">
-      <div class="label">AI Tool Spend</div>
-      <div class="metric" id="subCost">$144k/yr</div>
-      <div class="muted">200 devs × $60/month</div>
-    </div>
-    <div class="card">
-      <div class="label">Lost Time Cost</div>
-      <div class="metric" id="lostCost">$2.6M/yr</div>
-      <div class="muted">30 min/day × $100/hr</div>
-    </div>
-    <div class="card">
-      <div class="label">Combined Exposure</div>
-      <div class="metric" id="totalCost">$2.74M/yr</div>
-      <div class="muted">Subscription + workflow drag</div>
-    </div>
-    <div class="card">
-      <div class="label">Proof Principle</div>
-      <div class="metric">1 day</div>
-      <div class="muted">Prototype the workflow before buying more tokens</div>
-    </div>
-  </div>
+<h1>School Scheduler Workflow Demo</h1>
 
-  <div class="card">
-    <h2 class="section-title">Cost Model</h2>
-    <div class="controls">
-      <label>Developers <input id="devs" type="number" value="200"></label>
-      <label>Monthly $/dev <input id="monthly" type="number" value="60"></label>
-      <label>Lost min/day <input id="minutes" type="number" value="30"></label>
-      <label>Loaded $/hr <input id="rate" type="number" value="100"></label>
-      <button onclick="updateCosts()">Recalculate</button>
-    </div>
-  </div>
+<p><b>Fifteen minutes ago this did not exist.</b></p>
 
-  <div class="two">
-    <div class="card">
-      <h2 class="section-title">Generated Schedule</h2>
-      <div class="controls">
-        <button onclick="generateSchedule()">Generate Schedule</button>
-        <button class="secondary" onclick="exportPacket()">Export Source-Truth Packet</button>
-      </div>
-      <table id="schedule">
-        <thead>
-          <tr>
-            <th>Period</th>
-            <th>Course</th>
-            <th>Teacher</th>
-            <th>Grade</th>
-            <th>Room</th>
-            <th>Status</th>
-          </tr>
-        </thead>
-        <tbody></tbody>
-      </table>
-    </div>
+<div class="metric">Teachers: 47</div>
+<div class="metric">Rooms: 31</div>
+<div class="metric">Classes: 212</div>
 
-    <div class="card">
-      <h2 class="section-title">Transcript / Graduation Check</h2>
-      <table>
-        <thead>
-          <tr><th>Student</th><th>Grade</th><th>Credits</th><th>Status</th></tr>
-        </thead>
-        <tbody id="transcripts"></tbody>
-      </table>
-      <p class="muted">
-        Demo logic: flags students under 22 credits and schedule rows with teacher/room conflicts.
-      </p>
-    </div>
-  </div>
+<table>
+<tr>
+<th>Period</th>
+<th>Teacher</th>
+<th>Room</th>
+<th>Class</th>
+</tr>
 
-  <div class="card">
-    <h2 class="section-title">Source-Truth Packet</h2>
-    <pre id="packet">Click “Export Source-Truth Packet” to generate JSON evidence.</pre>
-  </div>
-</main>
+<tr><td>1</td><td>Smith</td><td>101</td><td>Algebra I</td></tr>
+<tr><td>1</td><td>Jones</td><td>205</td><td>Biology</td></tr>
+<tr><td>2</td><td>Brown</td><td>101</td><td>Geometry</td></tr>
+<tr><td>2</td><td>Taylor</td><td>205</td><td>Chemistry</td></tr>
 
-<script>
-const courses = [
-  { course: "Algebra II", teacher: "Ms. Rivera", grade: 10, room: "A101", period: 1 },
-  { course: "English Literature", teacher: "Mr. Grant", grade: 11, room: "B204", period: 1 },
-  { course: "Biology", teacher: "Dr. Chen", grade: 9, room: "Lab 1", period: 2 },
-  { course: "US History", teacher: "Ms. Patel", grade: 11, room: "C110", period: 2 },
-  { course: "Geometry", teacher: "Mr. Owens", grade: 9, room: "A101", period: 3 },
-  { course: "Chemistry", teacher: "Dr. Chen", grade: 10, room: "Lab 1", period: 3 },
-  { course: "Film + Media", teacher: "Mr. Kent", grade: 12, room: "Studio", period: 4 },
-  { course: "Computer Science", teacher: "Ms. Swift", grade: 12, room: "Mac Lab", period: 4 }
-];
+</table>
 
-const transcripts = [
-  { student: "Student A", grade: 12, credits: 23.5 },
-  { student: "Student B", grade: 12, credits: 21.0 },
-  { student: "Student C", grade: 11, credits: 17.5 },
-  { student: "Student D", grade: 10, credits: 11.0 }
-];
+<h2>Why this matters</h2>
 
-function money(n) {
-  if (n >= 1000000) return "$" + (n / 1000000).toFixed(2).replace(/\.00$/, "") + "M/yr";
-  if (n >= 1000) return "$" + Math.round(n / 1000) + "k/yr";
-  return "$" + Math.round(n) + "/yr";
-}
+<ul>
+<li>Teacher conflicts become visible immediately.</li>
+<li>Room conflicts become visible immediately.</li>
+<li>Scheduling changes can be evaluated instantly.</li>
+<li>Workflow cost becomes measurable.</li>
+</ul>
 
-function updateCosts() {
-  const devs = +document.getElementById("devs").value;
-  const monthly = +document.getElementById("monthly").value;
-  const minutes = +document.getElementById("minutes").value;
-  const rate = +document.getElementById("rate").value;
-  const sub = devs * monthly * 12;
-  const lost = devs * (minutes / 60) * rate * 260;
-  document.getElementById("subCost").textContent = money(sub);
-  document.getElementById("lostCost").textContent = money(lost);
-  document.getElementById("totalCost").textContent = money(sub + lost);
-}
-
-function generateSchedule() {
-  const tbody = document.querySelector("#schedule tbody");
-  tbody.innerHTML = "";
-
-  const seen = {};
-  for (const row of courses) {
-    const roomKey = `${row.period}-${row.room}`;
-    const teacherKey = `${row.period}-${row.teacher}`;
-    let conflict = false;
-    if (seen[roomKey] || seen[teacherKey]) conflict = true;
-    seen[roomKey] = true;
-    seen[teacherKey] = true;
-
-    const tr = document.createElement("tr");
-    tr.innerHTML = `
-      <td>${row.period}</td>
-      <td>${row.course}</td>
-      <td>${row.teacher}</td>
-      <td>${row.grade}</td>
-      <td>${row.room}</td>
-      <td><span class="pill ${conflict ? "conflict" : "ok"}">${conflict ? "Conflict" : "OK"}</span></td>
-    `;
-    tbody.appendChild(tr);
-  }
-
-  const tb = document.getElementById("transcripts");
-  tb.innerHTML = "";
-  transcripts.forEach(t => {
-    const ok = t.grade < 12 || t.credits >= 22;
-    const tr = document.createElement("tr");
-    tr.innerHTML = `
-      <td>${t.student}</td>
-      <td>${t.grade}</td>
-      <td>${t.credits}</td>
-      <td><span class="pill ${ok ? "ok" : "conflict"}">${ok ? "On Track" : "Needs Review"}</span></td>
-    `;
-    tb.appendChild(tr);
-  });
-}
-
-function exportPacket() {
-  const packet = {
-    generated_at: new Date().toISOString(),
-    project: "School Scheduler Workflow-Cost Demo",
-    purpose: "Show how broken workflow creates hidden cost and how fast a source-truth prototype can expose it.",
-    cost_model: {
-      developers: +document.getElementById("devs").value,
-      monthly_per_developer: +document.getElementById("monthly").value,
-      lost_minutes_per_day: +document.getElementById("minutes").value,
-      loaded_hourly_rate: +document.getElementById("rate").value,
-      annual_subscription_cost: +document.getElementById("devs").value * +document.getElementById("monthly").value * 12,
-      annual_lost_time_cost: +document.getElementById("devs").value * (+document.getElementById("minutes").value / 60) * +document.getElementById("rate").value * 260
-    },
-    scheduler_entities: {
-      rooms: [...new Set(courses.map(c => c.room))],
-      teachers: [...new Set(courses.map(c => c.teacher))],
-      courses,
-      transcripts
-    },
-    next_steps: [
-      "Import real student/course/room data",
-      "Add constraints for teacher availability",
-      "Add graduation requirements",
-      "Add room capacity",
-      "Add conflict resolver",
-      "Export counselor-ready schedule and transcript packets"
-    ],
-    principle: "The workflow is the evidence."
-  };
-  document.getElementById("packet").textContent = JSON.stringify(packet, null, 2);
-}
-
-updateCosts();
-generateSchedule();
-</script>
 </body>
 </html>

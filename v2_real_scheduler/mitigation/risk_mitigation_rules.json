@@ -1,0 +1,68 @@
+{
+  "room": [
+    {
+      "action": "assign_backup_room",
+      "description": "Pre-assign an alternate room for high-risk rooms before failure occurs.",
+      "expected_reduction_percent": 15,
+      "confidence": "low",
+      "required_data": [
+        "room_capacity",
+        "nearby_rooms",
+        "accessibility_needs"
+      ]
+    },
+    {
+      "action": "split_room_load",
+      "description": "Reduce concentration by moving one or more sections out of the high-risk room.",
+      "expected_reduction_percent": 25,
+      "confidence": "low",
+      "required_data": [
+        "room_capacity",
+        "section_size",
+        "available_rooms"
+      ]
+    },
+    {
+      "action": "reserve_testing_overflow_room",
+      "description": "Protect high-risk instructional rooms from being consumed by testing overflow.",
+      "expected_reduction_percent": 10,
+      "confidence": "medium",
+      "required_data": [
+        "testing_calendar",
+        "room_testing_requirements"
+      ]
+    }
+  ],
+  "teacher": [
+    {
+      "action": "cross_train_substitute_pool",
+      "description": "Identify substitutes or staff who can cover high-risk teacher sections.",
+      "expected_reduction_percent": 20,
+      "confidence": "low",
+      "required_data": [
+        "certification_data",
+        "substitute_availability"
+      ]
+    },
+    {
+      "action": "create_async_contingency_packet",
+      "description": "Prepare lesson packets for high-blast-radius teachers before absence occurs.",
+      "expected_reduction_percent": 12,
+      "confidence": "medium",
+      "required_data": [
+        "course_materials",
+        "LMS_access"
+      ]
+    },
+    {
+      "action": "reduce_section_concentration",
+      "description": "Avoid concentrating too many high-impact sections under one teacher where possible.",
+      "expected_reduction_percent": 18,
+      "confidence": "low",
+      "required_data": [
+        "teacher_certifications",
+        "master_schedule_flexibility"
+      ]
+    }
+  ]
+}

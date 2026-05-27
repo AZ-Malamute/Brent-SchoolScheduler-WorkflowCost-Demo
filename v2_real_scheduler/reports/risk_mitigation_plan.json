@@ -1,0 +1,1186 @@
+[
+  {
+    "node_id": "R0048",
+    "node_type": "room",
+    "students": 795,
+    "sections": 6,
+    "current_risk_score": 855,
+    "projected_risk_score": 470.25,
+    "projected_risk_reduction": 384.75,
+    "projection_confidence": "low",
+    "reason_for_low_confidence": "Mitigations are assumption-based because detailed room capacity, certification, staffing, accessibility, and bell-schedule data are not yet modeled.",
+    "recommendations": [
+      {
+        "action": "assign_backup_room",
+        "description": "Pre-assign an alternate room for high-risk rooms before failure occurs.",
+        "expected_reduction_percent": 15,
+        "estimated_risk_reduction": 128.25,
+        "confidence": "low",
+        "required_data": [
+          "room_capacity",
+          "nearby_rooms",
+          "accessibility_needs"
+        ]
+      },
+      {
+        "action": "split_room_load",
+        "description": "Reduce concentration by moving one or more sections out of the high-risk room.",
+        "expected_reduction_percent": 25,
+        "estimated_risk_reduction": 213.75,
+        "confidence": "low",
+        "required_data": [
+          "room_capacity",
+          "section_size",
+          "available_rooms"
+        ]
+      },
+      {
+        "action": "reserve_testing_overflow_room",
+        "description": "Protect high-risk instructional rooms from being consumed by testing overflow.",
+        "expected_reduction_percent": 10,
+        "estimated_risk_reduction": 85.5,
+        "confidence": "medium",
+        "required_data": [
+          "testing_calendar",
+          "room_testing_requirements"
+        ]
+      }
+    ]
+  },
+  {
+    "node_id": "R0012",
+    "node_type": "room",
+    "students": 730,
+    "sections": 7,
+    "current_risk_score": 800,
+    "projected_risk_score": 440.0,
+    "projected_risk_reduction": 360.0,
+    "projection_confidence": "low",
+    "reason_for_low_confidence": "Mitigations are assumption-based because detailed room capacity, certification, staffing, accessibility, and bell-schedule data are not yet modeled.",
+    "recommendations": [
+      {
+        "action": "assign_backup_room",
+        "description": "Pre-assign an alternate room for high-risk rooms before failure occurs.",
+        "expected_reduction_percent": 15,
+        "estimated_risk_reduction": 120.0,
+        "confidence": "low",
+        "required_data": [
+          "room_capacity",
+          "nearby_rooms",
+          "accessibility_needs"
+        ]
+      },
+      {
+        "action": "split_room_load",
+        "description": "Reduce concentration by moving one or more sections out of the high-risk room.",
+        "expected_reduction_percent": 25,
+        "estimated_risk_reduction": 200.0,
+        "confidence": "low",
+        "required_data": [
+          "room_capacity",
+          "section_size",
+          "available_rooms"
+        ]
+      },
+      {
+        "action": "reserve_testing_overflow_room",
+        "description": "Protect high-risk instructional rooms from being consumed by testing overflow.",
+        "expected_reduction_percent": 10,
+        "estimated_risk_reduction": 80.0,
+        "confidence": "medium",
+        "required_data": [
+          "testing_calendar",
+          "room_testing_requirements"
+        ]
+      }
+    ]
+  },
+  {
+    "node_id": "T0161",
+    "node_type": "teacher",
+    "students": 715,
+    "sections": 7,
+    "current_risk_score": 785,
+    "projected_risk_score": 431.75,
+    "projected_risk_reduction": 353.25,
+    "projection_confidence": "low",
+    "reason_for_low_confidence": "Mitigations are assumption-based because detailed room capacity, certification, staffing, accessibility, and bell-schedule data are not yet modeled.",
+    "recommendations": [
+      {
+        "action": "cross_train_substitute_pool",
+        "description": "Identify substitutes or staff who can cover high-risk teacher sections.",
+        "expected_reduction_percent": 20,
+        "estimated_risk_reduction": 157.0,
+        "confidence": "low",
+        "required_data": [
+          "certification_data",
+          "substitute_availability"
+        ]
+      },
+      {
+        "action": "create_async_contingency_packet",
+        "description": "Prepare lesson packets for high-blast-radius teachers before absence occurs.",
+        "expected_reduction_percent": 12,
+        "estimated_risk_reduction": 94.2,
+        "confidence": "medium",
+        "required_data": [
+          "course_materials",
+          "LMS_access"
+        ]
+      },
+      {
+        "action": "reduce_section_concentration",
+        "description": "Avoid concentrating too many high-impact sections under one teacher where possible.",
+        "expected_reduction_percent": 18,
+        "estimated_risk_reduction": 141.3,
+        "confidence": "low",
+        "required_data": [
+          "teacher_certifications",
+          "master_schedule_flexibility"
+        ]
+      }
+    ]
+  },
+  {
+    "node_id": "R0033",
+    "node_type": "room",
+    "students": 722,
+    "sections": 6,
+    "current_risk_score": 782,
+    "projected_risk_score": 430.1,
+    "projected_risk_reduction": 351.9,
+    "projection_confidence": "low",
+    "reason_for_low_confidence": "Mitigations are assumption-based because detailed room capacity, certification, staffing, accessibility, and bell-schedule data are not yet modeled.",
+    "recommendations": [
+      {
+        "action": "assign_backup_room",
+        "description": "Pre-assign an alternate room for high-risk rooms before failure occurs.",
+        "expected_reduction_percent": 15,
+        "estimated_risk_reduction": 117.3,
+        "confidence": "low",
+        "required_data": [
+          "room_capacity",
+          "nearby_rooms",
+          "accessibility_needs"
+        ]
+      },
+      {
+        "action": "split_room_load",
+        "description": "Reduce concentration by moving one or more sections out of the high-risk room.",
+        "expected_reduction_percent": 25,
+        "estimated_risk_reduction": 195.5,
+        "confidence": "low",
+        "required_data": [
+          "room_capacity",
+          "section_size",
+          "available_rooms"
+        ]
+      },
+      {
+        "action": "reserve_testing_overflow_room",
+        "description": "Protect high-risk instructional rooms from being consumed by testing overflow.",
+        "expected_reduction_percent": 10,
+        "estimated_risk_reduction": 78.2,
+        "confidence": "medium",
+        "required_data": [
+          "testing_calendar",
+          "room_testing_requirements"
+        ]
+      }
+    ]
+  },
+  {
+    "node_id": "R0080",
+    "node_type": "room",
+    "students": 650,
+    "sections": 7,
+    "current_risk_score": 720,
+    "projected_risk_score": 396.0,
+    "projected_risk_reduction": 324.0,
+    "projection_confidence": "low",
+    "reason_for_low_confidence": "Mitigations are assumption-based because detailed room capacity, certification, staffing, accessibility, and bell-schedule data are not yet modeled.",
+    "recommendations": [
+      {
+        "action": "assign_backup_room",
+        "description": "Pre-assign an alternate room for high-risk rooms before failure occurs.",
+        "expected_reduction_percent": 15,
+        "estimated_risk_reduction": 108.0,
+        "confidence": "low",
+        "required_data": [
+          "room_capacity",
+          "nearby_rooms",
+          "accessibility_needs"
+        ]
+      },
+      {
+        "action": "split_room_load",
+        "description": "Reduce concentration by moving one or more sections out of the high-risk room.",
+        "expected_reduction_percent": 25,
+        "estimated_risk_reduction": 180.0,
+        "confidence": "low",
+        "required_data": [
+          "room_capacity",
+          "section_size",
+          "available_rooms"
+        ]
+      },
+      {
+        "action": "reserve_testing_overflow_room",
+        "description": "Protect high-risk instructional rooms from being consumed by testing overflow.",
+        "expected_reduction_percent": 10,
+        "estimated_risk_reduction": 72.0,
+        "confidence": "medium",
+        "required_data": [
+          "testing_calendar",
+          "room_testing_requirements"
+        ]
+      }
+    ]
+  },
+  {
+    "node_id": "R0124",
+    "node_type": "room",
+    "students": 645,
+    "sections": 5,
+    "current_risk_score": 695,
+    "projected_risk_score": 382.25,
+    "projected_risk_reduction": 312.75,
+    "projection_confidence": "low",
+    "reason_for_low_confidence": "Mitigations are assumption-based because detailed room capacity, certification, staffing, accessibility, and bell-schedule data are not yet modeled.",
+    "recommendations": [
+      {
+        "action": "assign_backup_room",
+        "description": "Pre-assign an alternate room for high-risk rooms before failure occurs.",
+        "expected_reduction_percent": 15,
+        "estimated_risk_reduction": 104.25,
+        "confidence": "low",
+        "required_data": [
+          "room_capacity",
+          "nearby_rooms",
+          "accessibility_needs"
+        ]
+      },
+      {
+        "action": "split_room_load",
+        "description": "Reduce concentration by moving one or more sections out of the high-risk room.",
+        "expected_reduction_percent": 25,
+        "estimated_risk_reduction": 173.75,
+        "confidence": "low",
+        "required_data": [
+          "room_capacity",
+          "section_size",
+          "available_rooms"
+        ]
+      },
+      {
+        "action": "reserve_testing_overflow_room",
+        "description": "Protect high-risk instructional rooms from being consumed by testing overflow.",
+        "expected_reduction_percent": 10,
+        "estimated_risk_reduction": 69.5,
+        "confidence": "medium",
+        "required_data": [
+          "testing_calendar",
+          "room_testing_requirements"
+        ]
+      }
+    ]
+  },
+  {
+    "node_id": "T0091",
+    "node_type": "teacher",
+    "students": 624,
+    "sections": 7,
+    "current_risk_score": 694,
+    "projected_risk_score": 381.7,
+    "projected_risk_reduction": 312.3,
+    "projection_confidence": "low",
+    "reason_for_low_confidence": "Mitigations are assumption-based because detailed room capacity, certification, staffing, accessibility, and bell-schedule data are not yet modeled.",
+    "recommendations": [
+      {
+        "action": "cross_train_substitute_pool",
+        "description": "Identify substitutes or staff who can cover high-risk teacher sections.",
+        "expected_reduction_percent": 20,
+        "estimated_risk_reduction": 138.8,
+        "confidence": "low",
+        "required_data": [
+          "certification_data",
+          "substitute_availability"
+        ]
+      },
+      {
+        "action": "create_async_contingency_packet",
+        "description": "Prepare lesson packets for high-blast-radius teachers before absence occurs.",
+        "expected_reduction_percent": 12,
+        "estimated_risk_reduction": 83.28,
+        "confidence": "medium",
+        "required_data": [
+          "course_materials",
+          "LMS_access"
+        ]
+      },
+      {
+        "action": "reduce_section_concentration",
+        "description": "Avoid concentrating too many high-impact sections under one teacher where possible.",
+        "expected_reduction_percent": 18,
+        "estimated_risk_reduction": 124.92,
+        "confidence": "low",
+        "required_data": [
+          "teacher_certifications",
+          "master_schedule_flexibility"
+        ]
+      }
+    ]
+  },
+  {
+    "node_id": "T0042",
+    "node_type": "teacher",
+    "students": 622,
+    "sections": 5,
+    "current_risk_score": 672,
+    "projected_risk_score": 369.6,
+    "projected_risk_reduction": 302.4,
+    "projection_confidence": "low",
+    "reason_for_low_confidence": "Mitigations are assumption-based because detailed room capacity, certification, staffing, accessibility, and bell-schedule data are not yet modeled.",
+    "recommendations": [
+      {
+        "action": "cross_train_substitute_pool",
+        "description": "Identify substitutes or staff who can cover high-risk teacher sections.",
+        "expected_reduction_percent": 20,
+        "estimated_risk_reduction": 134.4,
+        "confidence": "low",
+        "required_data": [
+          "certification_data",
+          "substitute_availability"
+        ]
+      },
+      {
+        "action": "create_async_contingency_packet",
+        "description": "Prepare lesson packets for high-blast-radius teachers before absence occurs.",
+        "expected_reduction_percent": 12,
+        "estimated_risk_reduction": 80.64,
+        "confidence": "medium",
+        "required_data": [
+          "course_materials",
+          "LMS_access"
+        ]
+      },
+      {
+        "action": "reduce_section_concentration",
+        "description": "Avoid concentrating too many high-impact sections under one teacher where possible.",
+        "expected_reduction_percent": 18,
+        "estimated_risk_reduction": 120.96,
+        "confidence": "low",
+        "required_data": [
+          "teacher_certifications",
+          "master_schedule_flexibility"
+        ]
+      }
+    ]
+  },
+  {
+    "node_id": "R0003",
+    "node_type": "room",
+    "students": 604,
+    "sections": 5,
+    "current_risk_score": 654,
+    "projected_risk_score": 359.7,
+    "projected_risk_reduction": 294.3,
+    "projection_confidence": "low",
+    "reason_for_low_confidence": "Mitigations are assumption-based because detailed room capacity, certification, staffing, accessibility, and bell-schedule data are not yet modeled.",
+    "recommendations": [
+      {
+        "action": "assign_backup_room",
+        "description": "Pre-assign an alternate room for high-risk rooms before failure occurs.",
+        "expected_reduction_percent": 15,
+        "estimated_risk_reduction": 98.1,
+        "confidence": "low",
+        "required_data": [
+          "room_capacity",
+          "nearby_rooms",
+          "accessibility_needs"
+        ]
+      },
+      {
+        "action": "split_room_load",
+        "description": "Reduce concentration by moving one or more sections out of the high-risk room.",
+        "expected_reduction_percent": 25,
+        "estimated_risk_reduction": 163.5,
+        "confidence": "low",
+        "required_data": [
+          "room_capacity",
+          "section_size",
+          "available_rooms"
+        ]
+      },
+      {
+        "action": "reserve_testing_overflow_room",
+        "description": "Protect high-risk instructional rooms from being consumed by testing overflow.",
+        "expected_reduction_percent": 10,
+        "estimated_risk_reduction": 65.4,
+        "confidence": "medium",
+        "required_data": [
+          "testing_calendar",
+          "room_testing_requirements"
+        ]
+      }
+    ]
+  },
+  {
+    "node_id": "R0002",
+    "node_type": "room",
+    "students": 571,
+    "sections": 5,
+    "current_risk_score": 621,
+    "projected_risk_score": 341.55,
+    "projected_risk_reduction": 279.45,
+    "projection_confidence": "low",
+    "reason_for_low_confidence": "Mitigations are assumption-based because detailed room capacity, certification, staffing, accessibility, and bell-schedule data are not yet modeled.",
+    "recommendations": [
+      {
+        "action": "assign_backup_room",
+        "description": "Pre-assign an alternate room for high-risk rooms before failure occurs.",
+        "expected_reduction_percent": 15,
+        "estimated_risk_reduction": 93.15,
+        "confidence": "low",
+        "required_data": [
+          "room_capacity",
+          "nearby_rooms",
+          "accessibility_needs"
+        ]
+      },
+      {
+        "action": "split_room_load",
+        "description": "Reduce concentration by moving one or more sections out of the high-risk room.",
+        "expected_reduction_percent": 25,
+        "estimated_risk_reduction": 155.25,
+        "confidence": "low",
+        "required_data": [
+          "room_capacity",
+          "section_size",
+          "available_rooms"
+        ]
+      },
+      {
+        "action": "reserve_testing_overflow_room",
+        "description": "Protect high-risk instructional rooms from being consumed by testing overflow.",
+        "expected_reduction_percent": 10,
+        "estimated_risk_reduction": 62.1,
+        "confidence": "medium",
+        "required_data": [
+          "testing_calendar",
+          "room_testing_requirements"
+        ]
+      }
+    ]
+  },
+  {
+    "node_id": "R0093",
+    "node_type": "room",
+    "students": 556,
+    "sections": 5,
+    "current_risk_score": 606,
+    "projected_risk_score": 333.3,
+    "projected_risk_reduction": 272.7,
+    "projection_confidence": "low",
+    "reason_for_low_confidence": "Mitigations are assumption-based because detailed room capacity, certification, staffing, accessibility, and bell-schedule data are not yet modeled.",
+    "recommendations": [
+      {
+        "action": "assign_backup_room",
+        "description": "Pre-assign an alternate room for high-risk rooms before failure occurs.",
+        "expected_reduction_percent": 15,
+        "estimated_risk_reduction": 90.9,
+        "confidence": "low",
+        "required_data": [
+          "room_capacity",
+          "nearby_rooms",
+          "accessibility_needs"
+        ]
+      },
+      {
+        "action": "split_room_load",
+        "description": "Reduce concentration by moving one or more sections out of the high-risk room.",
+        "expected_reduction_percent": 25,
+        "estimated_risk_reduction": 151.5,
+        "confidence": "low",
+        "required_data": [
+          "room_capacity",
+          "section_size",
+          "available_rooms"
+        ]
+      },
+      {
+        "action": "reserve_testing_overflow_room",
+        "description": "Protect high-risk instructional rooms from being consumed by testing overflow.",
+        "expected_reduction_percent": 10,
+        "estimated_risk_reduction": 60.6,
+        "confidence": "medium",
+        "required_data": [
+          "testing_calendar",
+          "room_testing_requirements"
+        ]
+      }
+    ]
+  },
+  {
+    "node_id": "R0118",
+    "node_type": "room",
+    "students": 561,
+    "sections": 4,
+    "current_risk_score": 601,
+    "projected_risk_score": 330.55,
+    "projected_risk_reduction": 270.45,
+    "projection_confidence": "low",
+    "reason_for_low_confidence": "Mitigations are assumption-based because detailed room capacity, certification, staffing, accessibility, and bell-schedule data are not yet modeled.",
+    "recommendations": [
+      {
+        "action": "assign_backup_room",
+        "description": "Pre-assign an alternate room for high-risk rooms before failure occurs.",
+        "expected_reduction_percent": 15,
+        "estimated_risk_reduction": 90.15,
+        "confidence": "low",
+        "required_data": [
+          "room_capacity",
+          "nearby_rooms",
+          "accessibility_needs"
+        ]
+      },
+      {
+        "action": "split_room_load",
+        "description": "Reduce concentration by moving one or more sections out of the high-risk room.",
+        "expected_reduction_percent": 25,
+        "estimated_risk_reduction": 150.25,
+        "confidence": "low",
+        "required_data": [
+          "room_capacity",
+          "section_size",
+          "available_rooms"
+        ]
+      },
+      {
+        "action": "reserve_testing_overflow_room",
+        "description": "Protect high-risk instructional rooms from being consumed by testing overflow.",
+        "expected_reduction_percent": 10,
+        "estimated_risk_reduction": 60.1,
+        "confidence": "medium",
+        "required_data": [
+          "testing_calendar",
+          "room_testing_requirements"
+        ]
+      }
+    ]
+  },
+  {
+    "node_id": "R0092",
+    "node_type": "room",
+    "students": 561,
+    "sections": 4,
+    "current_risk_score": 601,
+    "projected_risk_score": 330.55,
+    "projected_risk_reduction": 270.45,
+    "projection_confidence": "low",
+    "reason_for_low_confidence": "Mitigations are assumption-based because detailed room capacity, certification, staffing, accessibility, and bell-schedule data are not yet modeled.",
+    "recommendations": [
+      {
+        "action": "assign_backup_room",
+        "description": "Pre-assign an alternate room for high-risk rooms before failure occurs.",
+        "expected_reduction_percent": 15,
+        "estimated_risk_reduction": 90.15,
+        "confidence": "low",
+        "required_data": [
+          "room_capacity",
+          "nearby_rooms",
+          "accessibility_needs"
+        ]
+      },
+      {
+        "action": "split_room_load",
+        "description": "Reduce concentration by moving one or more sections out of the high-risk room.",
+        "expected_reduction_percent": 25,
+        "estimated_risk_reduction": 150.25,
+        "confidence": "low",
+        "required_data": [
+          "room_capacity",
+          "section_size",
+          "available_rooms"
+        ]
+      },
+      {
+        "action": "reserve_testing_overflow_room",
+        "description": "Protect high-risk instructional rooms from being consumed by testing overflow.",
+        "expected_reduction_percent": 10,
+        "estimated_risk_reduction": 60.1,
+        "confidence": "medium",
+        "required_data": [
+          "testing_calendar",
+          "room_testing_requirements"
+        ]
+      }
+    ]
+  },
+  {
+    "node_id": "T0088",
+    "node_type": "teacher",
+    "students": 548,
+    "sections": 3,
+    "current_risk_score": 578,
+    "projected_risk_score": 317.9,
+    "projected_risk_reduction": 260.1,
+    "projection_confidence": "low",
+    "reason_for_low_confidence": "Mitigations are assumption-based because detailed room capacity, certification, staffing, accessibility, and bell-schedule data are not yet modeled.",
+    "recommendations": [
+      {
+        "action": "cross_train_substitute_pool",
+        "description": "Identify substitutes or staff who can cover high-risk teacher sections.",
+        "expected_reduction_percent": 20,
+        "estimated_risk_reduction": 115.6,
+        "confidence": "low",
+        "required_data": [
+          "certification_data",
+          "substitute_availability"
+        ]
+      },
+      {
+        "action": "create_async_contingency_packet",
+        "description": "Prepare lesson packets for high-blast-radius teachers before absence occurs.",
+        "expected_reduction_percent": 12,
+        "estimated_risk_reduction": 69.36,
+        "confidence": "medium",
+        "required_data": [
+          "course_materials",
+          "LMS_access"
+        ]
+      },
+      {
+        "action": "reduce_section_concentration",
+        "description": "Avoid concentrating too many high-impact sections under one teacher where possible.",
+        "expected_reduction_percent": 18,
+        "estimated_risk_reduction": 104.04,
+        "confidence": "low",
+        "required_data": [
+          "teacher_certifications",
+          "master_schedule_flexibility"
+        ]
+      }
+    ]
+  },
+  {
+    "node_id": "R0042",
+    "node_type": "room",
+    "students": 515,
+    "sections": 5,
+    "current_risk_score": 565,
+    "projected_risk_score": 310.75,
+    "projected_risk_reduction": 254.25,
+    "projection_confidence": "low",
+    "reason_for_low_confidence": "Mitigations are assumption-based because detailed room capacity, certification, staffing, accessibility, and bell-schedule data are not yet modeled.",
+    "recommendations": [
+      {
+        "action": "assign_backup_room",
+        "description": "Pre-assign an alternate room for high-risk rooms before failure occurs.",
+        "expected_reduction_percent": 15,
+        "estimated_risk_reduction": 84.75,
+        "confidence": "low",
+        "required_data": [
+          "room_capacity",
+          "nearby_rooms",
+          "accessibility_needs"
+        ]
+      },
+      {
+        "action": "split_room_load",
+        "description": "Reduce concentration by moving one or more sections out of the high-risk room.",
+        "expected_reduction_percent": 25,
+        "estimated_risk_reduction": 141.25,
+        "confidence": "low",
+        "required_data": [
+          "room_capacity",
+          "section_size",
+          "available_rooms"
+        ]
+      },
+      {
+        "action": "reserve_testing_overflow_room",
+        "description": "Protect high-risk instructional rooms from being consumed by testing overflow.",
+        "expected_reduction_percent": 10,
+        "estimated_risk_reduction": 56.5,
+        "confidence": "medium",
+        "required_data": [
+          "testing_calendar",
+          "room_testing_requirements"
+        ]
+      }
+    ]
+  },
+  {
+    "node_id": "R0141",
+    "node_type": "room",
+    "students": 523,
+    "sections": 4,
+    "current_risk_score": 563,
+    "projected_risk_score": 309.65,
+    "projected_risk_reduction": 253.35,
+    "projection_confidence": "low",
+    "reason_for_low_confidence": "Mitigations are assumption-based because detailed room capacity, certification, staffing, accessibility, and bell-schedule data are not yet modeled.",
+    "recommendations": [
+      {
+        "action": "assign_backup_room",
+        "description": "Pre-assign an alternate room for high-risk rooms before failure occurs.",
+        "expected_reduction_percent": 15,
+        "estimated_risk_reduction": 84.45,
+        "confidence": "low",
+        "required_data": [
+          "room_capacity",
+          "nearby_rooms",
+          "accessibility_needs"
+        ]
+      },
+      {
+        "action": "split_room_load",
+        "description": "Reduce concentration by moving one or more sections out of the high-risk room.",
+        "expected_reduction_percent": 25,
+        "estimated_risk_reduction": 140.75,
+        "confidence": "low",
+        "required_data": [
+          "room_capacity",
+          "section_size",
+          "available_rooms"
+        ]
+      },
+      {
+        "action": "reserve_testing_overflow_room",
+        "description": "Protect high-risk instructional rooms from being consumed by testing overflow.",
+        "expected_reduction_percent": 10,
+        "estimated_risk_reduction": 56.3,
+        "confidence": "medium",
+        "required_data": [
+          "testing_calendar",
+          "room_testing_requirements"
+        ]
+      }
+    ]
+  },
+  {
+    "node_id": "T0158",
+    "node_type": "teacher",
+    "students": 512,
+    "sections": 5,
+    "current_risk_score": 562,
+    "projected_risk_score": 309.1,
+    "projected_risk_reduction": 252.9,
+    "projection_confidence": "low",
+    "reason_for_low_confidence": "Mitigations are assumption-based because detailed room capacity, certification, staffing, accessibility, and bell-schedule data are not yet modeled.",
+    "recommendations": [
+      {
+        "action": "cross_train_substitute_pool",
+        "description": "Identify substitutes or staff who can cover high-risk teacher sections.",
+        "expected_reduction_percent": 20,
+        "estimated_risk_reduction": 112.4,
+        "confidence": "low",
+        "required_data": [
+          "certification_data",
+          "substitute_availability"
+        ]
+      },
+      {
+        "action": "create_async_contingency_packet",
+        "description": "Prepare lesson packets for high-blast-radius teachers before absence occurs.",
+        "expected_reduction_percent": 12,
+        "estimated_risk_reduction": 67.44,
+        "confidence": "medium",
+        "required_data": [
+          "course_materials",
+          "LMS_access"
+        ]
+      },
+      {
+        "action": "reduce_section_concentration",
+        "description": "Avoid concentrating too many high-impact sections under one teacher where possible.",
+        "expected_reduction_percent": 18,
+        "estimated_risk_reduction": 101.16,
+        "confidence": "low",
+        "required_data": [
+          "teacher_certifications",
+          "master_schedule_flexibility"
+        ]
+      }
+    ]
+  },
+  {
+    "node_id": "T0143",
+    "node_type": "teacher",
+    "students": 520,
+    "sections": 4,
+    "current_risk_score": 560,
+    "projected_risk_score": 308.0,
+    "projected_risk_reduction": 252.0,
+    "projection_confidence": "low",
+    "reason_for_low_confidence": "Mitigations are assumption-based because detailed room capacity, certification, staffing, accessibility, and bell-schedule data are not yet modeled.",
+    "recommendations": [
+      {
+        "action": "cross_train_substitute_pool",
+        "description": "Identify substitutes or staff who can cover high-risk teacher sections.",
+        "expected_reduction_percent": 20,
+        "estimated_risk_reduction": 112.0,
+        "confidence": "low",
+        "required_data": [
+          "certification_data",
+          "substitute_availability"
+        ]
+      },
+      {
+        "action": "create_async_contingency_packet",
+        "description": "Prepare lesson packets for high-blast-radius teachers before absence occurs.",
+        "expected_reduction_percent": 12,
+        "estimated_risk_reduction": 67.2,
+        "confidence": "medium",
+        "required_data": [
+          "course_materials",
+          "LMS_access"
+        ]
+      },
+      {
+        "action": "reduce_section_concentration",
+        "description": "Avoid concentrating too many high-impact sections under one teacher where possible.",
+        "expected_reduction_percent": 18,
+        "estimated_risk_reduction": 100.8,
+        "confidence": "low",
+        "required_data": [
+          "teacher_certifications",
+          "master_schedule_flexibility"
+        ]
+      }
+    ]
+  },
+  {
+    "node_id": "R0131",
+    "node_type": "room",
+    "students": 520,
+    "sections": 4,
+    "current_risk_score": 560,
+    "projected_risk_score": 308.0,
+    "projected_risk_reduction": 252.0,
+    "projection_confidence": "low",
+    "reason_for_low_confidence": "Mitigations are assumption-based because detailed room capacity, certification, staffing, accessibility, and bell-schedule data are not yet modeled.",
+    "recommendations": [
+      {
+        "action": "assign_backup_room",
+        "description": "Pre-assign an alternate room for high-risk rooms before failure occurs.",
+        "expected_reduction_percent": 15,
+        "estimated_risk_reduction": 84.0,
+        "confidence": "low",
+        "required_data": [
+          "room_capacity",
+          "nearby_rooms",
+          "accessibility_needs"
+        ]
+      },
+      {
+        "action": "split_room_load",
+        "description": "Reduce concentration by moving one or more sections out of the high-risk room.",
+        "expected_reduction_percent": 25,
+        "estimated_risk_reduction": 140.0,
+        "confidence": "low",
+        "required_data": [
+          "room_capacity",
+          "section_size",
+          "available_rooms"
+        ]
+      },
+      {
+        "action": "reserve_testing_overflow_room",
+        "description": "Protect high-risk instructional rooms from being consumed by testing overflow.",
+        "expected_reduction_percent": 10,
+        "estimated_risk_reduction": 56.0,
+        "confidence": "medium",
+        "required_data": [
+          "testing_calendar",
+          "room_testing_requirements"
+        ]
+      }
+    ]
+  },
+  {
+    "node_id": "R0157",
+    "node_type": "room",
+    "students": 519,
+    "sections": 4,
+    "current_risk_score": 559,
+    "projected_risk_score": 307.45,
+    "projected_risk_reduction": 251.55,
+    "projection_confidence": "low",
+    "reason_for_low_confidence": "Mitigations are assumption-based because detailed room capacity, certification, staffing, accessibility, and bell-schedule data are not yet modeled.",
+    "recommendations": [
+      {
+        "action": "assign_backup_room",
+        "description": "Pre-assign an alternate room for high-risk rooms before failure occurs.",
+        "expected_reduction_percent": 15,
+        "estimated_risk_reduction": 83.85,
+        "confidence": "low",
+        "required_data": [
+          "room_capacity",
+          "nearby_rooms",
+          "accessibility_needs"
+        ]
+      },
+      {
+        "action": "split_room_load",
+        "description": "Reduce concentration by moving one or more sections out of the high-risk room.",
+        "expected_reduction_percent": 25,
+        "estimated_risk_reduction": 139.75,
+        "confidence": "low",
+        "required_data": [
+          "room_capacity",
+          "section_size",
+          "available_rooms"
+        ]
+      },
+      {
+        "action": "reserve_testing_overflow_room",
+        "description": "Protect high-risk instructional rooms from being consumed by testing overflow.",
+        "expected_reduction_percent": 10,
+        "estimated_risk_reduction": 55.9,
+        "confidence": "medium",
+        "required_data": [
+          "testing_calendar",
+          "room_testing_requirements"
+        ]
+      }
+    ]
+  },
+  {
+    "node_id": "T0079",
+    "node_type": "teacher",
+    "students": 494,
+    "sections": 4,
+    "current_risk_score": 534,
+    "projected_risk_score": 293.7,
+    "projected_risk_reduction": 240.3,
+    "projection_confidence": "low",
+    "reason_for_low_confidence": "Mitigations are assumption-based because detailed room capacity, certification, staffing, accessibility, and bell-schedule data are not yet modeled.",
+    "recommendations": [
+      {
+        "action": "cross_train_substitute_pool",
+        "description": "Identify substitutes or staff who can cover high-risk teacher sections.",
+        "expected_reduction_percent": 20,
+        "estimated_risk_reduction": 106.8,
+        "confidence": "low",
+        "required_data": [
+          "certification_data",
+          "substitute_availability"
+        ]
+      },
+      {
+        "action": "create_async_contingency_packet",
+        "description": "Prepare lesson packets for high-blast-radius teachers before absence occurs.",
+        "expected_reduction_percent": 12,
+        "estimated_risk_reduction": 64.08,
+        "confidence": "medium",
+        "required_data": [
+          "course_materials",
+          "LMS_access"
+        ]
+      },
+      {
+        "action": "reduce_section_concentration",
+        "description": "Avoid concentrating too many high-impact sections under one teacher where possible.",
+        "expected_reduction_percent": 18,
+        "estimated_risk_reduction": 96.12,
+        "confidence": "low",
+        "required_data": [
+          "teacher_certifications",
+          "master_schedule_flexibility"
+        ]
+      }
+    ]
+  },
+  {
+    "node_id": "R0112",
+    "node_type": "room",
+    "students": 504,
+    "sections": 3,
+    "current_risk_score": 534,
+    "projected_risk_score": 293.7,
+    "projected_risk_reduction": 240.3,
+    "projection_confidence": "low",
+    "reason_for_low_confidence": "Mitigations are assumption-based because detailed room capacity, certification, staffing, accessibility, and bell-schedule data are not yet modeled.",
+    "recommendations": [
+      {
+        "action": "assign_backup_room",
+        "description": "Pre-assign an alternate room for high-risk rooms before failure occurs.",
+        "expected_reduction_percent": 15,
+        "estimated_risk_reduction": 80.1,
+        "confidence": "low",
+        "required_data": [
+          "room_capacity",
+          "nearby_rooms",
+          "accessibility_needs"
+        ]
+      },
+      {
+        "action": "split_room_load",
+        "description": "Reduce concentration by moving one or more sections out of the high-risk room.",
+        "expected_reduction_percent": 25,
+        "estimated_risk_reduction": 133.5,
+        "confidence": "low",
+        "required_data": [
+          "room_capacity",
+          "section_size",
+          "available_rooms"
+        ]
+      },
+      {
+        "action": "reserve_testing_overflow_room",
+        "description": "Protect high-risk instructional rooms from being consumed by testing overflow.",
+        "expected_reduction_percent": 10,
+        "estimated_risk_reduction": 53.4,
+        "confidence": "medium",
+        "required_data": [
+          "testing_calendar",
+          "room_testing_requirements"
+        ]
+      }
+    ]
+  },
+  {
+    "node_id": "R0054",
+    "node_type": "room",
+    "students": 471,
+    "sections": 5,
+    "current_risk_score": 521,
+    "projected_risk_score": 286.55,
+    "projected_risk_reduction": 234.45,
+    "projection_confidence": "low",
+    "reason_for_low_confidence": "Mitigations are assumption-based because detailed room capacity, certification, staffing, accessibility, and bell-schedule data are not yet modeled.",
+    "recommendations": [
+      {
+        "action": "assign_backup_room",
+        "description": "Pre-assign an alternate room for high-risk rooms before failure occurs.",
+        "expected_reduction_percent": 15,
+        "estimated_risk_reduction": 78.15,
+        "confidence": "low",
+        "required_data": [
+          "room_capacity",
+          "nearby_rooms",
+          "accessibility_needs"
+        ]
+      },
+      {
+        "action": "split_room_load",
+        "description": "Reduce concentration by moving one or more sections out of the high-risk room.",
+        "expected_reduction_percent": 25,
+        "estimated_risk_reduction": 130.25,
+        "confidence": "low",
+        "required_data": [
+          "room_capacity",
+          "section_size",
+          "available_rooms"
+        ]
+      },
+      {
+        "action": "reserve_testing_overflow_room",
+        "description": "Protect high-risk instructional rooms from being consumed by testing overflow.",
+        "expected_reduction_percent": 10,
+        "estimated_risk_reduction": 52.1,
+        "confidence": "medium",
+        "required_data": [
+          "testing_calendar",
+          "room_testing_requirements"
+        ]
+      }
+    ]
+  },
+  {
+    "node_id": "T0060",
+    "node_type": "teacher",
+    "students": 489,
+    "sections": 3,
+    "current_risk_score": 519,
+    "projected_risk_score": 285.45,
+    "projected_risk_reduction": 233.55,
+    "projection_confidence": "low",
+    "reason_for_low_confidence": "Mitigations are assumption-based because detailed room capacity, certification, staffing, accessibility, and bell-schedule data are not yet modeled.",
+    "recommendations": [
+      {
+        "action": "cross_train_substitute_pool",
+        "description": "Identify substitutes or staff who can cover high-risk teacher sections.",
+        "expected_reduction_percent": 20,
+        "estimated_risk_reduction": 103.8,
+        "confidence": "low",
+        "required_data": [
+          "certification_data",
+          "substitute_availability"
+        ]
+      },
+      {
+        "action": "create_async_contingency_packet",
+        "description": "Prepare lesson packets for high-blast-radius teachers before absence occurs.",
+        "expected_reduction_percent": 12,
+        "estimated_risk_reduction": 62.28,
+        "confidence": "medium",
+        "required_data": [
+          "course_materials",
+          "LMS_access"
+        ]
+      },
+      {
+        "action": "reduce_section_concentration",
+        "description": "Avoid concentrating too many high-impact sections under one teacher where possible.",
+        "expected_reduction_percent": 18,
+        "estimated_risk_reduction": 93.42,
+        "confidence": "low",
+        "required_data": [
+          "teacher_certifications",
+          "master_schedule_flexibility"
+        ]
+      }
+    ]
+  },
+  {
+    "node_id": "R0176",
+    "node_type": "room",
+    "students": 469,
+    "sections": 5,
+    "current_risk_score": 519,
+    "projected_risk_score": 285.45,
+    "projected_risk_reduction": 233.55,
+    "projection_confidence": "low",
+    "reason_for_low_confidence": "Mitigations are assumption-based because detailed room capacity, certification, staffing, accessibility, and bell-schedule data are not yet modeled.",
+    "recommendations": [
+      {
+        "action": "assign_backup_room",
+        "description": "Pre-assign an alternate room for high-risk rooms before failure occurs.",
+        "expected_reduction_percent": 15,
+        "estimated_risk_reduction": 77.85,
+        "confidence": "low",
+        "required_data": [
+          "room_capacity",
+          "nearby_rooms",
+          "accessibility_needs"
+        ]
+      },
+      {
+        "action": "split_room_load",
+        "description": "Reduce concentration by moving one or more sections out of the high-risk room.",
+        "expected_reduction_percent": 25,
+        "estimated_risk_reduction": 129.75,
+        "confidence": "low",
+        "required_data": [
+          "room_capacity",
+          "section_size",
+          "available_rooms"
+        ]
+      },
+      {
+        "action": "reserve_testing_overflow_room",
+        "description": "Protect high-risk instructional rooms from being consumed by testing overflow.",
+        "expected_reduction_percent": 10,
+        "estimated_risk_reduction": 51.9,
+        "confidence": "medium",
+        "required_data": [
+          "testing_calendar",
+          "room_testing_requirements"
+        ]
+      }
+    ]
+  }
+]
